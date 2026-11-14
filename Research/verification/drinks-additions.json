@@ -1,0 +1,2593 @@
+[
+ {
+  "id": "seven_up",
+  "name": "7UP",
+  "category": "soda",
+  "subcategory": "lemon-lime",
+  "variants": [
+   "regular",
+   "brand"
+  ],
+  "defaultServingML": 355,
+  "commonServingsML": [
+   222,
+   355,
+   500,
+   591,
+   1000,
+   2000
+  ],
+  "per100mL": {
+   "waterG": 92.9,
+   "energyKcal": 42,
+   "sugarG": 10.4,
+   "carbsG": 10.8,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "sodiumMg": 12,
+   "potassiumMg": null,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": 1.038,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): 7UP Caffeine Free Soda (Dr. Pepper/Seven Up, Inc.)",
+   "fdcId": "2109524",
+   "url": "https://fdc.nal.usda.gov/food-details/2109524/nutrients",
+   "description": "7UP, CAFFEINE FREE SODA",
+   "waterFrom": {
+    "name": "USDA FoodData Central (analog record)",
+    "fdcId": "173205",
+    "url": "https://fdc.nal.usda.gov/food-details/173205/nutrients",
+    "description": "Beverages, carbonated, lemon-lime soda, no caffeine (as used for Part A lemon_lime_soda, density 1.038)"
+   }
+  },
+  "brandExamples": [
+   "7UP"
+  ],
+  "confidence": "high",
+  "notes": "Label per 8 fl oz (240 mL): 101 kcal, 25 g sugar, 29 mg sodium; FDC Branded publishes these as per-100 mL values (42 kcal, 10.4 g sugar, 12 mg Na). The ingredient list has no caffeine and the product is sold as caffeine-free. Potassium citrate is an ingredient but potassium is not declared (null). waterG is copied from Part A's lemon_lime_soda (USDA generic); labels do not state water. Diet 7UP / 7UP Zero Sugar: use lemon_lime_soda_diet.",
+  "region": "US"
+ },
+ {
+  "id": "aw_root_beer",
+  "name": "A&W Root Beer",
+  "category": "soda",
+  "subcategory": "root beer",
+  "variants": [
+   "regular",
+   "brand"
+  ],
+  "defaultServingML": 355,
+  "commonServingsML": [
+   222,
+   355,
+   500,
+   591,
+   2000
+  ],
+  "per100mL": {
+   "waterG": 93.1,
+   "energyKcal": 46,
+   "sugarG": 12.2,
+   "carbsG": 12.4,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "sodiumMg": 23,
+   "potassiumMg": null,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": 1.042,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): A&W Root Beer 16.9 fl oz (Dr. Pepper/Seven Up, Inc.)",
+   "fdcId": "2571090",
+   "url": "https://fdc.nal.usda.gov/food-details/2571090/nutrients",
+   "description": "A&W ROOT BEER, 16.9 FL OZ, 6 COUNT",
+   "crossCheck": "Older FDC Branded A&W records (541239, 577505): 48-50 kcal, 12.5-12.7 g sugar, 22-23 mg Na per 100 mL. Caffeine-free per Caffeine Informer (https://www.caffeineinformer.com/caffeine-content/aw-root-beer).",
+   "waterFrom": {
+    "name": "USDA FoodData Central (analog record)",
+    "fdcId": "171871",
+    "url": "https://fdc.nal.usda.gov/food-details/171871/nutrients",
+    "description": "Beverages, carbonated, root beer (as used for Part A root_beer, density 1.042)"
+   }
+  },
+  "brandExamples": [
+   "A&W"
+  ],
+  "confidence": "high",
+  "notes": "Label per 500 mL bottle: 230 kcal, 61 g sugar, 115 mg sodium (46 kcal, 12.2 g sugar, 23 mg Na per 100 mL). Caffeine-free: no caffeine in the ingredient list, and Caffeine Informer lists all A&W root beer versions at 0 mg. waterG from Part A's root_beer (labels do not state water). A&W Zero Sugar: use root_beer_diet.",
+  "region": "US"
+ },
+ {
+  "id": "mug_root_beer",
+  "name": "Mug Root Beer",
+  "category": "soda",
+  "subcategory": "root beer",
+  "variants": [
+   "regular",
+   "brand"
+  ],
+  "defaultServingML": 355,
+  "commonServingsML": [
+   355,
+   473,
+   591,
+   2000
+  ],
+  "per100mL": {
+   "waterG": 93.1,
+   "energyKcal": 45,
+   "sugarG": 12.1,
+   "carbsG": 12.1,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "sodiumMg": 18,
+   "potassiumMg": null,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": 1.042,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Mug Root Beer Soda, 12 fl oz can (Pepsi-Cola North America)",
+   "fdcId": "2494406",
+   "url": "https://fdc.nal.usda.gov/food-details/2494406/nutrients",
+   "description": "ROOT BEER SODA, ROOT BEER (MUG)",
+   "crossCheck": "Other FDC Branded Mug records (2571944, 1593725): 44 kcal, 11.9-12.0 g sugar, 18 mg Na per 100 mL. Caffeine-free per Caffeine Informer (https://www.caffeineinformer.com/caffeine-content/mug-root-beer).",
+   "waterFrom": {
+    "name": "USDA FoodData Central (analog record)",
+    "fdcId": "171871",
+    "url": "https://fdc.nal.usda.gov/food-details/171871/nutrients",
+    "description": "Beverages, carbonated, root beer (as used for Part A root_beer, density 1.042)"
+   }
+  },
+  "brandExamples": [
+   "Mug"
+  ],
+  "confidence": "high",
+  "notes": "Label per 12 fl oz can: 160 kcal, 43 g sugar, 64 mg sodium. Caffeine-free (none in the ingredients; Caffeine Informer and Canadian retail listings describe Mug as caffeine-free). waterG from Part A's root_beer. Diet Mug: use root_beer_diet.",
+  "region": "US"
+ },
+ {
+  "id": "canada_dry_ginger_ale",
+  "name": "Canada Dry Ginger Ale",
+  "category": "soda",
+  "subcategory": "ginger ale",
+  "variants": [
+   "regular",
+   "brand"
+  ],
+  "defaultServingML": 355,
+  "commonServingsML": [
+   222,
+   355,
+   500,
+   1000,
+   2000
+  ],
+  "per100mL": {
+   "waterG": 94.0,
+   "energyKcal": 39,
+   "sugarG": 10.1,
+   "carbsG": 10.1,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "sodiumMg": 14,
+   "potassiumMg": null,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": 1.031,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Canada Dry Ginger Ale (Dr. Pepper/Seven Up, Inc.)",
+   "fdcId": "2571107",
+   "url": "https://fdc.nal.usda.gov/food-details/2571107/nutrients",
+   "description": "CANADA DRY GINGER ALE, 1 LITER",
+   "crossCheck": "FDC Branded 2109390/2109300 (2021): 39 kcal, 9.9 g sugar, 14 mg Na per 100 mL.",
+   "waterFrom": {
+    "name": "USDA FoodData Central (analog record)",
+    "fdcId": "174846",
+    "url": "https://fdc.nal.usda.gov/food-details/174846/nutrients",
+    "description": "Beverages, carbonated, ginger ale (as used for Part A ginger_ale, density 1.031)"
+   }
+  },
+  "brandExamples": [
+   "Canada Dry"
+  ],
+  "confidence": "high",
+  "notes": "Label per 12 fl oz (355 mL): 138 kcal, 36 g sugar, 50 mg sodium. The ingredients contain no caffeine and it is sold as caffeine-free. Canada Dry has slightly more sugar than the USDA generic ginger ale (10.1 vs 9.2 g/100 mL), so its true water content is a little below the generic-derived 94.0 g. Canada Dry Zero Sugar: use ginger_ale_diet.",
+  "region": "US"
+ },
+ {
+  "id": "sunkist_orange",
+  "name": "Sunkist Orange Soda",
+  "category": "soda",
+  "subcategory": "orange & fruit",
+  "variants": [
+   "regular",
+   "brand"
+  ],
+  "defaultServingML": 355,
+  "commonServingsML": [
+   222,
+   355,
+   591,
+   2000
+  ],
+  "per100mL": {
+   "waterG": 91.8,
+   "energyKcal": 48,
+   "sugarG": 12.1,
+   "carbsG": 12.4,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "sodiumMg": 20,
+   "potassiumMg": null,
+   "caffeineMg": 5.4,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": 1.048,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Sunkist Orange Soda, 12 fl oz (Dr. Pepper/Seven Up, Inc.)",
+   "fdcId": "2442918",
+   "url": "https://fdc.nal.usda.gov/food-details/2442918/nutrients",
+   "description": "SUNKIST, SODA, ORANGE, ORANGE",
+   "crossCheck": "Caffeine 19 mg per 12 fl oz: Caffeine Informer, citing sunkistsoda.com and kdpproductfacts.com (https://www.caffeineinformer.com/caffeine-content/sunkist-orange-soda).",
+   "waterFrom": {
+    "name": "USDA FoodData Central (analog record)",
+    "fdcId": "174854",
+    "url": "https://fdc.nal.usda.gov/food-details/174854/nutrients",
+    "description": "Beverages, carbonated, orange (as used for Part A orange_soda, density 1.048)"
+   }
+  },
+  "brandExamples": [
+   "Sunkist"
+  ],
+  "confidence": "medium",
+  "notes": "Label per 12 fl oz: 170 kcal, 43 g sugar, 71 mg sodium. Unlike most orange sodas, Sunkist contains CAFFEINE (it is on the ingredient list): 19 mg per 12 fl oz = 5.4 mg/100 mL (an older formula had 41 mg). Diet Sunkist and Sunkist Zero Sugar are listed at the same 19 mg. The caffeine figure is secondary (Caffeine Informer citing KDP), hence medium. Part A's generic orange_soda has caffeine null; use this entry for Sunkist.",
+  "region": "US"
+ },
+ {
+  "id": "diet_dr_pepper",
+  "name": "Diet Dr Pepper",
+  "category": "soda",
+  "subcategory": "pepper-style",
+  "variants": [
+   "diet",
+   "brand"
+  ],
+  "defaultServingML": 355,
+  "commonServingsML": [
+   222,
+   355,
+   500,
+   591,
+   2000
+  ],
+  "per100mL": {
+   "waterG": 99.5,
+   "energyKcal": 0,
+   "sugarG": 0,
+   "carbsG": 0,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 15,
+   "potassiumMg": null,
+   "caffeineMg": 11.6,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": [
+   11.5,
+   12.2
+  ],
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": 1.0,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Dr Pepper Diet Soda, 12 fl oz (Dr. Pepper/Seven Up, Inc.)",
+   "fdcId": "2110838",
+   "url": "https://fdc.nal.usda.gov/food-details/2110838/nutrients",
+   "description": "DR PEPPER, DIET SODA",
+   "crossCheck": "Caffeine 41 mg per 12 fl oz: Caffeine Informer citing drpepper.com and kdpproductfacts.com (https://www.caffeineinformer.com/caffeine-content/diet-dr-pepper). FNDDS 2710546 'Soft drink, pepper type, diet' (lists Diet Dr. Pepper) gives 12 mg caffeine/100 g.",
+   "waterFrom": {
+    "name": "USDA FoodData Central (analog record)",
+    "fdcId": "2710546",
+    "url": "https://fdc.nal.usda.gov/food-details/2710546/nutrients",
+    "description": "Soft drink, pepper type, diet (water 99.54 g/100 g, density 1.00)"
+   }
+  },
+  "brandExamples": [
+   "Diet Dr Pepper"
+  ],
+  "confidence": "high",
+  "notes": "Label per 12 fl oz: 0 kcal, 0 g carbs, 53 mg sodium (15 mg/100 mL). Caffeine 41 mg per 12 fl oz (11.6 mg/100 mL); some KDP listings show 43 mg. Sugar is not declared on the record but carbohydrate is 0, so sugar is 0. Dr Pepper Zero Sugar: use pepper_soda_diet or this entry (caffeine similar).",
+  "region": "US"
+ },
+ {
+  "id": "diet_mountain_dew",
+  "name": "Diet Mountain Dew",
+  "category": "soda",
+  "subcategory": "citrus",
+  "variants": [
+   "diet",
+   "brand"
+  ],
+  "defaultServingML": 355,
+  "commonServingsML": [
+   222,
+   355,
+   591,
+   710,
+   2000
+  ],
+  "per100mL": {
+   "waterG": 99.8,
+   "energyKcal": 0,
+   "sugarG": 0,
+   "carbsG": 0,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 14,
+   "potassiumMg": null,
+   "caffeineMg": 15.2,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": 1.0,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Diet Mtn Dew 12 fl oz can (PepsiCo)",
+   "fdcId": "1457612",
+   "url": "https://fdc.nal.usda.gov/food-details/1457612/nutrients",
+   "description": "Diet Mtn Dew Soda 12 Fluid Ounce Aluminum Can",
+   "crossCheck": "Caffeine: FDC Branded 1457183 (Diet Mtn Dew 7.5 fl oz) declares 15 mg/100 mL; Caffeine Informer lists 54 mg per 12 fl oz citing PepsiCo Beverage Facts (https://www.caffeineinformer.com/caffeine-content/diet-mountain-dew); FNDDS 2710554 (lists Diet Mountain Dew) 15 mg/100 g.",
+   "waterFrom": {
+    "name": "USDA FoodData Central (analog record)",
+    "fdcId": "2710554",
+    "url": "https://fdc.nal.usda.gov/food-details/2710554/nutrients",
+    "description": "Soft drink, fruit flavored, caffeine containing, diet (water 99.8 g/100 g)"
+   }
+  },
+  "brandExamples": [
+   "Diet Mountain Dew"
+  ],
+  "confidence": "high",
+  "notes": "Label per 12 fl oz: 0-1 kcal, 50 mg sodium (14 mg/100 mL). Caffeine 54 mg per 12 fl oz (15.2 mg/100 mL), the same as regular Mountain Dew and among the highest of mainstream diet sodas; three independent sources agree. Part A's diet lemon-lime entry is caffeine-free, so it should not be used for Diet Mountain Dew.",
+  "region": "US"
+ },
+ {
+  "id": "tonic_water_diet",
+  "name": "Tonic water, diet / zero",
+  "category": "soda",
+  "subcategory": "mixers",
+  "variants": [
+   "diet",
+   "slimline",
+   "zero sugar"
+  ],
+  "defaultServingML": 200,
+  "commonServingsML": [
+   150,
+   200,
+   240,
+   296,
+   355,
+   500
+  ],
+  "per100mL": {
+   "waterG": 99.8,
+   "energyKcal": 0,
+   "sugarG": 0,
+   "carbsG": 0,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 23,
+   "potassiumMg": null,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": 1.0,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Canada Dry Diet Tonic Water (Dr. Pepper/Seven Up, Inc.)",
+   "fdcId": "2111431",
+   "url": "https://fdc.nal.usda.gov/food-details/2111431/nutrients",
+   "description": "DIET TONIC WATER (CANADA DRY)",
+   "crossCheck": "Store-brand diet tonics in FDC Branded: 0-1 kcal, 0-10 mg Na per 100 mL (Meijer 2051244, Ahold 1879826, Wegmans 2656777, Market Pantry 2605013).",
+   "waterFrom": {
+    "name": "USDA FoodData Central (analog record)",
+    "fdcId": "2710552",
+    "url": "https://fdc.nal.usda.gov/food-details/2710552/nutrients",
+    "description": "Soft drink, fruit flavored, diet, caffeine free (water 99.8 g/100 g)"
+   }
+  },
+  "brandExamples": [
+   "Canada Dry Diet Tonic",
+   "Schweppes Diet / Zero Tonic",
+   "Fever-Tree Refreshingly Light (low sugar, not zero)"
+  ],
+  "confidence": "medium",
+  "notes": "Canada Dry Diet Tonic label per 8 fl oz: 0 kcal, 0 g carbs, 55 mg sodium. Sweetened with saccharin; quinine supplies the bitterness and the drink has no caffeine. Sodium varies by brand (0-23 mg/100 mL). No Schweppes diet tonic record was found in FDC, so Canada Dry is the reference. Regular tonic (~9 g sugar/100 mL) is tonic_water.",
+  "region": "US"
+ },
+ {
+  "id": "olipop",
+  "name": "Olipop (prebiotic soda)",
+  "category": "soda",
+  "subcategory": "prebiotic soda",
+  "variants": [
+   "Classic Root Beer",
+   "Vintage Cola",
+   "Strawberry Vanilla",
+   "other flavors"
+  ],
+  "defaultServingML": 355,
+  "commonServingsML": [
+   355
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 10,
+   "sugarG": 0.56,
+   "carbsG": 3.38,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 7,
+   "potassiumMg": null,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Olipop Classic Root Beer, 12 fl oz",
+   "fdcId": "2584830",
+   "url": "https://fdc.nal.usda.gov/food-details/2584830/nutrients",
+   "description": "CLASSIC ROOT BEER SPARKLING SODA, ROOT BEER",
+   "crossCheck": "Other Olipop flavors in FDC Branded (2023): 10-14 kcal, 0.56-1.41 g sugar, 3.4-4.8 g carbs, 7-11 mg Na per 100 mL (Cream Soda 2583479, Cherry Cola 2551160, Crisp Apple 2593441, Banana Cream 2510363)."
+  },
+  "brandExamples": [
+   "Olipop"
+  ],
+  "confidence": "medium",
+  "notes": "Label per 12 fl oz can (Classic Root Beer): ~35 kcal, 12 g carbs of which ~9 g fiber, 2 g sugar, 25 mg sodium. Most of the carbohydrate is fiber (chicory/cassava fiber, Jerusalem artichoke), so carbs are far above sugar. Classic Root Beer has no caffeine (ingredient list); some cola-type flavors may contain caffeine, so check the can. waterG is null: the label gives no water and the high fiber content means no soda analog fits.",
+  "region": "US"
+ },
+ {
+  "id": "poppi",
+  "name": "Poppi (prebiotic soda)",
+  "category": "soda",
+  "subcategory": "prebiotic soda",
+  "variants": [
+   "Cherry Limeade",
+   "Orange",
+   "Grape",
+   "other flavors"
+  ],
+  "defaultServingML": 355,
+  "commonServingsML": [
+   355
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 7,
+   "sugarG": 1.39,
+   "carbsG": 1.94,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 0,
+   "potassiumMg": null,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Poppi Cherry Limeade Prebiotic Soda, 12 fl oz (VNGR Beverage LLC)",
+   "fdcId": "2551032",
+   "url": "https://fdc.nal.usda.gov/food-details/2551032/nutrients",
+   "description": "CHERRY LIMEADE PREBIOTIC SODA",
+   "crossCheck": "Other Poppi flavors in FDC Branded (2023): 6-7 kcal, 1.1-1.4 g sugar, 1.4-2.2 g carbs, 0 mg Na per 100 mL (Grape 2655295, Orange 2449800, Cranberry Fizz 2655296)."
+  },
+  "brandExamples": [
+   "Poppi"
+  ],
+  "confidence": "medium",
+  "notes": "Label per 12 fl oz can: ~25 kcal, 7 g carbs (2 g fiber), 5 g sugar, 0 mg sodium. Made with apple cider vinegar and agave inulin; this flavor is caffeine-free (ingredient list). Part B's other_drinking_vinegar mentions Poppi as a brand example; this entry gives the label values directly. waterG null (not on label).",
+  "region": "US"
+ },
+ {
+  "id": "topo_chico",
+  "name": "Topo Chico Mineral Water",
+  "category": "water",
+  "subcategory": "mineral",
+  "variants": [
+   "sparkling",
+   "brand"
+  ],
+  "defaultServingML": 355,
+  "commonServingsML": [
+   355,
+   473,
+   750
+  ],
+  "per100mL": {
+   "waterG": 99.9,
+   "energyKcal": 0,
+   "sugarG": 0,
+   "carbsG": 0,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 4,
+   "potassiumMg": null,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": 1.0,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Topo Chico Mineral Water 12 fl oz (The Coca-Cola Company)",
+   "fdcId": "2561564",
+   "url": "https://fdc.nal.usda.gov/food-details/2561564/nutrients",
+   "description": "TOPO CHICO MINERAL WATER GLASS BOTTLES, 12 FL OZ",
+   "crossCheck": "Older FDC Branded record 420402 (Cia. Topo Chico, 2019): 0 kcal, 6 mg Na per 100 mL.",
+   "waterFrom": {
+    "name": "USDA FoodData Central (analog record)",
+    "fdcId": "173233",
+    "url": "https://fdc.nal.usda.gov/food-details/173233/nutrients",
+    "description": "Beverages, water, bottled, PERRIER (water 99.9 g/100 g)"
+   }
+  },
+  "brandExamples": [
+   "Topo Chico"
+  ],
+  "confidence": "high",
+  "notes": "Label per 12 fl oz: 0 kcal, 14 mg sodium, 39 mg calcium (4 mg Na/100 mL). That is far below the 21 mg/100 mL the generic seltzer entry inherits from club soda, which is why Topo Chico gets its own entry. Calcium and magnesium are not in the schema. Topo Chico Twist and the sweetened Topo Chico Sabores are different products.",
+  "region": "US/MX"
+ },
+ {
+  "id": "water_lemon",
+  "name": "Lemon water (water with lemon juice)",
+  "category": "water",
+  "subcategory": "still",
+  "variants": [
+   "hot",
+   "warm",
+   "cold",
+   "with lemon"
+  ],
+  "defaultServingML": 255,
+  "commonServingsML": [
+   255,
+   355,
+   500
+  ],
+  "per100mL": {
+   "waterG": 99.6,
+   "energyKcal": 1.3,
+   "sugarG": 0.15,
+   "carbsG": 0.42,
+   "proteinG": 0.02,
+   "fatG": 0.01,
+   "sodiumMg": 3.8,
+   "potassiumMg": 6.2,
+   "caffeineMg": 0.0,
+   "alcoholG": 0.0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "Composite from USDA SR: 240 mL tap water (FDC 173647) + 15 mL raw lemon juice (FDC 167747)",
+   "fdcId": "167747",
+   "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients",
+   "description": "Lemon juice, raw; Beverages, water, tap, drinking"
+  },
+  "brandExamples": [],
+  "confidence": "medium",
+  "notes": "Recipe: 240 mL water + 1 tbsp (15 mL; 15.5 g at USDA's 30.5 g per fl oz) fresh lemon juice, about a third to half of a lemon; total ~255 mL. Per glass ~3 kcal, 0.4 g sugar, 16 mg potassium. Hot or cold makes no nutritional difference. The juice of a whole lemon (USDA: 47 g) roughly triples the lemon contribution; a single wedge (6 g) is negligible. Tap-water sodium varies locally."
+ },
+ {
+  "id": "energy_monster_zero_ultra",
+  "name": "Monster Energy Zero Ultra",
+  "category": "energy",
+  "subcategory": "energy drink",
+  "variants": [
+   "Zero Ultra (white)",
+   "other Ultra flavors"
+  ],
+  "defaultServingML": 473,
+  "commonServingsML": [
+   355,
+   473
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 2,
+   "sugarG": 0,
+   "carbsG": 1.27,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 78,
+   "potassiumMg": null,
+   "caffeineMg": 29.6,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": [
+   29.6,
+   31.7
+  ],
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Monster Energy Zero Ultra, 16 fl oz (Monster Energy Company)",
+   "fdcId": "2597762",
+   "url": "https://fdc.nal.usda.gov/food-details/2597762/nutrients",
+   "description": "ZERO ULTRA ENERGY DRINK",
+   "crossCheck": "Caffeine 140 mg per 16 fl oz per US retailer label copies (Harris Teeter https://www.harristeeter.com/p/monster-zero-ultra-energy-drink/0007084701712 ; Price Rite: 70 mg per 8 fl oz); a minority of listings show 150 mg."
+  },
+  "brandExamples": [
+   "Monster Ultra"
+  ],
+  "confidence": "medium",
+  "notes": "Label per 16 fl oz (473 mL): ~10 kcal, 6 g carbs (erythritol), 0 g sugar, 369 mg sodium (78 mg/100 mL, notably salty for an energy drink). Caffeine 140 mg per can = 29.6 mg/100 mL, read from retailer copies of the label because monsterenergy.com refused automated access; the range covers the 150 mg figure some listings show. The other Ultra flavors share the base formula.",
+  "region": "US"
+ },
+ {
+  "id": "energy_alani_nu",
+  "name": "Alani Nu Energy",
+  "category": "energy",
+  "subcategory": "energy drink",
+  "variants": [
+   "zero sugar",
+   "various flavors"
+  ],
+  "defaultServingML": 355,
+  "commonServingsML": [
+   355
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 3,
+   "sugarG": 0,
+   "carbsG": 0.83,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 47,
+   "potassiumMg": 6,
+   "caffeineMg": 56.3,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": [
+   55,
+   57
+  ],
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Alani Nu Berry Pop Energy Drink, 12 fl oz (Alani Nutrition LLC)",
+   "fdcId": "2554138",
+   "url": "https://fdc.nal.usda.gov/food-details/2554138/nutrients",
+   "description": "BERRY POP ENERGY DRINK",
+   "crossCheck": "Caffeine 200 mg per 12 fl oz per US retailer label copies (Safeway https://www.safeway.com/shop/product-details.970307026.html , Brookshire's, HEB). FDC Blue Slush 2554136 has identical electrolytes."
+  },
+  "brandExamples": [
+   "Alani Nu"
+  ],
+  "confidence": "medium",
+  "notes": "Label per 12 fl oz can (FDC 360 mL basis): 10-15 kcal, 0 g sugar, 169 mg sodium. Caffeine 200 mg per 12 oz = 56 mg/100 mL, about a third more concentrated than 200 mg/16 oz drinks such as Ghost or C4 (energy_ghost). Caffeine comes from retailer label copies, so medium confidence.",
+  "region": "US"
+ },
+ {
+  "id": "energy_reign",
+  "name": "Reign Total Body Fuel",
+  "category": "energy",
+  "subcategory": "energy drink",
+  "variants": [
+   "zero sugar",
+   "various flavors"
+  ],
+  "defaultServingML": 473,
+  "commonServingsML": [
+   473
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 2,
+   "sugarG": 0,
+   "carbsG": 0.63,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 47,
+   "potassiumMg": 17,
+   "caffeineMg": 63.4,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": [
+   63,
+   64
+  ],
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Reign Total Body Fuel Orange Dreamsicle, 16 fl oz (Energy Beverages LLC)",
+   "fdcId": "2604284",
+   "url": "https://fdc.nal.usda.gov/food-details/2604284/nutrients",
+   "description": "REIGN TOTAL BODY FUEL ORANGE DREAMSICLE",
+   "crossCheck": "Caffeine 300 mg per 16 fl oz per US retailer label copies (HEB https://www.heb.com/product-detail/reign-total-body-fuel-energy-drink-orange-dreamsicle/3335244 , Lowes Foods). Sodium 100-220 mg and potassium 35-80 mg per can vary by flavor."
+  },
+  "brandExamples": [
+   "Reign"
+  ],
+  "confidence": "medium",
+  "notes": "Label per 16 fl oz (Orange Dreamsicle): ~10 kcal, 0 g sugar, 222 mg sodium, 80 mg potassium. Caffeine 300 mg per can = 63 mg/100 mL, the same concentration as Bang (energy_bang); one can is three-quarters of the FDA's 400 mg/day reference for healthy adults. Electrolytes vary by flavor (see crossCheck).",
+  "region": "US"
+ },
+ {
+  "id": "energy_prime",
+  "name": "Prime Energy",
+  "category": "energy",
+  "subcategory": "energy drink",
+  "variants": [
+   "zero sugar",
+   "various flavors"
+  ],
+  "defaultServingML": 355,
+  "commonServingsML": [
+   355
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 2.8,
+   "sugarG": 0,
+   "carbsG": null,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 15.5,
+   "potassiumMg": null,
+   "caffeineMg": 56.3,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": [
+   56,
+   57
+  ],
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "Prime Energy label (via US retailer listings)",
+   "fdcId": null,
+   "url": "https://www.heb.com/product-detail/prime-energy-drink-blue-raspberry/9045077",
+   "crossCheck": "Kroger and Safeway listings: 200 mg caffeine per 12 oz serving; Target: 10 kcal; ShopRite Lemon Lime: 55 mg sodium."
+  },
+  "brandExamples": [
+   "Prime Energy"
+  ],
+  "confidence": "low",
+  "notes": "Label per 12 fl oz (355 mL) can: ~10 kcal, 0 g sugar, ~55 mg sodium (Blue Raspberry, Lemon Lime; a Tropical Punch listing shows 70 mg), 200 mg caffeine (56 mg/100 mL). Not in FDC Branded; values come only from retailer label copies and electrolytes vary by flavor, hence low confidence. Not the same product as Prime Hydration (sports_prime_hydration, caffeine-free).",
+  "region": "US"
+ },
+ {
+  "id": "sports_gatorade_zero",
+  "name": "Gatorade Zero Sugar",
+  "category": "sports",
+  "subcategory": "sports drink",
+  "variants": [
+   "zero sugar",
+   "various flavors"
+  ],
+  "defaultServingML": 591,
+  "commonServingsML": [
+   355,
+   591,
+   828,
+   946
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 0,
+   "sugarG": 0,
+   "carbsG": 0.28,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 45,
+   "potassiumMg": 14,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Gatorade Cool Blue Zero Sugar Thirst Quencher (Quaker Oats/Gatorade)",
+   "fdcId": "2597050",
+   "url": "https://fdc.nal.usda.gov/food-details/2597050/nutrients",
+   "description": "COOL BLUE ZERO SUGAR THIRST QUENCHER",
+   "crossCheck": "FDC Branded Gatorade Zero Grape/Orange/Berry, 12-20 fl oz (2678875, 2678882, 2678687): 0-1 kcal, 44-46 mg Na, 14 mg K per 100 mL."
+  },
+  "brandExamples": [
+   "Gatorade Zero"
+  ],
+  "confidence": "high",
+  "notes": "Label per 12 fl oz: 0 kcal, 1 g carbs, 0 g sugar, 160 mg sodium, 50 mg potassium (per 20 fl oz bottle ~270 mg Na and 80 mg K, the same electrolytes as regular Gatorade without the sugar). Sweetened with sucralose and acesulfame-K; caffeine-free. waterG null (label-based).",
+  "region": "US"
+ },
+ {
+  "id": "sports_gatorlyte",
+  "name": "Gatorlyte (rapid rehydration)",
+  "category": "sports",
+  "subcategory": "oral rehydration",
+  "variants": [
+   "regular",
+   "Zero Sugar"
+  ],
+  "defaultServingML": 591,
+  "commonServingsML": [
+   591
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 8,
+   "sugarG": 2.03,
+   "carbsG": 2.37,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 83,
+   "potassiumMg": 59,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Gatorlyte Orange Electrolyte Beverage, 20 fl oz (Quaker Oats/Gatorade)",
+   "fdcId": "2502060",
+   "url": "https://fdc.nal.usda.gov/food-details/2502060/nutrients",
+   "description": "ORANGE ELECTROLYTE BEVERAGE (GATORLYTE)",
+   "crossCheck": "Gatorlyte Zero Sugar Lemon Lime (2590618): 2 kcal, 0 g sugar, the same 83 mg Na / 59 mg K per 100 mL."
+  },
+  "brandExamples": [
+   "Gatorlyte"
+  ],
+  "confidence": "high",
+  "notes": "Label per 20 fl oz (591 mL): ~50 kcal, 14 g carbs, 12 g sugar, 490 mg sodium, 350 mg potassium, 118 mg calcium. About 1.8x the sodium of regular Gatorade with less than half the sugar, so it is closer to an oral rehydration solution than to a classic sports drink (still below Pedialyte's 108 mg Na/100 mL). Zero Sugar version: same electrolytes, ~0 kcal.",
+  "region": "US"
+ },
+ {
+  "id": "sports_bodyarmor_lyte",
+  "name": "BODYARMOR LYTE",
+  "category": "sports",
+  "subcategory": "sports drink",
+  "variants": [
+   "low calorie",
+   "various flavors"
+  ],
+  "defaultServingML": 473,
+  "commonServingsML": [
+   473,
+   710,
+   828
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 8,
+   "sugarG": 1.27,
+   "carbsG": 4.23,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 8,
+   "potassiumMg": 148,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): BODYARMOR Blueberry Pomegranate LYTE SuperDrink (Body Armor Nutrition)",
+   "fdcId": "2670350",
+   "url": "https://fdc.nal.usda.gov/food-details/2670350/nutrients",
+   "description": "BLUEBERRY POMEGRANATE LYTE SUPERDRINK",
+   "crossCheck": "Other LYTE flavors in FDC Branded (Orange Citrus 2670349, Peach Mango 2670375, Cherry Berry 2476464): identical per-100 mL values."
+  },
+  "brandExamples": [
+   "BODYARMOR LYTE"
+  ],
+  "confidence": "high",
+  "notes": "Label per 8 fl oz: ~20 kcal, 10 g carbs (mostly erythritol), 3 g sugar, 20 mg sodium, 350 mg potassium. Like regular BODYARMOR it is potassium-heavy and almost sodium-free, so it replaces little of the sodium lost in sweat. Caffeine-free (ingredients). Carbs exceed sugar because erythritol is counted as carbohydrate.",
+  "region": "US"
+ },
+ {
+  "id": "sports_electrolit",
+  "name": "Electrolit",
+  "category": "sports",
+  "subcategory": "oral rehydration",
+  "variants": [
+   "various flavors"
+  ],
+  "defaultServingML": 625,
+  "commonServingsML": [
+   355,
+   625
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 19,
+   "sugarG": 5.0,
+   "carbsG": 5.0,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 69,
+   "potassiumMg": 78,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Electrolit Orange Premium Hydration Electrolyte Beverage, 12 fl oz (GS1 Mexico)",
+   "fdcId": "2652442",
+   "url": "https://fdc.nal.usda.gov/food-details/2652442/nutrients",
+   "description": "ORANGE PREMIUM HYDRATION ELECTROLYTE BEVERAGE",
+   "crossCheck": "All Electrolit flavors in FDC Branded (coconut, fruit punch, grape, mango, hibiscus, strawberry-kiwi; 2021-2023) carry the same per-100 mL values."
+  },
+  "brandExamples": [
+   "Electrolit"
+  ],
+  "confidence": "high",
+  "notes": "Label per 12 fl oz (360 mL): 68 kcal, 18 g sugar (dextrose), 248 mg sodium, 281 mg potassium, 29 mg calcium. The common bottle is 625 mL (21 fl oz): ~120 kcal, 430 mg Na, 490 mg K. Electrolyte content sits between sports drinks and Pedialyte. Caffeine-free.",
+  "region": "MX/US"
+ },
+ {
+  "id": "sports_nuun_sport",
+  "name": "Nuun Sport (1 tablet in 16 oz water)",
+  "category": "sports",
+  "subcategory": "electrolyte mix",
+  "variants": [
+   "tablet",
+   "various flavors"
+  ],
+  "defaultServingML": 473,
+  "commonServingsML": [
+   473,
+   500
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 3.2,
+   "sugarG": 0.21,
+   "carbsG": 0.85,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 63.4,
+   "potassiumMg": 31.7,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "Nuun Sport product page (manufacturer nutrition panel)",
+   "fdcId": null,
+   "url": "https://nuunlife.com/products/nuun-sport",
+   "crossCheck": "FDC Branded Nuun Lemon Lime tablets 2107463 (2021 formula): one tablet in 475 mL = 76 mg Na and 21 mg K per 100 mL (~360 mg Na, 100 mg K per tablet), i.e. the pre-reformulation values."
+  },
+  "brandExamples": [
+   "Nuun Sport"
+  ],
+  "confidence": "high",
+  "notes": "Per tablet (manufacturer, current formula): 15 kcal, 4 g carbs, 1 g sugar, 300 mg sodium, 150 mg potassium, 13 mg calcium, plus magnesium; directions say one tablet in 16 fl oz (473 mL) of water. Per-100 mL values assume that dilution; offer per-tablet logging if the user mixes differently. 'Nuun Sport + Caffeine' and 'Nuun Energy' contain caffeine and need a custom entry.",
+  "region": "US"
+ },
+ {
+  "id": "sports_lmnt",
+  "name": "LMNT electrolyte mix (1 stick in 16 oz water)",
+  "category": "sports",
+  "subcategory": "electrolyte mix",
+  "variants": [
+   "stick",
+   "Citrus Salt",
+   "Raw Unflavored"
+  ],
+  "defaultServingML": 473,
+  "commonServingsML": [
+   473,
+   710,
+   946
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": null,
+   "sugarG": 0,
+   "carbsG": null,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 211.4,
+   "potassiumMg": 42.3,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "LMNT formulation page (manufacturer)",
+   "fdcId": null,
+   "url": "https://drinklmnt.com/pages/ingredients",
+   "crossCheck": "The drinklmnt.com product page repeats 1,000 mg sodium, 200 mg potassium and 60 mg magnesium per stick, zero sugar."
+  },
+  "brandExamples": [
+   "LMNT"
+  ],
+  "confidence": "medium",
+  "notes": "Per stick (manufacturer): 1,000 mg sodium, 200 mg potassium, 60 mg magnesium, 0 g sugar. Per-100 mL values here assume one stick in 16 fl oz (473 mL); the manufacturer pages that were read did not state a water volume and many users mix into 16-32 oz, so per-stick logging is strongly preferred. At this dilution sodium (211 mg/100 mL) is about double Pedialyte and 4-5x Gatorade. Energy and carbohydrate were not verified (flavored sticks contain small amounts of citric acid and stevia), so they are null. Caffeine 0, except the Lemonade Iced Tea flavor (~50 mg from black tea per the manufacturer).",
+  "region": "US"
+ },
+ {
+  "id": "sports_protein_water",
+  "name": "Protein water (whey, ~15 g per bottle)",
+  "category": "sports",
+  "subcategory": "fitness water",
+  "variants": [
+   "protein water",
+   "various flavors"
+  ],
+  "defaultServingML": 500,
+  "commonServingsML": [
+   500
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 14,
+   "sugarG": 0,
+   "carbsG": 0.4,
+   "proteinG": 3.0,
+   "fatG": 0,
+   "sodiumMg": 4,
+   "potassiumMg": null,
+   "caffeineMg": null,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Protein2o Blueberry Raspberry protein-infused water, 500 mL (Protein2o Inc.)",
+   "fdcId": "2670366",
+   "url": "https://fdc.nal.usda.gov/food-details/2670366/nutrients",
+   "description": "BLUEBERRY RASPBERRY FLAVORED PROTEIN INFUSED WATER BEVERAGE",
+   "crossCheck": "Other Protein2o records: Cherry Lemonade 2421694 and Cotton Candy 2652417 (70 kcal, 15 g protein, 15-20 mg Na per 500 mL); Tropical Coconut 2121333 (60 kcal, 105 mg Na); Lemon Splash 2244512 (whey + collagen, 122 mg Na)."
+  },
+  "brandExamples": [
+   "Protein2o",
+   "Premier Protein Clear (similar)"
+  ],
+  "confidence": "medium",
+  "notes": "Label per 500 mL bottle: 70 kcal, 15 g whey protein isolate, 2 g carbs, 0 g sugar, 20 mg sodium. CAFFEINE: several current Protein2o flavors (including this one) list caffeine as an ingredient, but the label gives no amount, so caffeineMg is null; older flavors (Tropical Coconut, Lemon Splash) are caffeine-free. Sodium varies from 4 to 25 mg/100 mL by flavor.",
+  "region": "US"
+ },
+ {
+  "id": "coffee_starbucks_frappuccino_bottled",
+  "name": "Starbucks Frappuccino (bottled, Coffee)",
+  "category": "coffee",
+  "subcategory": "ready-to-drink",
+  "variants": [
+   "Coffee",
+   "Mocha",
+   "Vanilla",
+   "Caramel"
+  ],
+  "defaultServingML": 405,
+  "commonServingsML": [
+   281,
+   405
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 71,
+   "sugarG": 11.2,
+   "carbsG": 12.9,
+   "proteinG": 2.19,
+   "fatG": 1.09,
+   "sodiumMg": 39,
+   "potassiumMg": null,
+   "caffeineMg": 27.2,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": [
+   11,
+   32
+  ],
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Starbucks Frappuccino Chilled Coffee Drink (bottle)",
+   "fdcId": "540579",
+   "url": "https://fdc.nal.usda.gov/food-details/540579/nutrients",
+   "description": "STARBUCKS, FRAPPUCCINO, CHILLED COFFEE DRINK",
+   "crossCheck": "Caffeine: Caffeine Informer (citing PepsiCo Beverage Facts) gives 110 mg per 13.7 fl oz Coffee bottle in its summary but 130 mg in its flavor table; other flavors 60-110 mg (Mocha 110, Vanilla 75, Caramel 90). https://www.caffeineinformer.com/caffeine-content/starbucks-bottled-frappucino"
+  },
+  "brandExamples": [
+   "Starbucks Frappuccino"
+  ],
+  "confidence": "medium",
+  "notes": "Label per bottle (FDC lists a 411 mL serving; US bottles are 13.7 fl oz = 405 mL): ~290 kcal, 46 g sugar, 9 g protein, 4.5 g fat, 160 mg sodium. Caffeine set to 110 mg per 405 mL = 27.2 mg/100 mL. The source is internally inconsistent (110 vs 130 mg), so the range spans flavors at 45-130 mg per bottle (11-32 mg/100 mL). Part B's coffee_bottled_rtd remains the fallback for other brands.",
+  "region": "US"
+ },
+ {
+  "id": "coffee_starbucks_espresso_cream",
+  "name": "Starbucks Doubleshot Espresso & Cream (can)",
+  "category": "coffee",
+  "subcategory": "ready-to-drink",
+  "variants": [
+   "regular",
+   "Light"
+  ],
+  "defaultServingML": 192,
+  "commonServingsML": [
+   192
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 73,
+   "sugarG": 9.38,
+   "carbsG": 9.38,
+   "proteinG": 2.08,
+   "fatG": 3.12,
+   "sodiumMg": 34,
+   "potassiumMg": 272,
+   "caffeineMg": 62.5,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": [
+   60,
+   63
+  ],
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Starbucks Espresso and Cream Premium Espresso Beverage, 6.5 fl oz (Pepsi-Cola North America)",
+   "fdcId": "2560212",
+   "url": "https://fdc.nal.usda.gov/food-details/2560212/nutrients",
+   "description": "ESPRESSO AND CREAM PREMIUM ESPRESSO BEVERAGE",
+   "crossCheck": "Caffeine 120 mg per 6.5 fl oz can (Light: 115 mg): Caffeine Informer citing pepsicoproductfacts.com (https://www.caffeineinformer.com/caffeine-content/starbucks-espresso-and-cream)."
+  },
+  "brandExamples": [
+   "Starbucks Doubleshot Espresso & Cream"
+  ],
+  "confidence": "high",
+  "notes": "Label per 6.5 fl oz (192 mL) can: 140 kcal, 18 g sugar, 4 g protein, 6 g fat, 65 mg sodium, 522 mg potassium. Caffeine 120 mg per can = 62.5 mg/100 mL, roughly two espresso shots in a small can. The 15 fl oz 'Doubleshot Energy' is a different product (less caffeine per mL, added B vitamins).",
+  "region": "US"
+ },
+ {
+  "id": "coffee_iced_latte",
+  "name": "Iced Latte",
+  "category": "coffee",
+  "subcategory": "milk-based",
+  "variants": [
+   "iced",
+   "2% milk",
+   "unsweetened"
+  ],
+  "defaultServingML": 473,
+  "commonServingsML": [
+   355,
+   473,
+   710
+  ],
+  "per100mL": {
+   "waterG": 95.3,
+   "energyKcal": 27.4,
+   "sugarG": 2.55,
+   "carbsG": 2.85,
+   "proteinG": 1.77,
+   "fatG": 1.02,
+   "sodiumMg": 23.3,
+   "potassiumMg": 103.4,
+   "caffeineMg": 37.5,
+   "alcoholG": 0.0
+  },
+  "caffeineRangePer100mL": [
+   25,
+   45
+  ],
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": 1.014,
+  "source": {
+   "name": "USDA FoodData Central (FNDDS 2021-2023)",
+   "fdcId": "2710431",
+   "url": "https://fdc.nal.usda.gov/food-details/2710431/nutrients",
+   "description": "Coffee, Iced Latte",
+   "crossCheck": "FNDDS sister records: Iced Latte, flavored (2710434) 40 kcal, 5.8 g sugar, 36 mg caffeine/100 g; with non-dairy milk (2710433) 24 kcal, 37 mg caffeine/100 g."
+  },
+  "brandExamples": [
+   "Starbucks Iced Caffe Latte",
+   "Dunkin' Iced Latte"
+  ],
+  "confidence": "high",
+  "notes": "FNDDS recipe: 2 espresso shots (62 g) + 6 fl oz 2% milk (183 g) + 111 g water from melted ice; per 100 g 27 kcal, 2.5 g sugar (lactose), 37 mg caffeine. Converted with FNDDS's own 240 g per 8 fl oz (1.014 g/mL). Because the recipe already counts ice melt, it is thinner than a hot latte (coffee_latte, ~44 kcal/100 mL). Flavored (syrup) versions add ~13 kcal and 3.3 g sugar per 100 mL. Caffeine follows shots: a Starbucks grande iced latte has 2 shots (~150 mg)."
+ },
+ {
+  "id": "tea_yerba_mate",
+  "name": "Yerba mate (brewed / gourd)",
+  "category": "tea",
+  "subcategory": "mate",
+  "variants": [
+   "chimarrão (hot, gourd)",
+   "tereré (cold)",
+   "mate cocido (tea bag)"
+  ],
+  "defaultServingML": 250,
+  "commonServingsML": [
+   182,
+   250,
+   355,
+   500
+  ],
+  "per100mL": {
+   "waterG": 99.7,
+   "energyKcal": 1,
+   "sugarG": 0,
+   "carbsG": 0.2,
+   "proteinG": 0,
+   "fatG": 0,
+   "sodiumMg": 1,
+   "potassiumMg": 9,
+   "caffeineMg": 27.0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": [
+   7,
+   30
+  ],
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": 1.0,
+  "source": {
+   "name": "Caffeine: Bastos DHM, Fornari AC, Queiroz YS, Soares RAM, Torres EAFS (2005) Acta Farm. Bonaerense 24(1):91-95 (HPLC). Macros: USDA FNDDS 'Tea, hot, herbal' (description includes mate tea)",
+   "fdcId": "2710502",
+   "url": "https://www.e-lactancia.org/media/papers/MateCafeina-ActFarmBona2005.pdf",
+   "description": "Tea, hot, herbal (FNDDS; additional descriptions include 'mate tea')",
+   "crossCheck": "FNDDS 2710502 per 100 g: 99.7 g water, 1 kcal, 0.2 g carbs, 1 mg Na, 9 mg K."
+  },
+  "brandExamples": [],
+  "confidence": "medium",
+  "notes": "Caffeine measured by Bastos et al. on Brazilian brands: one gourd ('cuia', ~500 mL of successive infusions) of chimarrão = 135 mg (27 mg/100 mL); one cuia of cold tereré = 85 mg (17 mg/100 mL); one 182 mL cup of tea-bag mate cocido = 13 mg (7 mg/100 mL). Default is chimarrão; the range covers all three. Real intake depends heavily on leaf load and the number of refills. Macros come from FNDDS herbal tea, whose description explicitly includes mate tea; unlike other herbal teas, mate is caffeinated (Part B's tea_herbal note says not to use it for mate).",
+  "region": "South America"
+ },
+ {
+  "id": "tea_yerba_mate_canned",
+  "name": "Yerba mate, canned & sweetened (Guayakí)",
+  "category": "tea",
+  "subcategory": "ready-to-drink",
+  "variants": [
+   "Bluephoria",
+   "Revel Berry",
+   "Enlighten Mint",
+   "other sweetened flavors"
+  ],
+  "defaultServingML": 458,
+  "commonServingsML": [
+   458,
+   473
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 26,
+   "sugarG": 6.11,
+   "carbsG": 6.11,
+   "proteinG": 0.22,
+   "fatG": 0,
+   "sodiumMg": 0,
+   "potassiumMg": null,
+   "caffeineMg": 32.8,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": [
+   32,
+   34
+  ],
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Guayakí Bluephoria Organic Yerba Mate, 15.5 fl oz can",
+   "fdcId": "2585798",
+   "url": "https://fdc.nal.usda.gov/food-details/2585798/nutrients",
+   "description": "BLUEPHORIA ORGANIC YERBA MATE",
+   "crossCheck": "Yerba Madre (Guayakí) Revel Berry nutrition panel: 120 kcal, 28 g sugar, 1 g protein, 0 mg sodium per 15.5 fl oz can (https://yerbamadre.com/products/revel-berry). Caffeine ~150 mg per can per US retailer listings (Hannaford, Kroger)."
+  },
+  "brandExamples": [
+   "Guayakí Yerba Mate",
+   "Yerba Madre"
+  ],
+  "confidence": "medium",
+  "notes": "Label per 15.5 fl oz (458 mL) can: ~120 kcal, 28 g sugar, 1 g protein, 0 mg sodium. Caffeine ~150 mg per can (32.8 mg/100 mL), from yerba mate plus added organic caffeine (on the ingredient list); the manufacturer page that was read does not print the amount, so it comes from retailer listings. Lower-sugar and unsweetened Guayakí lines have fewer calories but similar caffeine.",
+  "region": "US"
+ },
+ {
+  "id": "tea_barley_mugicha",
+  "name": "Barley tea (mugicha / boricha)",
+  "category": "tea",
+  "subcategory": "herbal",
+  "variants": [
+   "cold",
+   "hot",
+   "roasted barley"
+  ],
+  "defaultServingML": 250,
+  "commonServingsML": [
+   200,
+   250,
+   350,
+   500
+  ],
+  "per100mL": {
+   "waterG": 99.7,
+   "energyKcal": 1,
+   "sugarG": null,
+   "carbsG": 0.3,
+   "proteinG": null,
+   "fatG": 0,
+   "sodiumMg": 1,
+   "potassiumMg": 6,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": 1.0,
+  "source": {
+   "name": "Japan Standard Tables of Food Composition (8th rev., 2023 suppl.), MEXT: food 16055, barley tea, infusion",
+   "fdcId": null,
+   "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=16_16055_7"
+  },
+  "brandExamples": [
+   "Ito En Mugicha",
+   "bottled Korean boricha"
+  ],
+  "confidence": "high",
+  "notes": "MEXT per 100 g: 99.7 g water, 1 kcal, protein trace, 0.3 g carbohydrate, 1 mg sodium, 6 mg potassium (density taken as 1.00). It is brewed from roasted barley grain, not the tea plant, so it is naturally caffeine-free (caffeine set to 0 on that basis; the MEXT data page does not list caffeine). Protein is 'Tr' (trace) and sugar is not reported, so both are null. Drunk iced in Japan and Korea (boricha); bottled unsweetened versions are equivalent.",
+  "region": "JP/KR"
+ },
+ {
+  "id": "tea_thai_iced",
+  "name": "Thai iced tea (bottled, with milk)",
+  "category": "tea",
+  "subcategory": "milk-based",
+  "variants": [
+   "bottled",
+   "with milk",
+   "sweetened"
+  ],
+  "defaultServingML": 240,
+  "commonServingsML": [
+   240,
+   355,
+   473
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 54,
+   "sugarG": 11.2,
+   "carbsG": 11.7,
+   "proteinG": 0.83,
+   "fatG": 0.62,
+   "sodiumMg": 17,
+   "potassiumMg": null,
+   "caffeineMg": null,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): FOCO Thai Tea Drink, 8 fl oz (Thai Agri Foods)",
+   "fdcId": "1957353",
+   "url": "https://fdc.nal.usda.gov/food-details/1957353/nutrients",
+   "description": "THAI TEA DRINK, THAI TEA",
+   "crossCheck": "Other bottled Thai teas in FDC Branded: Green Field 1910070 (67 kcal, 11.7 g sugar, 44 mg Na per 100 mL); Taste Nirvana 2674006 (64 kcal, 10.0 g sugar, 27 mg Na)."
+  },
+  "brandExamples": [
+   "FOCO"
+  ],
+  "confidence": "low",
+  "notes": "Label per 8 fl oz: 130 kcal, 27 g sugar, 2 g protein, 1.5 g fat, 41 mg sodium (ingredients: tea extract, sugar, milk powder). Restaurant Thai iced tea made with sweetened condensed and evaporated milk is often richer and sweeter; no national-database record was found. Labels do not declare caffeine and no analysis was found, so it is null; it is a black-tea drink, so expect some caffeine (brewed black tea runs 6-36 mg/100 mL before milk and ice).",
+  "region": "TH/US"
+ },
+ {
+  "id": "yakult",
+  "name": "Yakult (probiotic fermented milk drink)",
+  "category": "dairy",
+  "subcategory": "cultured",
+  "variants": [
+   "original",
+   "Light"
+  ],
+  "defaultServingML": 80,
+  "commonServingsML": [
+   65,
+   80
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 62,
+   "sugarG": 12.5,
+   "carbsG": 15.0,
+   "proteinG": 1.25,
+   "fatG": 0,
+   "sodiumMg": 19,
+   "potassiumMg": 62,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Yakult Probiotic Drink, 80 mL bottle (Yakult U.S.A.)",
+   "fdcId": "2719414",
+   "url": "https://fdc.nal.usda.gov/food-details/2719414/nutrients",
+   "description": "Yakult Probiotic Drink",
+   "crossCheck": "Yakult LIGHT (FDC 2719413): 31 kcal, 3.75 g sugar, 7.5 g carbs, same protein/Na/K per 100 mL."
+  },
+  "brandExamples": [
+   "Yakult"
+  ],
+  "confidence": "high",
+  "notes": "Label per 80 mL bottle (US): 50 kcal, 10 g sugar, 12 g carbs, 1 g protein, 15 mg sodium, 50 mg potassium. The serving is small but sugary per mL (12.5 g/100 mL, similar to cola). Japanese and European bottles are 65 mL. The Light version halves the calories. Caffeine-free.",
+  "region": "US"
+ },
+ {
+  "id": "lassi_mango",
+  "name": "Mango lassi",
+  "category": "dairy",
+  "subcategory": "cultured",
+  "variants": [
+   "mango",
+   "bottled",
+   "low fat"
+  ],
+  "defaultServingML": 240,
+  "commonServingsML": [
+   236,
+   295,
+   355
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 72,
+   "sugarG": 12.7,
+   "carbsG": 13.6,
+   "proteinG": 2.54,
+   "fatG": 1.27,
+   "sodiumMg": 38,
+   "potassiumMg": null,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Deep Lassi, Mango, 8 fl oz (Deep Foods)",
+   "fdcId": "2490375",
+   "url": "https://fdc.nal.usda.gov/food-details/2490375/nutrients",
+   "description": "LASSI, MANGO",
+   "crossCheck": "Deep Low Fat Mango Lassi (1892102): 71 kcal, 12.2 g sugar, 2.4 g protein per 100 mL; Dahlicious Alphonso Mango Lassi (2174097): 68 kcal, 8.2 g sugar, 3.4 g protein."
+  },
+  "brandExamples": [
+   "Deep",
+   "Dahlicious",
+   "restaurant mango lassi"
+  ],
+  "confidence": "medium",
+  "notes": "Label per 8 fl oz: 170 kcal, 30 g sugar, 6 g protein, 3 g fat, 90 mg sodium. Bottled US mango lassi (cultured low-fat milk, mango purée, sugar). Restaurant versions vary widely with yogurt fat and added sugar. No USDA or CoFID generic record was found. Part A's drinkable_yogurt lists sweet lassi as a brand example; this entry is specific.",
+  "region": "IN/US"
+ },
+ {
+  "id": "lassi_sweet",
+  "name": "Sweet lassi (plain/rose)",
+  "category": "dairy",
+  "subcategory": "cultured",
+  "variants": [
+   "sweet",
+   "rose",
+   "bottled"
+  ],
+  "defaultServingML": 240,
+  "commonServingsML": [
+   236,
+   355
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 97,
+   "sugarG": 18.2,
+   "carbsG": 19.5,
+   "proteinG": 2.12,
+   "fatG": 1.48,
+   "sodiumMg": 31,
+   "potassiumMg": null,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Deep Low Fat Lassi, Sweet, 8 fl oz (Deep Foods)",
+   "fdcId": "1892140",
+   "url": "https://fdc.nal.usda.gov/food-details/1892140/nutrients",
+   "description": "LOW FAT LASSI, SWEET"
+  },
+  "brandExamples": [
+   "Deep"
+  ],
+  "confidence": "low",
+  "notes": "Label per 8 fl oz: 229 kcal, 43 g sugar, 5 g protein, 3.5 g fat, 73 mg sodium (cultured skim milk and cream, whey protein, sugar, rose flavor). Very sweet per mL (18 g sugar/100 mL); a single brand only, hence low confidence. Salted lassi (chaas) is a different, low-sugar, salty drink, closer to ayran or buttermilk.",
+  "region": "IN/US"
+ },
+ {
+  "id": "ayran",
+  "name": "Ayran / doogh (salted yogurt drink)",
+  "category": "dairy",
+  "subcategory": "cultured",
+  "variants": [
+   "salted",
+   "still",
+   "sparkling doogh"
+  ],
+  "defaultServingML": 240,
+  "commonServingsML": [
+   200,
+   240,
+   300,
+   500
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 50,
+   "sugarG": 4.58,
+   "carbsG": 4.58,
+   "proteinG": 2.08,
+   "fatG": 2.5,
+   "sodiumMg": 312,
+   "potassiumMg": null,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Byblos All Natural Ayran Yogurt Drink, 8 fl oz (Kradjian Importing)",
+   "fdcId": "2066050",
+   "url": "https://fdc.nal.usda.gov/food-details/2066050/nutrients",
+   "description": "ALL NATURAL AYRAN YOGURT DRINK",
+   "crossCheck": "FDC Branded 665058 (naturally carbonated mint yogurt drink, 500 mL): 21 kcal, 1.2 g protein, 1.2 g fat, 300 mg Na per 100 mL."
+  },
+  "brandExamples": [
+   "Byblos",
+   "Sütaş",
+   "Abali (doogh)"
+  ],
+  "confidence": "low",
+  "notes": "Label per 8 fl oz: 120 kcal, 11 g sugar (lactose), 5 g protein, 6 g fat, 749 mg sodium. Ayran (Turkey) and doogh (Iran, often carbonated with mint) are yogurt diluted with water and salted; strength and salt vary a lot (the two FDC products agree on ~300 mg Na/100 mL but differ 2.4x in energy). A high-sodium drink: one glass is about a third of a 2,300 mg daily limit. Unsweetened, so the sugar is lactose.",
+  "region": "TR/IR/US"
+ },
+ {
+  "id": "sparkling_cider_na",
+  "name": "Sparkling cider (non-alcoholic)",
+  "category": "juice",
+  "subcategory": "apple & grape",
+  "variants": [
+   "sparkling apple juice"
+  ],
+  "defaultServingML": 240,
+  "commonServingsML": [
+   150,
+   240,
+   296,
+   750
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 58,
+   "sugarG": 12.9,
+   "carbsG": 14.6,
+   "proteinG": 0.42,
+   "fatG": 0,
+   "sodiumMg": 0,
+   "potassiumMg": 50,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Martinelli's Gold Medal Sparkling Cider, 25.4 fl oz (S. Martinelli & Co.)",
+   "fdcId": "2596277",
+   "url": "https://fdc.nal.usda.gov/food-details/2596277/nutrients",
+   "description": "MARTINELLI'S GOLD MEDAL SPARKLING CIDER, 25.4 FL OZ",
+   "crossCheck": "Martinelli's 8.4 oz single-serve (2596269): 60 kcal, 13.2 g sugar per 100 mL."
+  },
+  "brandExamples": [
+   "Martinelli's"
+  ],
+  "confidence": "high",
+  "notes": "Label per 8 fl oz (240 mL): 140 kcal, 31 g sugar (none added), 35 g carbs, 0 mg sodium, 120 mg potassium. 100% carbonated apple juice, nutritionally close to still apple juice (apple_juice). Alcohol-free (alcoholic cider is alc_cider).",
+  "region": "US"
+ },
+ {
+  "id": "clamato",
+  "name": "Clamato (tomato cocktail with clam)",
+  "category": "juice",
+  "subcategory": "vegetable",
+  "variants": [
+   "original",
+   "picante"
+  ],
+  "defaultServingML": 240,
+  "commonServingsML": [
+   240,
+   473,
+   946
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 25,
+   "sugarG": 4.17,
+   "carbsG": 4.58,
+   "proteinG": 0.42,
+   "fatG": 0,
+   "sodiumMg": 333,
+   "potassiumMg": 71,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Clamato El Original Tomato Cocktail, 8 fl oz (Mott's LLP)",
+   "fdcId": "2560714",
+   "url": "https://fdc.nal.usda.gov/food-details/2560714/nutrients",
+   "description": "EL ORIGINAL TOMATO COCKTAIL, TOMATO",
+   "crossCheck": "Clamato Tomato Cocktail 16 fl oz (2674082): 25 kcal, 4.4 g sugar, 334 mg Na per 100 mL. USDA SR 'Beverages, Clam and tomato juice, canned' (171882): 48 kcal, 3.3 g sugar, 362 mg Na, 87.4 g water per 100 g (older generic)."
+  },
+  "brandExamples": [
+   "Clamato"
+  ],
+  "confidence": "high",
+  "notes": "Label per 8 fl oz: 60 kcal, 10 g sugar (HFCS), 11 g carbs, 800 mg sodium, 170 mg potassium. One of the saltiest drinks in the database (333 mg Na/100 mL, more than tomato juice). Basis of the Canadian Caesar and the Mexican michelada. Contains MSG and dried clam broth.",
+  "region": "US/CA/MX"
+ },
+ {
+  "id": "aloe_vera_drink",
+  "name": "Aloe vera drink",
+  "category": "juice",
+  "subcategory": "juice drinks",
+  "variants": [
+   "with pulp",
+   "sweetened"
+  ],
+  "defaultServingML": 240,
+  "commonServingsML": [
+   240,
+   355,
+   500
+  ],
+  "per100mL": {
+   "waterG": 97.5,
+   "energyKcal": 15.2,
+   "sugarG": 3.8,
+   "carbsG": 3.8,
+   "proteinG": 0.0,
+   "fatG": 0.0,
+   "sodiumMg": 8.1,
+   "potassiumMg": 0.0,
+   "caffeineMg": 0.0,
+   "alcoholG": 0.0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": 1.014,
+  "source": {
+   "name": "USDA FoodData Central (SR Legacy)",
+   "fdcId": "174131",
+   "url": "https://fdc.nal.usda.gov/food-details/174131/nutrients",
+   "description": "Beverages, aloe vera juice drink, fortified with Vitamin C",
+   "crossCheck": "FNDDS 'Aloe vera juice drink' (2709833) reproduces the SR values."
+  },
+  "brandExamples": [
+   "OKF Aloe Vera King (sweeter)",
+   "Alo"
+  ],
+  "confidence": "medium",
+  "notes": "USDA SR per 100 g: 15 kcal, 3.75 g sugar, 8 mg sodium; converted with the record's 240 g per 8 fl oz (1.014 g/mL). Korean-style aloe drinks with pulp (e.g. OKF Aloe Vera King) are usually sweeter, so this is the light end of the category. USDA lists potassium as 0."
+ },
+ {
+  "id": "agua_fresca_tamarindo",
+  "name": "Agua fresca, tamarind (agua de tamarindo)",
+  "category": "juice",
+  "subcategory": "juice drinks",
+  "variants": [
+   "homemade",
+   "sweetened"
+  ],
+  "defaultServingML": 355,
+  "commonServingsML": [
+   240,
+   355,
+   473,
+   946
+  ],
+  "per100mL": {
+   "waterG": 74.2,
+   "energyKcal": 114.2,
+   "sugarG": 23.35,
+   "carbsG": 29.0,
+   "proteinG": 0.67,
+   "fatG": 0.19,
+   "sodiumMg": 9.4,
+   "potassiumMg": 150.9,
+   "caffeineMg": 0.0,
+   "alcoholG": 0.0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": 1.048,
+  "source": {
+   "name": "USDA FoodData Central (FNDDS 2021-2023)",
+   "fdcId": "2710568",
+   "url": "https://fdc.nal.usda.gov/food-details/2710568/nutrients",
+   "description": "Tamarind drink (Refresco de tamarindo)"
+  },
+  "brandExamples": [],
+  "confidence": "medium",
+  "notes": "FNDDS recipe: 1 qt water + 3/4 lb raw tamarind + 1 cup sugar; per 100 g 109 kcal, 22 g sugar. Converted with FNDDS's 31 g per fl oz (1.048 g/mL). This home recipe is very sweet (~56 g sugar per 240 mL); taquería versions are often diluted further with ice. Other aguas frescas differ: horchata has its own entry, and agua de jamaica is close to sweetened hibiscus tea.",
+  "region": "MX"
+ },
+ {
+  "id": "horchata",
+  "name": "Horchata (Mexican rice drink)",
+  "category": "other",
+  "subcategory": "grain drink",
+  "variants": [
+   "restaurant",
+   "homemade"
+  ],
+  "defaultServingML": 355,
+  "commonServingsML": [
+   240,
+   355,
+   473
+  ],
+  "per100mL": {
+   "waterG": 91.3,
+   "energyKcal": 56.6,
+   "sugarG": 9.81,
+   "carbsG": 12.05,
+   "proteinG": 0.5,
+   "fatG": 0.74,
+   "sodiumMg": 14.7,
+   "potassiumMg": 35.6,
+   "caffeineMg": 0.0,
+   "alcoholG": 0.0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": 1.048,
+  "source": {
+   "name": "USDA FoodData Central (SR Legacy)",
+   "fdcId": "171941",
+   "url": "https://fdc.nal.usda.gov/food-details/171941/nutrients",
+   "description": "Beverages, Horchata, as served in restaurant",
+   "crossCheck": "FNDDS 'Horchata, made with water' (2710602): 88 kcal, 8.1 g sugar, 78 g water per 100 g; 'made with milk' (2710603): 91 kcal, 9.6 g sugar."
+  },
+  "brandExamples": [
+   "restaurant / taquería horchata"
+  ],
+  "confidence": "medium",
+  "notes": "USDA SR restaurant horchata (water analysed in 3 samples): per 100 g 54 kcal, 9.4 g sugar, 87.1 g water. Converted with the FNDDS horchata portion weight (248 g per cup = 1.048 g/mL) because the SR record's only portion (228 g per cup) looks like it includes ice. The FNDDS recipe-based versions are thicker (78 g water, ~90 kcal/100 g); restaurant horchata is closer to the SR value. Spanish horchata de chufa (tiger nut) is a different drink. Listed as a Part B v2 gap.",
+  "region": "MX/US"
+ },
+ {
+  "id": "plant_oat_barista",
+  "name": "Oat Milk, barista edition",
+  "category": "plant milk",
+  "subcategory": "oat",
+  "variants": [
+   "barista",
+   "for coffee"
+  ],
+  "defaultServingML": 240,
+  "commonServingsML": [
+   30,
+   60,
+   120,
+   240
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 58,
+   "sugarG": 2.92,
+   "carbsG": 6.67,
+   "proteinG": 1.25,
+   "fatG": 2.92,
+   "sodiumMg": 42,
+   "potassiumMg": 162,
+   "caffeineMg": 0,
+   "alcoholG": 0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": null,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "USDA FoodData Central, Branded Foods (manufacturer label data): Oatly Barista Edition Oatmilk (Oatly, Inc.)",
+   "fdcId": "2462067",
+   "url": "https://fdc.nal.usda.gov/food-details/2462067/nutrients",
+   "description": "BARISTA EDITION OATMILK",
+   "crossCheck": "Califia Farms Barista Blend Oatmilk (2509382): 54 kcal, 2.9 g fat, 1.7 g sugar per 100 mL; Elmhurst Barista Edition Oat (2675545): 38 kcal, 0.4 g fat."
+  },
+  "brandExamples": [
+   "Oatly Barista",
+   "Califia Barista Blend",
+   "Minor Figures"
+  ],
+  "confidence": "high",
+  "notes": "Label per 1 cup (240 mL): 140 kcal, 7 g fat (rapeseed oil), 16 g carbs, 7 g sugars (formed when oat starch is broken down enzymatically; labelled as added sugar), 3 g protein, 101 mg sodium, 389 mg potassium. Higher in fat than Oatly Original (plant_oat_original) so it foams; mostly used as a splash or in lattes.",
+  "region": "US"
+ },
+ {
+  "id": "alc_sake",
+  "name": "Sake (Japanese rice wine)",
+  "category": "alcohol",
+  "subcategory": "wine",
+  "variants": [
+   "futsushu (regular)",
+   "warm",
+   "chilled"
+  ],
+  "defaultServingML": 180,
+  "commonServingsML": [
+   45,
+   90,
+   180,
+   300,
+   720
+  ],
+  "per100mL": {
+   "waterG": 81.1,
+   "energyKcal": 105.3,
+   "sugarG": null,
+   "carbsG": 4.82,
+   "proteinG": 0.39,
+   "fatG": 0.0,
+   "sodiumMg": 2.0,
+   "potassiumMg": 4.9,
+   "caffeineMg": 0.0,
+   "alcoholG": 12.1
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 15.3,
+  "hydrationFactor": null,
+  "densityGPerML": 0.984,
+  "source": {
+   "name": "Japan Standard Tables of Food Composition (8th rev., 2023 suppl.), MEXT: food 16001, sake, regular (futsushu)",
+   "fdcId": null,
+   "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=16_16001_7",
+   "crossCheck": "USDA SR 'Alcoholic beverage, rice (sake)' (167723) gives 16.1 g alcohol and 134 kcal per 100 g, implying ~20% ABV, which is atypical (flagged in Part B); not used."
+  },
+  "brandExamples": [],
+  "confidence": "medium",
+  "notes": "MEXT per 100 g: 82.4 g water, 107 kcal, 0.4 g protein, 4.9 g carbohydrate (2.5 g available carbohydrate as monosaccharides), 2 mg Na, 5 mg K, 12.3 g ethanol. Converted with USDA's sake density (29.1 g per fl oz = 0.984 g/mL): 12.1 g ethanol/100 mL = 15.3% ABV, matching typical 15-16% labels. A 180 mL go (the traditional serving) = 21.8 g ethanol = 1.6 US standard drinks. Sugar is not reported separately (null). Premium grades (junmai, ginjo) are similar.",
+  "region": "JP"
+ },
+ {
+  "id": "alc_soju",
+  "name": "Soju (Korean, green bottle)",
+  "category": "alcohol",
+  "subcategory": "spirits",
+  "variants": [
+   "Chamisul Fresh",
+   "Chum Churum",
+   "fruit soju (~13%)"
+  ],
+  "defaultServingML": 360,
+  "commonServingsML": [
+   50,
+   360
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": null,
+   "sugarG": null,
+   "carbsG": null,
+   "proteinG": null,
+   "fatG": null,
+   "sodiumMg": null,
+   "potassiumMg": null,
+   "caffeineMg": 0,
+   "alcoholG": 12.62
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 16.0,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "Label ABV: Jinro Chamisul Fresh 360 mL, 16% (LCBO product listing)",
+   "fdcId": null,
+   "url": "https://www.lcbo.com/en/jinro-chamisul-fresh-13612",
+   "crossCheck": "ABV varies by market and year: 15.7-17.8% for 'fresh' green-bottle soju; flavored fruit soju ~12-13%. A UK retailer panel lists 95 kcal/100 mL for a 16.9% Chamisul Fresh."
+  },
+  "brandExamples": [
+   "Jinro Chamisul",
+   "Lotte Chum Churum"
+  ],
+  "confidence": "low",
+  "notes": "Only the alcohol is sourced: 16% ABV x 0.789 = 12.6 g ethanol/100 mL, so a 360 mL bottle holds ~45 g ethanol (3.2 US standard drinks) and a 50 mL soju glass ~6.3 g. Ethanol alone supplies ~88 kcal/100 mL; total energy, sugar and water were not found from a primary source, so they are null. Flavored soju (~13%, sweetened) has more sugar and less alcohol.",
+  "region": "KR"
+ },
+ {
+  "id": "alc_sangria",
+  "name": "Sangria (red)",
+  "category": "alcohol",
+  "subcategory": "cocktail",
+  "variants": [
+   "red",
+   "white / rosé"
+  ],
+  "defaultServingML": 228,
+  "commonServingsML": [
+   150,
+   228,
+   355
+  ],
+  "per100mL": {
+   "waterG": 84.5,
+   "energyKcal": 85.0,
+   "sugarG": 6.14,
+   "carbsG": 7.23,
+   "proteinG": 0.04,
+   "fatG": 0.02,
+   "sodiumMg": 10.0,
+   "potassiumMg": 68.0,
+   "caffeineMg": 0.0,
+   "alcoholG": 8.0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 10.1,
+  "hydrationFactor": null,
+  "densityGPerML": 1.0,
+  "source": {
+   "name": "USDA FoodData Central (FNDDS 2021-2023)",
+   "fdcId": "2710695",
+   "url": "https://fdc.nal.usda.gov/food-details/2710695/nutrients",
+   "description": "Sangria, red",
+   "crossCheck": "FNDDS 'Sangria, white' (2710696): 83 kcal, 6.3 g sugar, 7.9 g alcohol per 100 g."
+  },
+  "brandExamples": [],
+  "confidence": "medium",
+  "notes": "FNDDS recipe: 750 g red table wine + 6 fl oz liqueur + 16 fl oz club soda + lemon juice + 1/8 cup sugar. Per 100 g: 85 kcal, 6.1 g sugar, 8.0 g ethanol (density assumed 1.00, since sugar and ethanol roughly offset) = 10.1% ABV. One FNDDS glass (228 g) = 18 g ethanol = 1.3 US standard drinks. Fruit pieces are not drunk and are not included. Pitcher recipes vary (more juice means less alcohol and more sugar).",
+  "region": "ES"
+ },
+ {
+  "id": "alc_mojito",
+  "name": "Mojito",
+  "category": "alcohol",
+  "subcategory": "cocktail",
+  "variants": [
+   "classic",
+   "flavored"
+  ],
+  "defaultServingML": 225,
+  "commonServingsML": [
+   225,
+   300,
+   355
+  ],
+  "per100mL": {
+   "waterG": 89.8,
+   "energyKcal": 61.0,
+   "sugarG": 1.82,
+   "carbsG": 2.45,
+   "proteinG": 0.09,
+   "fatG": 0.03,
+   "sodiumMg": 15.0,
+   "potassiumMg": 19.0,
+   "caffeineMg": 0.0,
+   "alcoholG": 7.6
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 9.6,
+  "hydrationFactor": null,
+  "densityGPerML": 1.0,
+  "source": {
+   "name": "USDA FoodData Central (FNDDS 2021-2023)",
+   "fdcId": "2710644",
+   "url": "https://fdc.nal.usda.gov/food-details/2710644/nutrients",
+   "description": "Mojito"
+  },
+  "brandExamples": [],
+  "confidence": "medium",
+  "notes": "FNDDS recipe: 2 fl oz 80-proof rum + 5.5 fl oz club soda + 16 g lime + 1 tsp sugar + an herb sprig (FNDDS uses cilantro as the herb stand-in for mint). Per 100 g: 61 kcal, 1.8 g sugar, 7.6 g ethanol (density assumed 1.00) = 9.6% ABV. One drink (225 g) = 17 g ethanol = 1.2 US standard drinks. Bar mojitos made with simple syrup are often sweeter."
+ },
+ {
+  "id": "alc_cosmopolitan",
+  "name": "Cosmopolitan",
+  "category": "alcohol",
+  "subcategory": "cocktail",
+  "variants": [
+   "classic"
+  ],
+  "defaultServingML": 100,
+  "commonServingsML": [
+   100,
+   120,
+   150
+  ],
+  "per100mL": {
+   "waterG": 74.0,
+   "energyKcal": 151.3,
+   "sugarG": 9.14,
+   "carbsG": 10.69,
+   "proteinG": 0.07,
+   "fatG": 0.06,
+   "sodiumMg": 1.5,
+   "potassiumMg": 23.4,
+   "caffeineMg": 0.0,
+   "alcoholG": 15.86
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 20.1,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "Composite from USDA: 40 mL 80-proof vodka (SR 174818) + 15 mL orange liqueur (FNDDS 'Liqueur' 2710623, which lists triple sec) + 15 mL lime juice (SR 168156) + 30 mL cranberry juice cocktail (SR 171903)",
+   "fdcId": "174818",
+   "url": "https://fdc.nal.usda.gov/food-details/174818/nutrients",
+   "crossCheck": "FNDDS 'Martini, flavored' (2710640) names cosmopolitan among its descriptions, but its recipe is 3.5 fl oz spirit with only a teaspoon of cranberry, so it was not used."
+  },
+  "brandExamples": [],
+  "confidence": "medium",
+  "notes": "Recipe (IBA-style): 40 mL vodka + 15 mL triple sec/Cointreau + 15 mL lime juice + 30 mL cranberry juice cocktail = 100 mL before ice dilution (ignored, as in Part B's composites). Densities: vodka 0.948, liqueur 1.014 (FNDDS 30 g/fl oz), lime 1.041 and cranberry 1.069 (USDA portion weights). Per 100 mL drink: 151 kcal, 9.1 g sugar, 15.9 g ethanol = 1.1 US standard drinks. The generic FNDDS liqueur is ~27% ABV; real Cointreau is 40%, which would add ~1.5 g ethanol per drink."
+ },
+ {
+  "id": "alc_mimosa",
+  "name": "Mimosa",
+  "category": "alcohol",
+  "subcategory": "cocktail",
+  "variants": [
+   "classic",
+   "brunch"
+  ],
+  "defaultServingML": 180,
+  "commonServingsML": [
+   125,
+   150,
+   180
+  ],
+  "per100mL": {
+   "waterG": 87.6,
+   "energyKcal": 64.0,
+   "sugarG": 4.67,
+   "carbsG": 6.49,
+   "proteinG": 0.43,
+   "fatG": 0.18,
+   "sodiumMg": 4.0,
+   "potassiumMg": 128.0,
+   "caffeineMg": 0.0,
+   "alcoholG": 5.0
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 6.3,
+  "hydrationFactor": null,
+  "densityGPerML": 1.0,
+  "source": {
+   "name": "USDA FoodData Central (FNDDS 2021-2023)",
+   "fdcId": "2710642",
+   "url": "https://fdc.nal.usda.gov/food-details/2710642/nutrients",
+   "description": "Mimosa (champagne and orange juice)"
+  },
+  "brandExamples": [],
+  "confidence": "medium",
+  "notes": "FNDDS recipe: 3 fl oz orange juice + 88 g wine (FNDDS uses white table wine for the sparkling-wine component). Per 100 g: 64 kcal, 4.7 g sugar, 128 mg potassium, 5.0 g ethanol (density 1.00 assumed) = 6.3% ABV. One FNDDS drink (180 g) = 9 g ethanol = 0.6 US standard drinks. A 50/50 flute with Prosecco is similar; more wine raises the alcohol."
+ },
+ {
+  "id": "alc_aperol_spritz",
+  "name": "Aperol Spritz",
+  "category": "alcohol",
+  "subcategory": "cocktail",
+  "variants": [
+   "classic 3-2-1"
+  ],
+  "defaultServingML": 180,
+  "commonServingsML": [
+   180,
+   250
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 90.3,
+   "sugarG": 9.2,
+   "carbsG": 9.85,
+   "proteinG": 0.03,
+   "fatG": 0.0,
+   "sodiumMg": null,
+   "potassiumMg": null,
+   "caffeineMg": 0.0,
+   "alcoholG": 7.62
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 9.7,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "Composite: 90 mL Prosecco (USDA FNDDS 'Wine, sparkling' 2710687) + 60 mL Aperol (EU label: 159 kcal, 26.1 g sugar per 100 mL, 11% vol) + 30 mL club soda (USDA SR 174842)",
+   "fdcId": "2710687",
+   "url": "https://www.delicando.com/en/products/10813-aperol-aperitivo-11-vol-07l",
+   "crossCheck": "The same Aperol per-100 mL panel is reproduced by the Frankfurt Airport shop listing (159.2 kcal, 26.13 g sugar, 0.05 g salt)."
+  },
+  "brandExamples": [
+   "Aperol"
+  ],
+  "confidence": "medium",
+  "notes": "Recipe (official 3-2-1): 90 mL Prosecco + 60 mL Aperol + 30 mL soda = 180 mL, ice ignored. Per drink: 163 kcal, 16.6 g sugar (mostly from Aperol), 13.7 g ethanol = 1.0 US standard drinks; ~9.7% ABV in the glass. Water, sodium and potassium are null because Aperol's label gives no water or potassium (its 0.05 g salt/100 mL implies ~20 mg Na but was not used). Prosecco density assumed 0.995.",
+  "region": "IT"
+ },
+ {
+  "id": "alc_moscow_mule",
+  "name": "Moscow Mule",
+  "category": "alcohol",
+  "subcategory": "cocktail",
+  "variants": [
+   "classic",
+   "Kentucky mule"
+  ],
+  "defaultServingML": 225,
+  "commonServingsML": [
+   225,
+   300,
+   355
+  ],
+  "per100mL": {
+   "waterG": 83.1,
+   "energyKcal": 91.0,
+   "sugarG": 8.71,
+   "carbsG": 8.6,
+   "proteinG": 0.0,
+   "fatG": 0.01,
+   "sodiumMg": 5.0,
+   "potassiumMg": 1.0,
+   "caffeineMg": 0.0,
+   "alcoholG": 8.3
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 10.5,
+  "hydrationFactor": null,
+  "densityGPerML": 1.0,
+  "source": {
+   "name": "USDA FoodData Central (FNDDS 2021-2023)",
+   "fdcId": "2710645",
+   "url": "https://fdc.nal.usda.gov/food-details/2710645/nutrients",
+   "description": "Moscow mule (cocktail with ginger beer)"
+  },
+  "brandExamples": [],
+  "confidence": "medium",
+  "notes": "FNDDS recipe: 56 g 80-proof vodka (2 fl oz) + 165 g ginger ale + 5 g sugar (USDA has no ginger beer record, so ginger ale plus sugar stands in for the sweeter ginger beer); lime is not included. Per 100 g: 91 kcal, 8.7 g sugar, 8.3 g ethanol (density 1.00 assumed) = 10.5% ABV. One drink (225 g) = 18.7 g ethanol = 1.3 US standard drinks."
+ },
+ {
+  "id": "alc_bloody_mary",
+  "name": "Bloody Mary",
+  "category": "alcohol",
+  "subcategory": "cocktail",
+  "variants": [
+   "classic",
+   "Caesar (with Clamato)"
+  ],
+  "defaultServingML": 225,
+  "commonServingsML": [
+   225,
+   300,
+   355
+  ],
+  "per100mL": {
+   "waterG": 88.5,
+   "energyKcal": 74.5,
+   "sugarG": 2.31,
+   "carbsG": 3.88,
+   "proteinG": 0.68,
+   "fatG": 0.23,
+   "sodiumMg": 204.0,
+   "potassiumMg": 169.3,
+   "caffeineMg": 0.0,
+   "alcoholG": 7.96
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 10.1,
+  "hydrationFactor": null,
+  "densityGPerML": 1.02,
+  "source": {
+   "name": "USDA FoodData Central (FNDDS 2021-2023)",
+   "fdcId": "2710628",
+   "url": "https://fdc.nal.usda.gov/food-details/2710628/nutrients",
+   "description": "Bloody Mary"
+  },
+  "brandExamples": [],
+  "confidence": "medium",
+  "notes": "FNDDS recipe: 2 fl oz 80-proof spirit + 5.5 fl oz seasoned tomato juice + Worcestershire, horseradish and chili. Per 100 g: 73 kcal, 2.3 g sugar, 200 mg sodium, 166 mg potassium, 7.8 g ethanol. Density 1.02 assumed (tomato-juice base ~1.03, offset by ethanol) = 10.1% ABV. One drink (225 g) = 17.6 g ethanol = 1.3 US standard drinks and ~450 mg sodium. A Canadian Caesar made with Clamato is saltier still."
+ },
+ {
+  "id": "alc_mulled_wine",
+  "name": "Mulled wine (glühwein / glögg)",
+  "category": "alcohol",
+  "subcategory": "wine",
+  "variants": [
+   "glühwein",
+   "glögg",
+   "hot"
+  ],
+  "defaultServingML": 150,
+  "commonServingsML": [
+   150,
+   200,
+   250
+  ],
+  "per100mL": {
+   "waterG": 83.2,
+   "energyKcal": 96.0,
+   "sugarG": 4.15,
+   "carbsG": 6.24,
+   "proteinG": 0.1,
+   "fatG": 0.14,
+   "sodiumMg": 4.0,
+   "potassiumMg": 125.0,
+   "caffeineMg": 0.0,
+   "alcoholG": 10.1
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 12.8,
+  "hydrationFactor": null,
+  "densityGPerML": 1.0,
+  "source": {
+   "name": "USDA FoodData Central (FNDDS 2021-2023)",
+   "fdcId": "2710698",
+   "url": "https://fdc.nal.usda.gov/food-details/2710698/nutrients",
+   "description": "Glug (gluhwein, mulled wine, glogg)"
+  },
+  "brandExamples": [],
+  "confidence": "medium",
+  "notes": "FNDDS recipe: 147 g red table wine + 1 tsp honey + nutmeg; per 100 g 96 kcal, 4.2 g sugar, 10.1 g ethanol (density 1.00 assumed) = 12.8% ABV. Commercial Christmas-market glühwein is often sweeter and weaker (around 7-10% ABV); Nordic glögg with added spirits can be stronger. One 150 mL mug of the FNDDS recipe = 15 g ethanol = 1.1 US standard drinks.",
+  "region": "DE/Nordic"
+ },
+ {
+  "id": "alc_long_island_iced_tea",
+  "name": "Long Island Iced Tea",
+  "category": "alcohol",
+  "subcategory": "cocktail",
+  "variants": [
+   "classic"
+  ],
+  "defaultServingML": 225,
+  "commonServingsML": [
+   225,
+   355,
+   473
+  ],
+  "per100mL": {
+   "waterG": 80.7,
+   "energyKcal": 107.0,
+   "sugarG": 8.43,
+   "carbsG": 8.66,
+   "proteinG": 0.01,
+   "fatG": 0.15,
+   "sodiumMg": 16.0,
+   "potassiumMg": 7.0,
+   "caffeineMg": 5.0,
+   "alcoholG": 10.4
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 13.2,
+  "hydrationFactor": null,
+  "densityGPerML": 1.0,
+  "source": {
+   "name": "USDA FoodData Central (FNDDS 2021-2023)",
+   "fdcId": "2710679",
+   "url": "https://fdc.nal.usda.gov/food-details/2710679/nutrients",
+   "description": "Long Island iced tea"
+  },
+  "brandExamples": [],
+  "confidence": "medium",
+  "notes": "FNDDS recipe: 2.5 fl oz mixed 80-proof spirits + 1 fl oz sour mix + 124 g cola. Per 100 g: 107 kcal, 8.4 g sugar, 5 mg caffeine (from the cola), 10.4 g ethanol (density 1.00 assumed) = 13.2% ABV. One drink (225 g) = 23 g ethanol = 1.7 US standard drinks; bar versions with five half-ounce spirits are similar or stronger. Listed as a Part B v2 gap."
+ },
+ {
+  "id": "alc_coffee_liqueur",
+  "name": "Coffee liqueur (Kahlúa-type)",
+  "category": "alcohol",
+  "subcategory": "spirits",
+  "variants": [
+   "neat",
+   "in White Russian / espresso martini"
+  ],
+  "defaultServingML": 44,
+  "commonServingsML": [
+   30,
+   44,
+   60
+  ],
+  "per100mL": {
+   "waterG": 36.5,
+   "energyKcal": 363.4,
+   "sugarG": 45.08,
+   "carbsG": 55.08,
+   "proteinG": 0.12,
+   "fatG": 0.35,
+   "sodiumMg": 9.4,
+   "potassiumMg": 35.3,
+   "caffeineMg": 30.6,
+   "alcoholG": 20.91
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 26.5,
+  "hydrationFactor": null,
+  "densityGPerML": 1.177,
+  "source": {
+   "name": "USDA FoodData Central (SR Legacy)",
+   "fdcId": "175097",
+   "url": "https://fdc.nal.usda.gov/food-details/175097/nutrients",
+   "description": "Alcoholic beverage, liqueur, coffee, 53 proof",
+   "crossCheck": "FNDDS 'Liqueur, coffee flavored' (2710625; Kahlua, Tia Maria) reproduces the SR values."
+  },
+  "brandExamples": [
+   "Kahlúa",
+   "Tia Maria"
+  ],
+  "confidence": "low",
+  "notes": "USDA SR per 100 g: 38.3 g sugar, 46.8 g carbs, 26 mg caffeine, 21.7 g alcohol, 336 kcal; density 1.177 g/mL from USDA's 34.8 g per fl oz. ALCOHOL INCONSISTENCY: 21.7 g/100 g x 1.177 would mean ~32% ABV, but the record is labelled 53 proof (26.5%). alcoholG therefore uses the stated proof (26.5% x 0.789 = 20.9 g/100 mL), and energy = USDA non-alcohol energy (336 - 21.7 x 6.93) x density + 20.9 g x 6.93. Current US Kahlúa and Tia Maria are 20% ABV (~16 g/100 mL), so this overstates alcohol for them. Caffeine ~13 mg per 1.5 fl oz pour."
+ },
+ {
+  "id": "alc_cream_liqueur",
+  "name": "Cream liqueur (Baileys-type)",
+  "category": "alcohol",
+  "subcategory": "spirits",
+  "variants": [
+   "Irish cream",
+   "neat",
+   "on ice"
+  ],
+  "defaultServingML": 44,
+  "commonServingsML": [
+   30,
+   44,
+   60
+  ],
+  "per100mL": {
+   "waterG": 48.9,
+   "energyKcal": 344.0,
+   "sugarG": 20.83,
+   "carbsG": 21.99,
+   "proteinG": 2.95,
+   "fatG": 16.52,
+   "sodiumMg": 96.8,
+   "potassiumMg": 33.7,
+   "caffeineMg": 8.4,
+   "alcoholG": 14.52
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 18.4,
+  "hydrationFactor": null,
+  "densityGPerML": 1.052,
+  "source": {
+   "name": "USDA FoodData Central (SR Legacy)",
+   "fdcId": "175098",
+   "url": "https://fdc.nal.usda.gov/food-details/175098/nutrients",
+   "description": "Alcoholic beverage, liqueur, coffee with cream, 34 proof",
+   "crossCheck": "FNDDS 'Liqueur, cream' (2710624; lists Bailey's Irish Cream, RumChata) is a recipe estimate with 33.5 g sugar and 2.7 g fat per 100 g and ~25% ABV, less like Baileys than the SR record."
+  },
+  "brandExamples": [
+   "Baileys Original Irish Cream",
+   "Carolans",
+   "Kerrygold"
+  ],
+  "confidence": "medium",
+  "notes": "USDA SR per 100 g: 327 kcal, 19.8 g sugar, 15.7 g fat, 2.8 g protein, 92 mg sodium, 8 mg caffeine, 13.8 g alcohol; density 1.052 from USDA's 31.1 g per fl oz. The computed 14.5 g ethanol/100 mL = 18.4% ABV is slightly above the record's stated 34 proof (17%) and Baileys' 17%, so standard-drink counts are ~8% conservative. A 1.5 fl oz (44 mL) pour = 6.4 g ethanol (0.5 US standard drink) and ~150 kcal."
+ },
+ {
+  "id": "alc_port",
+  "name": "Port / sweet fortified wine",
+  "category": "alcohol",
+  "subcategory": "wine",
+  "variants": [
+   "port",
+   "cream sherry",
+   "Madeira",
+   "Marsala"
+  ],
+  "defaultServingML": 90,
+  "commonServingsML": [
+   60,
+   90,
+   103
+  ],
+  "per100mL": {
+   "waterG": 70.3,
+   "energyKcal": 159.6,
+   "sugarG": 7.76,
+   "carbsG": 13.67,
+   "proteinG": 0.2,
+   "fatG": 0.0,
+   "sodiumMg": 9.0,
+   "potassiumMg": 91.8,
+   "caffeineMg": 0.0,
+   "alcoholG": 15.26
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 19.3,
+  "hydrationFactor": null,
+  "densityGPerML": 0.9975,
+  "source": {
+   "name": "USDA FoodData Central (SR Legacy)",
+   "fdcId": "173176",
+   "url": "https://fdc.nal.usda.gov/food-details/173176/nutrients",
+   "description": "Alcoholic beverage, wine, dessert, sweet",
+   "crossCheck": "FNDDS 'Wine, dessert, sweet' (2710692; lists sherry, port) reproduces the SR values."
+  },
+  "brandExamples": [
+   "Graham's",
+   "Taylor Fladgate",
+   "Sandeman"
+  ],
+  "confidence": "high",
+  "notes": "USDA SR per 100 g: 160 kcal, 7.8 g sugar, 13.7 g carbs, 15.3 g alcohol; density 0.9975 from USDA's 29.5 g per fl oz gives 15.3 g ethanol/100 mL = 19.3% ABV (port is typically 19-20%). A 3 fl oz (90 mL) pour = 13.7 g ethanol = 1 US standard drink. Dry fortified wines (fino sherry, dry vermouth): USDA 'wine, dessert, dry' (175112) has less sugar.",
+  "region": "PT/ES"
+ },
+ {
+  "id": "alc_hard_kombucha",
+  "name": "Hard kombucha (~6% ABV)",
+  "category": "alcohol",
+  "subcategory": "flavored malt beverage",
+  "variants": [
+   "various flavors"
+  ],
+  "defaultServingML": 355,
+  "commonServingsML": [
+   355,
+   473
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 43.7,
+   "sugarG": 1.41,
+   "carbsG": 2.25,
+   "proteinG": null,
+   "fatG": null,
+   "sodiumMg": 12.7,
+   "potassiumMg": null,
+   "caffeineMg": null,
+   "alcoholG": 4.73
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 6.0,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "JuneShine Ocean Squeeze product page (manufacturer nutrition panel)",
+   "fdcId": null,
+   "url": "https://juneshine.com/products/ocean-squeeze-1",
+   "crossCheck": "Other JuneShine flavors (manufacturer pages, via search): 105-155 kcal, 2-5 g sugar, 6-8 g carbs per 12 oz, all 6% ABV."
+  },
+  "brandExamples": [
+   "JuneShine",
+   "Flying Embers",
+   "Boochcraft (7%)"
+  ],
+  "confidence": "medium",
+  "notes": "Manufacturer panel per 12 fl oz (355 mL): 155 kcal, 8 g carbs, 5 g sugar, 45 mg sodium, 6% ABV (4.7 g ethanol/100 mL; 16.8 g per can = 1.2 US standard drinks). Made on a fermented green-tea base, so some caffeine is likely, but none is declared (null). Water and protein are not on the panel (null). Non-alcoholic kombucha (<0.5%) is other_kombucha.",
+  "region": "US"
+ },
+ {
+  "id": "alc_beer_stout",
+  "name": "Stout, nitro draught (Guinness-type, 4.2%)",
+  "category": "alcohol",
+  "subcategory": "beer",
+  "variants": [
+   "draught can",
+   "on tap"
+  ],
+  "defaultServingML": 568,
+  "commonServingsML": [
+   330,
+   355,
+   440,
+   473,
+   568
+  ],
+  "per100mL": {
+   "waterG": null,
+   "energyKcal": 35.2,
+   "sugarG": null,
+   "carbsG": 2.82,
+   "proteinG": 0.28,
+   "fatG": null,
+   "sodiumMg": null,
+   "potassiumMg": null,
+   "caffeineMg": 0,
+   "alcoholG": 3.31
+  },
+  "caffeineRangePer100mL": null,
+  "abvPercent": 4.2,
+  "hydrationFactor": null,
+  "densityGPerML": null,
+  "source": {
+   "name": "Guinness Draught published values via secondary sources (Healthline; Food Republic)",
+   "fdcId": null,
+   "url": "https://www.healthline.com/nutrition/guinness-abv",
+   "crossCheck": "Food Republic: 125 kcal per 12 oz (https://www.foodrepublic.com/1292700/does-guinness-really-have-as-many-calories-as-bud-light); FatSecret and CalorieKing entries: 126 kcal, 9.4-10 g carbs per 12 oz."
+  },
+  "brandExamples": [
+   "Guinness Draught",
+   "Murphy's",
+   "Beamish"
+  ],
+  "confidence": "low",
+  "notes": "Per 12 fl oz (355 mL): ~125 kcal, ~10 g carbs, ~1 g protein, 4.2% ABV (3.3 g ethanol/100 mL). An imperial pint (568 mL) = 18.8 g ethanol = 2.4 UK units / 1.3 US standard drinks, ~200 kcal. Lower in alcohol and calories than its dark color suggests (less than a regular 5% lager). No primary Diageo panel was read, so values are low confidence; sugar, fat, sodium, potassium and water are null. Foreign Extra Stout (7.5%) is much stronger.",
+  "region": "IE/UK"
+ }
+]

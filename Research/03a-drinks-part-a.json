@@ -1,0 +1,3711 @@
+[
+  {
+    "id": "water_tap",
+    "name": "Tap water",
+    "category": "water",
+    "subcategory": "still",
+    "variants": [
+      "tap"
+    ],
+    "defaultServingML": 250,
+    "commonServingsML": [
+      237,
+      250,
+      330,
+      500,
+      591,
+      750,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.9,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 4.0,
+      "potassiumMg": 0.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "173647",
+      "description": "Beverages, water, tap, drinking",
+      "url": "https://fdc.nal.usda.gov/food-details/173647/nutrients",
+      "crossCheck": "FNDDS \"Water, tap\" (FDC 2710707) identical values."
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [],
+    "confidence": "high",
+    "notes": "Municipal tap water; sodium varies by locality (USDA lists 4 mg/100 g; well water 5, municipal 3). Minerals other than Na/K vary widely and are not tracked. Converted from per-100 g using density 1.0 g/mL (taken as 1.000; USDA 8 fl oz = 237 g).",
+    "quickPick": true,
+    "quickPickRank": 1
+  },
+  {
+    "id": "water_bottled_still",
+    "name": "Bottled water (still)",
+    "category": "water",
+    "subcategory": "still",
+    "variants": [
+      "bottled"
+    ],
+    "defaultServingML": 500,
+    "commonServingsML": [
+      237,
+      250,
+      330,
+      500,
+      591,
+      750,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 100.0,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 2.0,
+      "potassiumMg": 0.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "174158",
+      "description": "Water, bottled, generic",
+      "url": "https://fdc.nal.usda.gov/food-details/174158/nutrients",
+      "crossCheck": "FNDDS \"Water, bottled, plain\" (FDC 2710708): Na 2 mg/100 g."
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Dasani",
+      "Aquafina",
+      "Poland Spring",
+      "Evian",
+      "Fiji"
+    ],
+    "confidence": "high",
+    "notes": "Generic non-carbonated bottled water. Brand mineral content differs (e.g. USDA Evian/Aquafina/Dasani all list ~0 mg Na/100 g). Converted from per-100 g using density 1.0 g/mL (taken as 1.000).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "water_sparkling_plain",
+    "name": "Sparkling water / seltzer (unflavored)",
+    "category": "water",
+    "subcategory": "sparkling",
+    "variants": [
+      "plain",
+      "unsweetened"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.9,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 21.0,
+      "potassiumMg": 2.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2710539",
+      "description": "Water, carbonated, plain",
+      "url": "https://fdc.nal.usda.gov/food-details/2710539/nutrients"
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Polar Seltzer",
+      "Topo Chico (mineral)",
+      "store-brand seltzer"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS lumps club soda and unflavored seltzer together and carries the club-soda sodium value (21 mg/100 g). True seltzer is usually carbonated water with ~0 mg sodium, so sodium here is an upper estimate for seltzer. Converted from per-100 g using density 1.0 g/mL (taken as 1.000 (USDA SR club soda: 12 fl oz can = 355 g); FNDDS itself rounds to 30 g/fl oz).",
+    "quickPick": true,
+    "quickPickRank": 2
+  },
+  {
+    "id": "water_sparkling_flavored",
+    "name": "Flavored sparkling water (unsweetened)",
+    "category": "water",
+    "subcategory": "sparkling",
+    "variants": [
+      "flavored",
+      "zero calorie"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.8,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.0,
+      "proteinG": 0.1,
+      "fatG": 0.0,
+      "sodiumMg": 6.0,
+      "potassiumMg": 2.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2710540",
+      "description": "Water, carbonated, flavored",
+      "url": "https://fdc.nal.usda.gov/food-details/2710540/nutrients"
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "LaCroix",
+      "Bubly",
+      "Spindrift (contains a little juice)",
+      "Waterloo"
+    ],
+    "confidence": "medium",
+    "notes": "Zero-calorie essence-flavored seltzers. FNDDS borrows the diet non-cola soda profile (0 kcal, Na 6 mg/100 g). Juice-containing brands such as Spindrift add ~1-2 g sugar per can; not covered here. Converted from per-100 g using density 1.0 g/mL (taken as 1.000 (zero-sugar carbonated water)).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "water_mineral_sparkling",
+    "name": "Sparkling mineral water",
+    "category": "water",
+    "subcategory": "mineral",
+    "variants": [
+      "sparkling",
+      "low mineral"
+    ],
+    "defaultServingML": 330,
+    "commonServingsML": [
+      192,
+      330,
+      500,
+      750,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.9,
+      "energyKcal": 0,
+      "sugarG": null,
+      "carbsG": 0.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 1.0,
+      "potassiumMg": 0.0,
+      "caffeineMg": null
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "173233",
+      "description": "Beverages, water, bottled, PERRIER",
+      "url": "https://fdc.nal.usda.gov/food-details/173233/nutrients"
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Perrier",
+      "San Pellegrino"
+    ],
+    "confidence": "high",
+    "notes": "USDA analysis of Perrier; the record does not report sugars or caffeine (null; expected 0). Mineral waters differ widely in sodium, calcium and magnesium; see high-mineral entry for a contrast. Converted from per-100 g using density 1.0 g/mL (USDA: 1 fl oz = 29.6 g, 11 fl oz bottle = 325 g, i.e. ~1.00).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "water_mineral_high",
+    "name": "Mineral water (high mineral)",
+    "category": "water",
+    "subcategory": "mineral",
+    "variants": [
+      "sparkling",
+      "high mineral"
+    ],
+    "defaultServingML": 500,
+    "commonServingsML": [
+      250,
+      330,
+      500,
+      750,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 100.0,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 13.0,
+      "potassiumMg": 2.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "174827",
+      "description": "Beverages, GEROLSTEINER BRUNNEN GmbH & Co. KG,Gerolsteiner naturally sparkling mineral water,",
+      "url": "https://fdc.nal.usda.gov/food-details/174827/nutrients"
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Gerolsteiner"
+    ],
+    "confidence": "high",
+    "notes": "USDA entry for Gerolsteiner naturally sparkling mineral water (Na 13 mg/100 g). Cross-check: Canadian Nutrient File \"Water, mineral, carbonated, bottled\" (code 2918) also lists Na 13 mg/100 g. Converted from per-100 g using density 1.0 g/mL (taken as 1.000).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "coconut_water",
+    "name": "Coconut water (unsweetened)",
+    "category": "water",
+    "subcategory": "coconut",
+    "variants": [
+      "unsweetened"
+    ],
+    "defaultServingML": 330,
+    "commonServingsML": [
+      250,
+      330,
+      500,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 96.3,
+      "energyKcal": 18,
+      "sugarG": 4.0,
+      "carbsG": 4.3,
+      "proteinG": 0.2,
+      "fatG": 0.0,
+      "sodiumMg": 26.4,
+      "potassiumMg": 167.3,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "174831",
+      "description": "Beverages, Coconut water, ready-to-drink, unsweetened",
+      "url": "https://fdc.nal.usda.gov/food-details/174831/nutrients",
+      "crossCheck": "FNDDS FDC 2707572 and Canadian Nutrient File code 7224 carry identical values."
+    },
+    "densityGPerML": 1.014,
+    "brandExamples": [
+      "Vita Coco",
+      "Zico",
+      "Harmless Harvest"
+    ],
+    "confidence": "high",
+    "notes": "Naturally high in potassium (165 mg/100 g) with modest sodium. Brand values vary with coconut maturity and origin. Converted from per-100 g using density 1.014 g/mL (USDA SR has no portion weight; FNDDS \"Coconut water, unsweetened\" (FDC 2707572) uses 30 g per fl oz = 1.014 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "coconut_water_sweetened",
+    "name": "Coconut water (sweetened)",
+    "category": "water",
+    "subcategory": "coconut",
+    "variants": [
+      "sweetened"
+    ],
+    "defaultServingML": 330,
+    "commonServingsML": [
+      250,
+      330,
+      500,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 91.5,
+      "energyKcal": 38,
+      "sugarG": 8.9,
+      "carbsG": 9.2,
+      "proteinG": 0.2,
+      "fatG": 0.0,
+      "sodiumMg": 25.4,
+      "potassiumMg": 159.2,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2707573",
+      "description": "Coconut water, sweetened",
+      "url": "https://fdc.nal.usda.gov/food-details/2707573/nutrients"
+    },
+    "densityGPerML": 1.014,
+    "brandExamples": [
+      "Vita Coco Pressed / flavored",
+      "Goya"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS sweetened coconut water (about double the sugar of plain). Converted from per-100 g using density 1.014 g/mL (FNDDS portion: 1 fl oz = 30 g).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "cola_regular",
+    "name": "Cola",
+    "category": "soda",
+    "subcategory": "cola",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 93.0,
+      "energyKcal": 44,
+      "sugarG": 10.3,
+      "carbsG": 10.8,
+      "proteinG": 0.0,
+      "fatG": 0.3,
+      "sodiumMg": 3.1,
+      "potassiumMg": 5.2,
+      "caffeineMg": 9.4
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "174852",
+      "description": "Beverages, carbonated, cola, regular",
+      "url": "https://fdc.nal.usda.gov/food-details/174852/nutrients",
+      "crossCheck": "Canadian Nutrient File \"Carbonated drinks, cola\" (5288): 41 kcal, sugars 10.75 g, caffeine 9 mg per 100 g. FNDDS \"Soft drink, cola\" (2710541) identical to SR."
+    },
+    "densityGPerML": 1.04,
+    "brandExamples": [
+      "Coca-Cola",
+      "Pepsi",
+      "RC Cola"
+    ],
+    "confidence": "high",
+    "notes": "Generic sugar-sweetened cola (USDA SR Legacy, analytical; 12 water samples). Caffeine 9 mg/100 g = ~33 mg per 12 fl oz can, in line with Coca-Cola (34 mg) and Pepsi (38 mg). For brand-exact caffeine use the brand entries. Converted from per-100 g using density 1.04 g/mL (USDA portion weights for FDC 174852 imply 1.04 g/mL).",
+    "quickPick": true,
+    "quickPickRank": 7
+  },
+  {
+    "id": "cola_diet",
+    "name": "Diet cola",
+    "category": "soda",
+    "subcategory": "cola",
+    "variants": [
+      "diet",
+      "zero sugar"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.5,
+      "energyKcal": 2,
+      "sugarG": 0.0,
+      "carbsG": 0.3,
+      "proteinG": 0.1,
+      "fatG": 0.0,
+      "sodiumMg": 8.0,
+      "potassiumMg": 8.0,
+      "caffeineMg": 12.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "175099",
+      "description": "Beverages, carbonated, low calorie, cola or pepper-type, with aspartame, contains caffeine",
+      "url": "https://fdc.nal.usda.gov/food-details/175099/nutrients",
+      "crossCheck": "Canadian Nutrient File \"Carbonated drinks, cola with aspartame\" (2926): identical values."
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Diet Coke",
+      "Coke Zero Sugar",
+      "Diet Pepsi",
+      "Pepsi Zero Sugar"
+    ],
+    "confidence": "high",
+    "notes": "USDA generic aspartame-sweetened caffeinated cola/pepper-type. Caffeine 12 mg/100 g (~43 mg/can) sits between Coke Zero Sugar (34 mg) and Diet Coke (46 mg); brand entries are more exact. Zero-sugar colas are nutritionally the same category (0 kcal, trace sodium). Converted from per-100 g using density 1.0 g/mL (USDA: 12 fl oz can = 355 g (fountain servings with ice excluded)).",
+    "quickPick": true,
+    "quickPickRank": 8
+  },
+  {
+    "id": "cola_caffeine_free",
+    "name": "Cola, caffeine-free",
+    "category": "soda",
+    "subcategory": "cola",
+    "variants": [
+      "regular",
+      "caffeine-free"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 93.0,
+      "energyKcal": 43,
+      "sugarG": 11.0,
+      "carbsG": 11.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 4.2,
+      "potassiumMg": 3.1,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "174851",
+      "description": "Beverages, carbonated, cola, without caffeine",
+      "url": "https://fdc.nal.usda.gov/food-details/174851/nutrients",
+      "crossCheck": "Canadian Nutrient File \"Carbonated drinks, cola, decaffeinated\" (4980)."
+    },
+    "densityGPerML": 1.038,
+    "brandExamples": [
+      "Caffeine Free Coca-Cola",
+      "Caffeine Free Pepsi"
+    ],
+    "confidence": "high",
+    "notes": "Sugar-sweetened cola without caffeine. Converted from per-100 g using density 1.038 g/mL (USDA portion weights for FDC 174851 imply 1.038 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "cola_diet_caffeine_free",
+    "name": "Diet cola, caffeine-free",
+    "category": "soda",
+    "subcategory": "cola",
+    "variants": [
+      "diet",
+      "caffeine-free"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.7,
+      "energyKcal": 1,
+      "sugarG": 0.0,
+      "carbsG": 0.1,
+      "proteinG": 0.1,
+      "fatG": 0.0,
+      "sodiumMg": 4.0,
+      "potassiumMg": 7.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "174850",
+      "description": "Beverages, carbonated, low calorie, cola or pepper-type, with aspartame, without caffeine",
+      "url": "https://fdc.nal.usda.gov/food-details/174850/nutrients"
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Caffeine Free Diet Coke",
+      "Caffeine Free Diet Pepsi",
+      "Coke Zero Sugar Zero Caffeine"
+    ],
+    "confidence": "high",
+    "notes": "Converted from per-100 g using density 1.0 g/mL (USDA: 12 fl oz can = 355 g).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "lemon_lime_soda",
+    "name": "Lemon-lime soda",
+    "category": "soda",
+    "subcategory": "lemon-lime",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 92.9,
+      "energyKcal": 43,
+      "sugarG": 10.8,
+      "carbsG": 10.8,
+      "proteinG": 0.1,
+      "fatG": 0.0,
+      "sodiumMg": 10.4,
+      "potassiumMg": 1.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "173205",
+      "description": "Beverages, carbonated, lemon-lime soda, no caffeine",
+      "url": "https://fdc.nal.usda.gov/food-details/173205/nutrients",
+      "crossCheck": "Canadian Nutrient File \"Carbonated drinks, lemon-lime soda\" (2857): 40 kcal, sugars 8.98 g/100 g."
+    },
+    "densityGPerML": 1.038,
+    "brandExamples": [
+      "Sprite",
+      "7UP",
+      "Starry",
+      "Sierra Mist (discontinued)"
+    ],
+    "confidence": "high",
+    "notes": "Caffeine-free. USDA SR generic; see Sprite brand entry for label values. Converted from per-100 g using density 1.038 g/mL (USDA portion weights for FDC 173205 imply 1.038 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "lemon_lime_soda_diet",
+    "name": "Lemon-lime soda, diet / zero",
+    "category": "soda",
+    "subcategory": "lemon-lime",
+    "variants": [
+      "diet",
+      "zero sugar"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.8,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.0,
+      "proteinG": 0.1,
+      "fatG": 0.0,
+      "sodiumMg": 6.0,
+      "potassiumMg": 2.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "173204",
+      "description": "Beverages, carbonated, low calorie, other than cola or pepper,  without caffeine",
+      "url": "https://fdc.nal.usda.gov/food-details/173204/nutrients"
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Sprite Zero Sugar",
+      "Diet 7UP / 7UP Zero Sugar"
+    ],
+    "confidence": "high",
+    "notes": "USDA generic low-calorie non-cola soda without caffeine (same record also represents diet ginger ale/root beer/orange in FNDDS). Converted from per-100 g using density 1.0 g/mL (USDA: 12 fl oz can = 355 g).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "root_beer",
+    "name": "Root beer",
+    "category": "soda",
+    "subcategory": "root beer",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 93.1,
+      "energyKcal": 43,
+      "sugarG": 11.0,
+      "carbsG": 11.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 13.5,
+      "potassiumMg": 1.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "171871",
+      "description": "Beverages, carbonated, root beer",
+      "url": "https://fdc.nal.usda.gov/food-details/171871/nutrients",
+      "crossCheck": "Canadian Nutrient File \"Carbonated drinks, root beer\" (2861): identical."
+    },
+    "densityGPerML": 1.042,
+    "brandExamples": [
+      "A&W",
+      "Barq's",
+      "Mug"
+    ],
+    "confidence": "high",
+    "notes": "USDA lists 0 mg caffeine. Note: regular Barq's Root Beer (US) is caffeinated (commonly reported ~22 mg per 12 fl oz; not verified from a primary source here), so logging Barq's with this entry under-counts caffeine. A&W and Mug are caffeine-free. Converted from per-100 g using density 1.042 g/mL (USDA portion weights for FDC 171871 imply 1.042 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "root_beer_diet",
+    "name": "Root beer, diet / zero",
+    "category": "soda",
+    "subcategory": "root beer",
+    "variants": [
+      "diet",
+      "zero sugar"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.8,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.0,
+      "proteinG": 0.1,
+      "fatG": 0.0,
+      "sodiumMg": 6.0,
+      "potassiumMg": 2.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2710558",
+      "description": "Soft drink, root beer, diet",
+      "url": "https://fdc.nal.usda.gov/food-details/2710558/nutrients"
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "A&W Zero Sugar",
+      "Diet Barq's",
+      "Diet Mug"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS maps diet root beer to the generic low-calorie non-cola soda profile (USDA SR 173204). Converted from per-100 g using density 1.0 g/mL (taken as 1.000 per USDA SR diet soda can weight (355 g/12 fl oz); FNDDS rounds to 30 g/fl oz).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "ginger_ale",
+    "name": "Ginger ale",
+    "category": "soda",
+    "subcategory": "ginger ale",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 94.0,
+      "energyKcal": 35,
+      "sugarG": 9.2,
+      "carbsG": 9.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 7.2,
+      "potassiumMg": 1.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "174846",
+      "description": "Beverages, carbonated, ginger ale",
+      "url": "https://fdc.nal.usda.gov/food-details/174846/nutrients",
+      "crossCheck": "Canadian Nutrient File \"Carbonated drinks, ginger ale\" (2855): 34 kcal, sugars 8.7 g/100 g."
+    },
+    "densityGPerML": 1.031,
+    "brandExamples": [
+      "Canada Dry",
+      "Schweppes",
+      "Seagram's"
+    ],
+    "confidence": "high",
+    "notes": "Caffeine-free; slightly less sugar than cola. Converted from per-100 g using density 1.031 g/mL (USDA portion weights for FDC 174846 imply 1.031 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "ginger_ale_diet",
+    "name": "Ginger ale, diet / zero",
+    "category": "soda",
+    "subcategory": "ginger ale",
+    "variants": [
+      "diet",
+      "zero sugar"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.8,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.0,
+      "proteinG": 0.1,
+      "fatG": 0.0,
+      "sodiumMg": 6.0,
+      "potassiumMg": 2.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2710556",
+      "description": "Soft drink, ginger ale, diet",
+      "url": "https://fdc.nal.usda.gov/food-details/2710556/nutrients"
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Canada Dry Zero Sugar",
+      "Schweppes Zero Sugar"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS maps diet ginger ale to the generic low-calorie non-cola soda profile. Converted from per-100 g using density 1.0 g/mL (taken as 1.000 per USDA SR diet soda can weight).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "orange_soda",
+    "name": "Orange soda",
+    "category": "soda",
+    "subcategory": "orange & fruit",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 91.8,
+      "energyKcal": 50,
+      "sugarG": null,
+      "carbsG": 12.9,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 12.6,
+      "potassiumMg": 2.1,
+      "caffeineMg": null
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "174854",
+      "description": "Beverages, carbonated, orange",
+      "url": "https://fdc.nal.usda.gov/food-details/174854/nutrients",
+      "crossCheck": "Canadian Nutrient File \"Carbonated drinks, orange soda\" (2858): same values, sugars also not reported."
+    },
+    "densityGPerML": 1.048,
+    "brandExamples": [
+      "Fanta Orange (US)",
+      "Sunkist",
+      "Crush"
+    ],
+    "confidence": "medium",
+    "notes": "USDA SR does not report total sugars for this record (only carbohydrate 12.3 g/100 g); in sodas essentially all carbohydrate is sugar, so carbsG is the best proxy, but sugarG is left null as the source does not state it. US Fanta Orange label: 12.3 g sugar/100 mL (see brand entry). Some Sunkist orange soda formulas are caffeinated (amount not verified here); Fanta and Crush are caffeine-free. Converted from per-100 g using density 1.048 g/mL (USDA portion weights for FDC 174854 imply 1.048 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "orange_soda_diet",
+    "name": "Orange soda, diet / zero",
+    "category": "soda",
+    "subcategory": "orange & fruit",
+    "variants": [
+      "diet",
+      "zero sugar"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.8,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.0,
+      "proteinG": 0.1,
+      "fatG": 0.0,
+      "sodiumMg": 6.0,
+      "potassiumMg": 2.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2710552",
+      "description": "Soft drink, fruit flavored, diet, caffeine free",
+      "url": "https://fdc.nal.usda.gov/food-details/2710552/nutrients"
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Fanta Zero Sugar Orange",
+      "Diet Sunkist"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS \"Soft drink, fruit flavored, diet, caffeine free\" (same profile as USDA SR 173204). Converted from per-100 g using density 1.0 g/mL (taken as 1.000 per USDA SR diet soda can weight).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "pepper_soda",
+    "name": "Pepper-style soda",
+    "category": "soda",
+    "subcategory": "pepper-style",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 92.8,
+      "energyKcal": 43,
+      "sugarG": null,
+      "carbsG": 10.8,
+      "proteinG": 0.0,
+      "fatG": 0.1,
+      "sodiumMg": 10.4,
+      "potassiumMg": 1.0,
+      "caffeineMg": 10.4
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "173209",
+      "description": "Beverages, carbonated, pepper-type, contains caffeine",
+      "url": "https://fdc.nal.usda.gov/food-details/173209/nutrients",
+      "crossCheck": "Canadian Nutrient File \"Carbonated drinks, pepper type\" (2859)."
+    },
+    "densityGPerML": 1.038,
+    "brandExamples": [
+      "Dr Pepper",
+      "Mr. Pibb / Pibb Xtra",
+      "Dr Thunder"
+    ],
+    "confidence": "medium",
+    "notes": "USDA SR record lacks total sugars (carbohydrate 10.4 g/100 g, effectively all sugar) so sugarG is null; caffeine 10 mg/100 g (~38 mg/can) vs Dr Pepper label 41 mg. See Dr Pepper brand entry. Converted from per-100 g using density 1.038 g/mL (USDA portion weights for FDC 173209 imply 1.038 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "pepper_soda_diet",
+    "name": "Pepper-style soda, diet / zero",
+    "category": "soda",
+    "subcategory": "pepper-style",
+    "variants": [
+      "diet",
+      "zero sugar"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.5,
+      "energyKcal": 2,
+      "sugarG": 0.0,
+      "carbsG": 0.3,
+      "proteinG": 0.1,
+      "fatG": 0.0,
+      "sodiumMg": 8.0,
+      "potassiumMg": 8.0,
+      "caffeineMg": 12.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2710546",
+      "description": "Soft drink, pepper type, diet",
+      "url": "https://fdc.nal.usda.gov/food-details/2710546/nutrients"
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Diet Dr Pepper",
+      "Dr Pepper Zero Sugar"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS maps diet pepper-type to the USDA low-calorie caffeinated cola/pepper profile (SR 175099). Diet Dr Pepper is commonly reported at ~41 mg caffeine per 12 fl oz (about 11.6 mg/100 mL; not verified from the KDP site here), close to this 12 mg. Converted from per-100 g using density 1.0 g/mL (taken as 1.000 per USDA SR diet soda can weight).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "cream_soda",
+    "name": "Cream soda",
+    "category": "soda",
+    "subcategory": "cream soda",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 90.6,
+      "energyKcal": 53,
+      "sugarG": 13.9,
+      "carbsG": 13.9,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 12.5,
+      "potassiumMg": 1.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "173199",
+      "description": "Carbonated beverage, cream soda",
+      "url": "https://fdc.nal.usda.gov/food-details/173199/nutrients"
+    },
+    "densityGPerML": 1.045,
+    "brandExamples": [
+      "A&W Cream Soda",
+      "Barq's Red Creme"
+    ],
+    "confidence": "high",
+    "notes": "Caffeine-free, among the sweetest sodas. Converted from per-100 g using density 1.045 g/mL (USDA portion weights for FDC 173199 imply 1.045 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "grape_soda",
+    "name": "Grape soda",
+    "category": "soda",
+    "subcategory": "orange & fruit",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 93.1,
+      "energyKcal": 45,
+      "sugarG": null,
+      "carbsG": 11.7,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 15.7,
+      "potassiumMg": 1.0,
+      "caffeineMg": null
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "173203",
+      "description": "Beverages, carbonated, grape soda",
+      "url": "https://fdc.nal.usda.gov/food-details/173203/nutrients"
+    },
+    "densityGPerML": 1.048,
+    "brandExamples": [
+      "Fanta Grape",
+      "Crush Grape",
+      "Welch's sparkling"
+    ],
+    "confidence": "medium",
+    "notes": "USDA SR record reports carbohydrate (11.2 g/100 g) but not total sugars or caffeine, so those are null. US Fanta Grape label: 73 g sugar per 20 fl oz (12.3 g/100 mL), caffeine-free. Converted from per-100 g using density 1.048 g/mL (USDA portion weights for FDC 173203 imply 1.048 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "tonic_water",
+    "name": "Tonic water",
+    "category": "soda",
+    "subcategory": "mixers",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 200,
+    "commonServingsML": [
+      150,
+      222,
+      355,
+      500
+    ],
+    "per100mL": {
+      "waterG": 93.9,
+      "energyKcal": 35,
+      "sugarG": 9.1,
+      "carbsG": 9.1,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 12.4,
+      "potassiumMg": 0.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "171869",
+      "description": "Beverages, carbonated, tonic water",
+      "url": "https://fdc.nal.usda.gov/food-details/171869/nutrients",
+      "crossCheck": "Canadian Nutrient File \"Carbonated drinks, tonic water (quinine)\" (2860)."
+    },
+    "densityGPerML": 1.031,
+    "brandExamples": [
+      "Schweppes",
+      "Canada Dry",
+      "Fever-Tree (less sugar)"
+    ],
+    "confidence": "high",
+    "notes": "Sweetened quinine soda: ~8.8 g sugar/100 g, often mistaken for a zero-calorie mixer. Diet/light tonics exist but no USDA record; not included. Converted from per-100 g using density 1.031 g/mL (USDA portion weights for FDC 171869 imply 1.031 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "club_soda",
+    "name": "Club soda",
+    "category": "soda",
+    "subcategory": "mixers",
+    "variants": [
+      "unsweetened"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      150,
+      222,
+      355,
+      500
+    ],
+    "per100mL": {
+      "waterG": 99.9,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 21.0,
+      "potassiumMg": 2.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "174842",
+      "description": "Beverages, carbonated, club soda",
+      "url": "https://fdc.nal.usda.gov/food-details/174842/nutrients",
+      "crossCheck": "Canadian Nutrient File \"Carbonated drinks, club soda\" (2853)."
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Canada Dry Club Soda",
+      "Schweppes Club Soda"
+    ],
+    "confidence": "high",
+    "notes": "Carbonated water with added sodium salts (21 mg Na/100 g). Converted from per-100 g using density 1.0 g/mL (USDA: 12 fl oz can = 355 g).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "coca_cola_original",
+    "name": "Coca-Cola Original",
+    "category": "soda",
+    "subcategory": "cola",
+    "variants": [
+      "regular",
+      "brand"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 93.0,
+      "energyKcal": 41,
+      "sugarG": 11.0,
+      "carbsG": 11.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 12.7,
+      "potassiumMg": null,
+      "caffeineMg": 9.6
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "The Coca-Cola Company, US product page (coca-cola.com/us)",
+      "fdcId": null,
+      "url": "https://www.coca-cola.com/us/en/brands/coca-cola/products/original/original-taste",
+      "waterFrom": {
+        "name": "USDA FoodData Central (SR Legacy/FNDDS analog)",
+        "fdcId": "174852",
+        "url": "https://fdc.nal.usda.gov/food-details/174852/nutrients"
+      }
+    },
+    "densityGPerML": 1.04,
+    "brandExamples": [
+      "Coca-Cola"
+    ],
+    "confidence": "high",
+    "notes": "US formula (HFCS). Caffeine 34 mg per 12 fl oz and 39 g sugar per 12 fl oz stated on coca-cola.com; kcal/sodium from the 20 fl oz label (240 kcal, 75 mg Na, 65 g sugar). Mexican Coke (cane sugar) and UK/EU Coca-Cola Classic are similar in sugar (~10.6-11 g/100 mL). Label values per 20 fl oz bottle label (caffeine per 12 fl oz statement scaled) scaled to 100 mL using 591.47 mL; waterG = USDA analog FDC 174852 water% x 1.04 g/mL (labels do not state water).",
+    "quickPick": false,
+    "region": "US",
+    "quickPickRank": null
+  },
+  {
+    "id": "diet_coke",
+    "name": "Diet Coke",
+    "category": "soda",
+    "subcategory": "cola",
+    "variants": [
+      "diet",
+      "brand"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.5,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 11.3,
+      "potassiumMg": null,
+      "caffeineMg": 13.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "The Coca-Cola Company, US product page (coca-cola.com/us)",
+      "fdcId": null,
+      "url": "https://www.coca-cola.com/us/en/brands/diet-coke/products/original",
+      "waterFrom": {
+        "name": "USDA FoodData Central (SR Legacy/FNDDS analog)",
+        "fdcId": "175099",
+        "url": "https://fdc.nal.usda.gov/food-details/175099/nutrients"
+      },
+      "caffeineSource": "https://www.coca-cola.com/us/en/about-us/faq/what-is-caffeine"
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Diet Coke",
+      "Coca-Cola Light"
+    ],
+    "confidence": "high",
+    "notes": "Diet Coke has more caffeine (46 mg/12 fl oz, per Coca-Cola US FAQ) than Coca-Cola Original (34 mg). Potassium not declared on label (null). Outside the US, Coca-Cola Light is ~42 mg per 355 mL per Coca-Cola Philippines. Label values per 12 fl oz can scaled to 100 mL using 354.88 mL; waterG = USDA analog FDC 175099 water% x 1.0 g/mL (labels do not state water).",
+    "quickPick": false,
+    "region": "US",
+    "quickPickRank": null
+  },
+  {
+    "id": "coke_zero_sugar",
+    "name": "Coca-Cola Zero Sugar",
+    "category": "soda",
+    "subcategory": "cola",
+    "variants": [
+      "zero sugar",
+      "brand"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.5,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 11.3,
+      "potassiumMg": 16.9,
+      "caffeineMg": 9.6
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "The Coca-Cola Company, US product page (coca-cola.com/us)",
+      "fdcId": null,
+      "url": "https://www.coca-cola.com/us/en/brands/coca-cola/products/zero/zero-sugar",
+      "waterFrom": {
+        "name": "USDA FoodData Central (SR Legacy/FNDDS analog)",
+        "fdcId": "175099",
+        "url": "https://fdc.nal.usda.gov/food-details/175099/nutrients"
+      }
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Coke Zero Sugar"
+    ],
+    "confidence": "high",
+    "notes": "Sweetened with aspartame + acesulfame K. Caffeine 34 mg per 12 fl oz (same as Original). A caffeine-free version exists (use Diet cola, caffeine-free). Label values per 12 fl oz can scaled to 100 mL using 354.88 mL; waterG = USDA analog FDC 175099 water% x 1.0 g/mL (labels do not state water).",
+    "quickPick": false,
+    "region": "US",
+    "quickPickRank": null
+  },
+  {
+    "id": "pepsi",
+    "name": "Pepsi",
+    "category": "soda",
+    "subcategory": "cola",
+    "variants": [
+      "regular",
+      "brand"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 93.0,
+      "energyKcal": 42,
+      "sugarG": 11.6,
+      "carbsG": 11.6,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 8.5,
+      "potassiumMg": null,
+      "caffeineMg": 10.7
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "PepsiCo Beverage Facts nutrition sheet / pepsicoproductfacts.com",
+      "fdcId": null,
+      "url": "https://www.pepsicoproductfacts.com/Home/Product?formula=35005*26*01-01&form=RTD&size=16.9",
+      "waterFrom": {
+        "name": "USDA FoodData Central (SR Legacy/FNDDS analog)",
+        "fdcId": "174852",
+        "url": "https://fdc.nal.usda.gov/food-details/174852/nutrients"
+      }
+    },
+    "densityGPerML": 1.04,
+    "brandExamples": [
+      "Pepsi"
+    ],
+    "confidence": "high",
+    "notes": "PepsiCo nutrition sheet (PepsiCoBeverageFacts, updated 28 Jul 2022): 150 kcal, 30 mg Na, 41 g sugar, 38 mg caffeine per 12 fl oz; PepsiCo product facts also lists 38 mg for the 12 fl oz can and 53 mg per 16.9 fl oz bottle (10.6 mg/100 mL). The label shows \"12 fl oz (360 mL)\" (FDA rounding); actual 12 fl oz = 355 mL is used here. Label values per 12 fl oz scaled to 100 mL using 354.88 mL; waterG = USDA analog FDC 174852 water% x 1.04 g/mL (labels do not state water).",
+    "quickPick": false,
+    "region": "US",
+    "quickPickRank": null
+  },
+  {
+    "id": "diet_pepsi",
+    "name": "Diet Pepsi",
+    "category": "soda",
+    "subcategory": "cola",
+    "variants": [
+      "diet",
+      "brand"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.5,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 9.9,
+      "potassiumMg": null,
+      "caffeineMg": 9.9
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "PepsiCo product facts (pepsicoproductfacts.com) + retail can labels",
+      "fdcId": null,
+      "url": "https://www.pepsicoproductfacts.com/Home/Product?formula=F0000007855&form=RTD&size=12",
+      "waterFrom": {
+        "name": "USDA FoodData Central (SR Legacy/FNDDS analog)",
+        "fdcId": "175099",
+        "url": "https://fdc.nal.usda.gov/food-details/175099/nutrients"
+      }
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Diet Pepsi"
+    ],
+    "confidence": "medium",
+    "notes": "PepsiCo product facts lists 35 mg caffeine for the 12 fl oz can; the 2022 PepsiCo fountain sheet lists 34 mg caffeine and 55 mg sodium. Retail can labels show 35 mg sodium, used here. Sweetened with aspartame (cans) / sucralose + ace-K (fountain); formulas have changed several times. Label values per 12 fl oz can scaled to 100 mL using 354.88 mL; waterG = USDA analog FDC 175099 water% x 1.0 g/mL (labels do not state water).",
+    "quickPick": false,
+    "region": "US",
+    "quickPickRank": null
+  },
+  {
+    "id": "pepsi_zero_sugar",
+    "name": "Pepsi Zero Sugar",
+    "category": "soda",
+    "subcategory": "cola",
+    "variants": [
+      "zero sugar",
+      "brand"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.5,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": null,
+      "potassiumMg": null,
+      "caffeineMg": null
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "PepsiCo product facts (conflicting caffeine figures)",
+      "fdcId": null,
+      "url": "https://www.pepsicoproductfacts.com/Home/Product?gtin=00012000240577",
+      "waterFrom": {
+        "name": "USDA FoodData Central (SR Legacy/FNDDS analog)",
+        "fdcId": "175099",
+        "url": "https://fdc.nal.usda.gov/food-details/175099/nutrients"
+      }
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Pepsi Zero Sugar",
+      "Pepsi Max"
+    ],
+    "confidence": "low",
+    "notes": "Calories and sugar are 0. Caffeine is NOT set: older/most retail labels say 69 mg per 12 fl oz, while PepsiCo product facts lists 38 mg for newer Pepsi Zero Sugar flavor variants, and the formula changed around 2022-2023. Sodium was not confirmed from a primary source. null means unknown, not zero; the app should not treat it as caffeine-free. Label values per 12 fl oz can scaled to 100 mL using 354.88 mL; waterG = USDA analog FDC 175099 water% x 1.0 g/mL (labels do not state water).",
+    "quickPick": false,
+    "region": "US",
+    "quickPickRank": null
+  },
+  {
+    "id": "mountain_dew",
+    "name": "Mountain Dew",
+    "category": "soda",
+    "subcategory": "citrus",
+    "variants": [
+      "regular",
+      "brand"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 91.8,
+      "energyKcal": 48,
+      "sugarG": 13.0,
+      "carbsG": 13.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 16.9,
+      "potassiumMg": null,
+      "caffeineMg": 15.2
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "PepsiCo label values (via retailer listings of the 12 fl oz can)",
+      "fdcId": null,
+      "url": "https://www.pepsicoproductfacts.com/home/find",
+      "waterFrom": {
+        "name": "USDA FoodData Central (SR Legacy/FNDDS analog)",
+        "fdcId": "174854",
+        "url": "https://fdc.nal.usda.gov/food-details/174854/nutrients"
+      }
+    },
+    "densityGPerML": 1.048,
+    "brandExamples": [
+      "Mtn Dew"
+    ],
+    "confidence": "medium",
+    "notes": "Citrus soda with more caffeine and sugar than cola: 170 kcal, 46 g sugar, 60 mg Na, 54 mg caffeine per 12 fl oz (PepsiCo listing as reported by retailers). Diet Mtn Dew is also listed at 54 mg and Mtn Dew Zero Sugar at ~68 mg per 12 fl oz in retailer label listings (neither included as an entry). Water from USDA orange soda analog (similar sugar level). Label values per 12 fl oz can scaled to 100 mL using 354.88 mL; waterG = USDA analog FDC 174854 water% x 1.048 g/mL (labels do not state water).",
+    "quickPick": false,
+    "region": "US",
+    "quickPickRank": null
+  },
+  {
+    "id": "dr_pepper",
+    "name": "Dr Pepper",
+    "category": "soda",
+    "subcategory": "pepper-style",
+    "variants": [
+      "regular",
+      "brand"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 92.8,
+      "energyKcal": 42,
+      "sugarG": 11.0,
+      "carbsG": 11.3,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 15.5,
+      "potassiumMg": null,
+      "caffeineMg": 11.6
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "Keurig Dr Pepper label (via retailer listings)",
+      "fdcId": null,
+      "url": "https://www.kdpproductfacts.com/",
+      "waterFrom": {
+        "name": "USDA FoodData Central (SR Legacy/FNDDS analog)",
+        "fdcId": "173209",
+        "url": "https://fdc.nal.usda.gov/food-details/173209/nutrients"
+      }
+    },
+    "densityGPerML": 1.038,
+    "brandExamples": [
+      "Dr Pepper"
+    ],
+    "confidence": "medium",
+    "notes": "Keurig Dr Pepper label as shown by US retailers: 150 kcal, 40 g carbohydrate, 39 g sugar, 55 mg Na, 41 mg caffeine per 12 fl oz. Primary KDP product-facts pages are script-rendered and could not be read directly. Label values per 12 fl oz can scaled to 100 mL using 354.88 mL; waterG = USDA analog FDC 173209 water% x 1.038 g/mL (labels do not state water).",
+    "quickPick": false,
+    "region": "US",
+    "quickPickRank": null
+  },
+  {
+    "id": "sprite",
+    "name": "Sprite",
+    "category": "soda",
+    "subcategory": "lemon-lime",
+    "variants": [
+      "regular",
+      "brand"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 93.1,
+      "energyKcal": 39,
+      "sugarG": 10.7,
+      "carbsG": 10.7,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 18.3,
+      "potassiumMg": null,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "The Coca-Cola Company, US product page (coca-cola.com/us)",
+      "fdcId": null,
+      "url": "https://www.coca-cola.com/us/en/brands/sprite/products",
+      "waterFrom": {
+        "name": "USDA FoodData Central (SR Legacy/FNDDS analog)",
+        "fdcId": "173205",
+        "url": "https://fdc.nal.usda.gov/food-details/173205/nutrients"
+      }
+    },
+    "densityGPerML": 1.04,
+    "brandExamples": [
+      "Sprite"
+    ],
+    "confidence": "high",
+    "notes": "Caffeine-free (all Sprite variants, per Coca-Cola). Label values per 12 fl oz can scaled to 100 mL using 354.88 mL; waterG = USDA analog FDC 173205 water% x 1.04 g/mL (labels do not state water).",
+    "quickPick": false,
+    "region": "US",
+    "quickPickRank": null
+  },
+  {
+    "id": "sprite_zero",
+    "name": "Sprite Zero Sugar",
+    "category": "soda",
+    "subcategory": "lemon-lime",
+    "variants": [
+      "zero sugar",
+      "brand"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.8,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.0,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 9.9,
+      "potassiumMg": 31.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "The Coca-Cola Company, US product page (coca-cola.com/us)",
+      "fdcId": null,
+      "url": "https://www.coca-cola.com/us/en/brands/sprite/products",
+      "waterFrom": {
+        "name": "USDA FoodData Central (SR Legacy/FNDDS analog)",
+        "fdcId": "173204",
+        "url": "https://fdc.nal.usda.gov/food-details/173204/nutrients"
+      }
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Sprite Zero Sugar"
+    ],
+    "confidence": "high",
+    "notes": "Caffeine-free; potassium from potassium citrate/benzoate. Label values per 12 fl oz can scaled to 100 mL using 354.88 mL; waterG = USDA analog FDC 173204 water% x 1.0 g/mL (labels do not state water).",
+    "quickPick": false,
+    "region": "US",
+    "quickPickRank": null
+  },
+  {
+    "id": "fanta_orange_us",
+    "name": "Fanta Orange (US)",
+    "category": "soda",
+    "subcategory": "orange & fruit",
+    "variants": [
+      "regular",
+      "brand"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 91.8,
+      "energyKcal": 46,
+      "sugarG": 12.3,
+      "carbsG": 12.5,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 13.5,
+      "potassiumMg": null,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "The Coca-Cola Company, US product page (coca-cola.com/us)",
+      "fdcId": null,
+      "url": "https://www.coca-cola.com/us/en/brands/fanta/products",
+      "waterFrom": {
+        "name": "USDA FoodData Central (SR Legacy/FNDDS analog)",
+        "fdcId": "174854",
+        "url": "https://fdc.nal.usda.gov/food-details/174854/nutrients"
+      }
+    },
+    "densityGPerML": 1.048,
+    "brandExamples": [
+      "Fanta Orange"
+    ],
+    "confidence": "high",
+    "notes": "US formula: HFCS, no juice; 270 kcal, 73 g sugar, 80 mg Na per 20 fl oz. Contrast UK formula (fanta_orange_uk): ~4.5 g sugar/100 mL after the 2017 sugar-levy reformulation (sugar plus sweeteners, 3.7% orange juice). Caffeine-free. Label values per 20 fl oz bottle scaled to 100 mL using 591.47 mL; waterG = USDA analog FDC 174854 water% x 1.048 g/mL (labels do not state water).",
+    "quickPick": false,
+    "region": "US",
+    "quickPickRank": null
+  },
+  {
+    "id": "fanta_orange_zero_us",
+    "name": "Fanta Zero Sugar Orange (US)",
+    "category": "soda",
+    "subcategory": "orange & fruit",
+    "variants": [
+      "zero sugar",
+      "brand"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      222,
+      355,
+      500,
+      591,
+      1000
+    ],
+    "per100mL": {
+      "waterG": 99.8,
+      "energyKcal": 0,
+      "sugarG": 0.0,
+      "carbsG": 0.2,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 10.1,
+      "potassiumMg": 20.3,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "The Coca-Cola Company, US product page (coca-cola.com/us)",
+      "fdcId": null,
+      "url": "https://www.coca-cola.com/us/en/brands/fanta/products",
+      "waterFrom": {
+        "name": "USDA FoodData Central (SR Legacy/FNDDS analog)",
+        "fdcId": "173204",
+        "url": "https://fdc.nal.usda.gov/food-details/173204/nutrients"
+      }
+    },
+    "densityGPerML": 1.0,
+    "brandExamples": [
+      "Fanta Zero Sugar Orange"
+    ],
+    "confidence": "high",
+    "notes": "Caffeine-free. Label values per 20 fl oz bottle scaled to 100 mL using 591.47 mL; waterG = USDA analog FDC 173204 water% x 1.0 g/mL (labels do not state water).",
+    "quickPick": false,
+    "region": "US",
+    "quickPickRank": null
+  },
+  {
+    "id": "fanta_orange_uk",
+    "name": "Fanta Orange (UK)",
+    "category": "soda",
+    "subcategory": "orange & fruit",
+    "variants": [
+      "reduced sugar",
+      "brand"
+    ],
+    "defaultServingML": 330,
+    "commonServingsML": [
+      150,
+      250,
+      330,
+      500,
+      1500
+    ],
+    "per100mL": {
+      "waterG": null,
+      "energyKcal": 19,
+      "sugarG": 4.5,
+      "carbsG": 4.5,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": null,
+      "potassiumMg": null,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "The Coca-Cola Company, GB Fanta nutrition information (coca-cola.com/gb)",
+      "fdcId": null,
+      "url": "https://www.coca-cola.com/gb/en/brands/fanta",
+      "waterFrom": null
+    },
+    "densityGPerML": null,
+    "brandExamples": [
+      "Fanta Orange"
+    ],
+    "confidence": "high",
+    "notes": "UK/GB formula (coca-cola.com/gb, per 100 mL): 19 kcal, 4.5 g carbohydrate, 4.5 g sugar, 0 g salt, contains 3.7% orange juice plus sweeteners. Sugar reduced in 2017 (to 4.6 g/100 mL, The Grocer) to fall below the 5 g/100 mL Soft Drinks Industry Levy threshold. Sodium shown as null because the label states 0 g salt (<0.0125 g/100 mL, i.e. under ~5 mg sodium) without an exact figure. No USDA analog matches a 4.5%-sugar soda, so waterG is null (expected roughly 95 g/100 mL, but not sourced). Label values per 100 mL scaled to 100 mL using 100.0 mL.",
+    "quickPick": false,
+    "region": "UK",
+    "quickPickRank": null
+  },
+  {
+    "id": "orange_juice",
+    "name": "Orange juice",
+    "category": "juice",
+    "subcategory": "citrus",
+    "variants": [
+      "100%",
+      "from concentrate or NFC"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      177,
+      200,
+      237,
+      296,
+      355
+    ],
+    "per100mL": {
+      "waterG": 91.7,
+      "energyKcal": 52,
+      "sugarG": 8.7,
+      "carbsG": 12.1,
+      "proteinG": 0.7,
+      "fatG": 0.1,
+      "sodiumMg": 2.1,
+      "potassiumMg": 187.3,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "169100",
+      "description": "Orange juice, chilled, includes from concentrate",
+      "url": "https://fdc.nal.usda.gov/food-details/169100/nutrients",
+      "crossCheck": "Canadian Nutrient File code 1620 identical; FNDDS \"Orange juice, 100%, canned, bottled or in a carton\" (2709188): 47 kcal, sugar 8.18 g/100 g."
+    },
+    "densityGPerML": 1.052,
+    "brandExamples": [
+      "Tropicana",
+      "Simply Orange",
+      "Minute Maid"
+    ],
+    "confidence": "high",
+    "notes": "Chilled carton OJ (includes from-concentrate). Calcium-fortified versions are nutritionally the same for these fields. Converted from per-100 g using density 1.052 g/mL (USDA portion weights for FDC 169100 imply 1.052 g/mL).",
+    "quickPick": true,
+    "quickPickRank": 6
+  },
+  {
+    "id": "orange_juice_fresh",
+    "name": "Orange juice, freshly squeezed",
+    "category": "juice",
+    "subcategory": "citrus",
+    "variants": [
+      "100%",
+      "fresh"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      177,
+      200,
+      237,
+      296,
+      355
+    ],
+    "per100mL": {
+      "waterG": 92.5,
+      "energyKcal": 47,
+      "sugarG": 8.8,
+      "carbsG": 10.9,
+      "proteinG": 0.7,
+      "fatG": 0.2,
+      "sodiumMg": 1.0,
+      "potassiumMg": 209.6,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "169098",
+      "description": "Orange juice, raw (Includes foods for USDA's Food Distribution Program)",
+      "url": "https://fdc.nal.usda.gov/food-details/169098/nutrients",
+      "crossCheck": "FNDDS \"Orange juice, 100%, freshly squeezed\" (2709187): 47 kcal, sugar 8.08 g/100 g."
+    },
+    "densityGPerML": 1.048,
+    "brandExamples": [],
+    "confidence": "high",
+    "notes": "Raw/fresh-squeezed orange juice. Converted from per-100 g using density 1.048 g/mL (USDA portion weights for FDC 169098 imply 1.048 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "apple_juice",
+    "name": "Apple juice",
+    "category": "juice",
+    "subcategory": "apple & grape",
+    "variants": [
+      "100%"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      177,
+      200,
+      237,
+      296,
+      355
+    ],
+    "per100mL": {
+      "waterG": 92.4,
+      "energyKcal": 48,
+      "sugarG": 10.1,
+      "carbsG": 11.8,
+      "proteinG": 0.1,
+      "fatG": 0.1,
+      "sodiumMg": 4.2,
+      "potassiumMg": 105.8,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "173933",
+      "description": "Apple juice, canned or bottled, unsweetened, without added ascorbic acid",
+      "url": "https://fdc.nal.usda.gov/food-details/173933/nutrients",
+      "crossCheck": "Canadian Nutrient File code 1495 identical; FNDDS \"Apple juice, 100%\" (2709320): 48 kcal, sugar 10.1 g/100 g."
+    },
+    "densityGPerML": 1.048,
+    "brandExamples": [
+      "Mott's",
+      "Martinelli's",
+      "Tree Top",
+      "Juicy Juice"
+    ],
+    "confidence": "high",
+    "notes": "Shelf-stable 100% apple juice (with or without added vitamin C - same values for these fields). Converted from per-100 g using density 1.048 g/mL (USDA portion weights for FDC 173933 imply 1.048 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "grape_juice",
+    "name": "Grape juice",
+    "category": "juice",
+    "subcategory": "apple & grape",
+    "variants": [
+      "100%"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      177,
+      200,
+      237,
+      296,
+      355
+    ],
+    "per100mL": {
+      "waterG": 90.3,
+      "energyKcal": 64,
+      "sugarG": 15.2,
+      "carbsG": 15.8,
+      "proteinG": 0.4,
+      "fatG": 0.1,
+      "sodiumMg": 5.3,
+      "potassiumMg": 111.2,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "173042",
+      "description": "Grape juice, canned or bottled, unsweetened, without added ascorbic acid",
+      "url": "https://fdc.nal.usda.gov/food-details/173042/nutrients",
+      "crossCheck": "Canadian Nutrient File code 1576 identical; FNDDS \"Grape juice, 100%\" (2709325): 66 kcal, sugar 14.2 g/100 g."
+    },
+    "densityGPerML": 1.069,
+    "brandExamples": [
+      "Welch's"
+    ],
+    "confidence": "high",
+    "notes": "Purple (Concord) grape juice; the highest-sugar common 100% juice. Converted from per-100 g using density 1.069 g/mL (USDA portion weights for FDC 173042 imply 1.069 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "cranberry_juice_cocktail",
+    "name": "Cranberry juice cocktail",
+    "category": "juice",
+    "subcategory": "cranberry",
+    "variants": [
+      "regular",
+      "juice drink"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      177,
+      200,
+      237,
+      296,
+      355
+    ],
+    "per100mL": {
+      "waterG": 92.1,
+      "energyKcal": 58,
+      "sugarG": 12.7,
+      "carbsG": 14.4,
+      "proteinG": 0.0,
+      "fatG": 0.1,
+      "sodiumMg": 2.1,
+      "potassiumMg": 15.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "171903",
+      "description": "Cranberry juice cocktail, bottled",
+      "url": "https://fdc.nal.usda.gov/food-details/171903/nutrients",
+      "crossCheck": "Canadian Nutrient File code 2956: 54 kcal, sugars 11.87 g/100 g."
+    },
+    "densityGPerML": 1.069,
+    "brandExamples": [
+      "Ocean Spray Cranberry Juice Cocktail"
+    ],
+    "confidence": "high",
+    "notes": "Sweetened cranberry drink (~27% juice), not 100% juice. Converted from per-100 g using density 1.069 g/mL (USDA portion weights for FDC 171903 imply 1.069 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "cranberry_juice_cocktail_light",
+    "name": "Cranberry juice cocktail, light",
+    "category": "juice",
+    "subcategory": "cranberry",
+    "variants": [
+      "light",
+      "reduced calorie"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      177,
+      200,
+      237,
+      296,
+      355
+    ],
+    "per100mL": {
+      "waterG": 95.3,
+      "energyKcal": 19,
+      "sugarG": 4.6,
+      "carbsG": 4.6,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 3.0,
+      "potassiumMg": 25.0,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "171904",
+      "description": "Cranberry juice cocktail, bottled, low calorie, with calcium, saccharin and corn sweetener",
+      "url": "https://fdc.nal.usda.gov/food-details/171904/nutrients"
+    },
+    "densityGPerML": 1.001,
+    "brandExamples": [
+      "Ocean Spray Light / Diet Cranberry"
+    ],
+    "confidence": "medium",
+    "notes": "Low-calorie cranberry cocktail (saccharin + corn sweetener). Products range from ~5 kcal (diet) to ~20 kcal/100 mL (light). Converted from per-100 g using density 1.001 g/mL (USDA: 1 cup (8 fl oz) = 237 g).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "cranberry_juice_100",
+    "name": "Cranberry juice, 100% unsweetened",
+    "category": "juice",
+    "subcategory": "cranberry",
+    "variants": [
+      "100%",
+      "unsweetened"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      177,
+      200,
+      237,
+      296,
+      355
+    ],
+    "per100mL": {
+      "waterG": 93.1,
+      "energyKcal": 49,
+      "sugarG": 12.9,
+      "carbsG": 13.0,
+      "proteinG": 0.4,
+      "fatG": 0.1,
+      "sodiumMg": 2.1,
+      "potassiumMg": 82.3,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "168117",
+      "description": "Cranberry juice, unsweetened",
+      "url": "https://fdc.nal.usda.gov/food-details/168117/nutrients",
+      "crossCheck": "Canadian Nutrient File code 5593."
+    },
+    "densityGPerML": 1.069,
+    "brandExamples": [
+      "Lakewood Pure Cranberry",
+      "Knudsen Just Cranberry"
+    ],
+    "confidence": "medium",
+    "notes": "Pure unsweetened cranberry juice. Note FNDDS \"Cranberry juice, 100%, not a blend\" (2709324) lists much lower sugar (3.4 g/100 g) than this SR record (12.1 g/100 g); pure cranberry juice is very tart and the SR sugar figure is likely high, so sugar has medium confidence. Converted from per-100 g using density 1.069 g/mL (USDA portion weights for FDC 168117 imply 1.069 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "pineapple_juice",
+    "name": "Pineapple juice",
+    "category": "juice",
+    "subcategory": "tropical",
+    "variants": [
+      "100%"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      177,
+      200,
+      237,
+      296,
+      355
+    ],
+    "per100mL": {
+      "waterG": 91.4,
+      "energyKcal": 56,
+      "sugarG": 10.6,
+      "carbsG": 13.6,
+      "proteinG": 0.4,
+      "fatG": 0.1,
+      "sodiumMg": 2.1,
+      "potassiumMg": 137.5,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "169947",
+      "description": "Pineapple juice, canned or bottled, unsweetened, without added ascorbic acid",
+      "url": "https://fdc.nal.usda.gov/food-details/169947/nutrients",
+      "crossCheck": "FNDDS \"Pineapple juice, 100%\" (2709329) identical."
+    },
+    "densityGPerML": 1.058,
+    "brandExamples": [
+      "Dole",
+      "Del Monte"
+    ],
+    "confidence": "high",
+    "notes": "Converted from per-100 g using density 1.058 g/mL (USDA portion weights for FDC 169947 imply 1.058 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "grapefruit_juice",
+    "name": "Grapefruit juice",
+    "category": "juice",
+    "subcategory": "citrus",
+    "variants": [
+      "100%",
+      "unsweetened"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      177,
+      200,
+      237,
+      296,
+      355
+    ],
+    "per100mL": {
+      "waterG": 94.6,
+      "energyKcal": 38,
+      "sugarG": 8.0,
+      "carbsG": 7.8,
+      "proteinG": 0.6,
+      "fatG": 0.7,
+      "sodiumMg": 2.1,
+      "potassiumMg": 146.6,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "174678",
+      "description": "Grapefruit juice, white, canned or bottled, unsweetened",
+      "url": "https://fdc.nal.usda.gov/food-details/174678/nutrients",
+      "crossCheck": "FNDDS \"Grapefruit juice, 100%, canned, bottled or in a carton\" (2709178): 40 kcal, sugar 7.42 g/100 g."
+    },
+    "densityGPerML": 1.04,
+    "brandExamples": [
+      "Ocean Spray",
+      "Tropicana"
+    ],
+    "confidence": "high",
+    "notes": "Unsweetened white grapefruit juice (bottled). Interacts with many medications (not a nutrition field, but worth surfacing in UI copy). Converted from per-100 g using density 1.04 g/mL (USDA lists a 246 g portion that corresponds to 1 cup (8 fl oz)).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "tomato_juice",
+    "name": "Tomato juice",
+    "category": "juice",
+    "subcategory": "vegetable",
+    "variants": [
+      "regular",
+      "salted"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      177,
+      200,
+      237,
+      296,
+      355
+    ],
+    "per100mL": {
+      "waterG": 96.8,
+      "energyKcal": 17,
+      "sugarG": 2.7,
+      "carbsG": 3.6,
+      "proteinG": 0.9,
+      "fatG": 0.3,
+      "sodiumMg": 260.1,
+      "potassiumMg": 223.1,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "170458",
+      "description": "Tomato juice, canned, with salt added",
+      "url": "https://fdc.nal.usda.gov/food-details/170458/nutrients",
+      "crossCheck": "Canadian Nutrient File \"Juice, tomato, canned\" (2464) identical."
+    },
+    "densityGPerML": 1.028,
+    "brandExamples": [
+      "Campbell's",
+      "Sacramento"
+    ],
+    "confidence": "high",
+    "notes": "High sodium (253 mg/100 g) unless a low-sodium variant is chosen. Converted from per-100 g using density 1.028 g/mL (USDA unsalted tomato juice (FDC 170545): 1 fl oz = 30.4 g).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "tomato_juice_low_sodium",
+    "name": "Tomato juice, low sodium",
+    "category": "juice",
+    "subcategory": "vegetable",
+    "variants": [
+      "low sodium",
+      "no salt added"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      177,
+      200,
+      237,
+      296,
+      355
+    ],
+    "per100mL": {
+      "waterG": 96.7,
+      "energyKcal": 17,
+      "sugarG": 2.6,
+      "carbsG": 3.6,
+      "proteinG": 0.9,
+      "fatG": 0.3,
+      "sodiumMg": 10.3,
+      "potassiumMg": 222.9,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "170545",
+      "description": "Tomato juice, canned, without salt added",
+      "url": "https://fdc.nal.usda.gov/food-details/170545/nutrients"
+    },
+    "densityGPerML": 1.027,
+    "brandExamples": [],
+    "confidence": "high",
+    "notes": "Converted from per-100 g using density 1.027 g/mL (USDA portion weights for FDC 170545 imply 1.027 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "vegetable_juice",
+    "name": "Vegetable juice cocktail",
+    "category": "juice",
+    "subcategory": "vegetable",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      177,
+      200,
+      237,
+      296,
+      355
+    ],
+    "per100mL": {
+      "waterG": 96.7,
+      "energyKcal": 23,
+      "sugarG": 2.9,
+      "carbsG": 4.0,
+      "proteinG": 1.0,
+      "fatG": 0.3,
+      "sodiumMg": 173.7,
+      "potassiumMg": 190.2,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "170063",
+      "description": "Vegetable juice cocktail, canned",
+      "url": "https://fdc.nal.usda.gov/food-details/170063/nutrients",
+      "crossCheck": "FNDDS \"Tomato and vegetable juice, 100%\" (2709731) identical."
+    },
+    "densityGPerML": 1.028,
+    "brandExamples": [
+      "V8 Original"
+    ],
+    "confidence": "high",
+    "notes": "Tomato-based vegetable juice blend. Low-sodium versions have ~55 mg Na/100 g (USDA 170473). Converted from per-100 g using density 1.028 g/mL (assumed equal to tomato juice (USDA 170545: 1 fl oz = 30.4 g); the record's own portion entry is not a per-fl-oz weight).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "juice_blend",
+    "name": "Mixed fruit juice (100%)",
+    "category": "juice",
+    "subcategory": "blends",
+    "variants": [
+      "100%"
+    ],
+    "defaultServingML": 200,
+    "commonServingsML": [
+      118,
+      177,
+      200,
+      237,
+      296,
+      355
+    ],
+    "per100mL": {
+      "waterG": 91.2,
+      "energyKcal": 52,
+      "sugarG": 11.4,
+      "carbsG": 13.1,
+      "proteinG": 0.2,
+      "fatG": 0.1,
+      "sodiumMg": 7.3,
+      "potassiumMg": 100.6,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2709316",
+      "description": "Fruit juice blend, 100% juice",
+      "url": "https://fdc.nal.usda.gov/food-details/2709316/nutrients"
+    },
+    "densityGPerML": 1.048,
+    "brandExamples": [
+      "Juicy Juice",
+      "Capri Sun 100% Juice",
+      "Mott's for Tots (diluted, lower)"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS average for 100% fruit juice blends (juice boxes). Converted from per-100 g using density 1.048 g/mL (USDA portion weights for FDC 2709316 imply 1.048 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "lemonade",
+    "name": "Lemonade",
+    "category": "juice",
+    "subcategory": "lemonade & punch",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      237,
+      355,
+      473,
+      591
+    ],
+    "per100mL": {
+      "waterG": 93.3,
+      "energyKcal": 42,
+      "sugarG": 10.4,
+      "carbsG": 10.9,
+      "proteinG": 0.1,
+      "fatG": 0.0,
+      "sodiumMg": 4.2,
+      "potassiumMg": 15.7,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "173217",
+      "description": "Lemonade, frozen concentrate, white, prepared with water",
+      "url": "https://fdc.nal.usda.gov/food-details/173217/nutrients",
+      "crossCheck": "Canadian Nutrient File code 2893 identical."
+    },
+    "densityGPerML": 1.044,
+    "brandExamples": [
+      "Minute Maid Lemonade",
+      "Simply Lemonade (more sugar)",
+      "homemade"
+    ],
+    "confidence": "high",
+    "notes": "Classic sugar-sweetened lemonade (USDA frozen concentrate, prepared). Pink lemonade is equivalent (USDA 173667: 43 kcal, 10.3 g sugar/100 g). Converted from per-100 g using density 1.044 g/mL (USDA portion weights for FDC 173217 imply 1.044 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "lemonade_bottled",
+    "name": "Lemonade, bottled (Minute Maid)",
+    "category": "juice",
+    "subcategory": "lemonade & punch",
+    "variants": [
+      "regular",
+      "brand"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      237,
+      355,
+      473,
+      591
+    ],
+    "per100mL": {
+      "waterG": 91.9,
+      "energyKcal": 48,
+      "sugarG": 12.2,
+      "carbsG": 12.6,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 6.3,
+      "potassiumMg": 10.4,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "171884",
+      "description": "Beverages, The COCA-COLA company, Minute Maid, Lemonade",
+      "url": "https://fdc.nal.usda.gov/food-details/171884/nutrients"
+    },
+    "densityGPerML": 1.045,
+    "brandExamples": [
+      "Minute Maid Lemonade"
+    ],
+    "confidence": "medium",
+    "notes": "USDA branded analysis of Minute Maid Lemonade. Converted from per-100 g using density 1.045 g/mL (record's portion is a label serving (8 fl oz = 240 g), not a density; 1.045 assumed from similar-sugar USDA lemonade (FDC 173217: 1.044-1.045 g/mL)).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "lemonade_light",
+    "name": "Lemonade, light / powdered drink mix",
+    "category": "juice",
+    "subcategory": "lemonade & punch",
+    "variants": [
+      "light",
+      "powdered mix"
+    ],
+    "defaultServingML": 355,
+    "commonServingsML": [
+      237,
+      355,
+      473,
+      591
+    ],
+    "per100mL": {
+      "waterG": 97.7,
+      "energyKcal": 26,
+      "sugarG": 6.8,
+      "carbsG": 6.9,
+      "proteinG": 0.0,
+      "fatG": 0.1,
+      "sodiumMg": 12.6,
+      "potassiumMg": 3.1,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2710571",
+      "description": "Lemonade, fruit flavored drink",
+      "url": "https://fdc.nal.usda.gov/food-details/2710571/nutrients",
+      "crossCheck": "USDA SR \"Lemonade-flavor drink, powder, prepared with water\" (174861): 27 kcal, 6.87 g sugar/100 g. That SR record was not used because its portion weight (255 g per cup) implies an implausible 1.078 g/mL, which would give >100 g water per 100 mL."
+    },
+    "densityGPerML": 1.048,
+    "brandExamples": [
+      "Country Time (prepared)",
+      "store-brand lemonade mix"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS \"Lemonade, fruit flavored drink\" (lemonade-flavored drink, e.g. from powder; less sugar than classic lemonade). Sugar-free mixes such as Crystal Light are ~2 kcal/100 g (FNDDS 2710599) and are not this entry. Converted from per-100 g using density 1.048 g/mL (USDA portion weights for FDC 2710571 imply 1.048 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "fruit_punch",
+    "name": "Fruit punch",
+    "category": "juice",
+    "subcategory": "lemonade & punch",
+    "variants": [
+      "regular",
+      "juice drink"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      177,
+      200,
+      237,
+      296,
+      355
+    ],
+    "per100mL": {
+      "waterG": 92.4,
+      "energyKcal": 50,
+      "sugarG": 11.9,
+      "carbsG": 12.6,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 10.5,
+      "potassiumMg": 26.2,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "171914",
+      "description": "Beverages, fruit punch drink, without added nutrients, canned",
+      "url": "https://fdc.nal.usda.gov/food-details/171914/nutrients",
+      "crossCheck": "FNDDS \"Fruit punch, made with fruit juice and soda\" (2710569): 44 kcal, 9.4 g sugar/100 g."
+    },
+    "densityGPerML": 1.05,
+    "brandExamples": [
+      "Hawaiian Punch",
+      "Hi-C Flashin' Fruit Punch",
+      "Tropicana Fruit Punch"
+    ],
+    "confidence": "high",
+    "notes": "Fruit punch drink (low juice content), no added vitamins. Hi-C Flashin' Fruit Punch (USDA 173179): 45 kcal, 12.5 g sugar/100 g. \"Light\" punches (e.g. Hawaiian Punch Lemonberry/10-kcal versions) are ~10 kcal/100 g (USDA 171915). Converted from per-100 g using density 1.05 g/mL (USDA portion weights for FDC 171914 imply 1.05 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "fruit_drink",
+    "name": "Fruit-flavored drink (<3% juice)",
+    "category": "juice",
+    "subcategory": "juice drinks",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      177,
+      200,
+      237,
+      296,
+      355
+    ],
+    "per100mL": {
+      "waterG": 84.4,
+      "energyKcal": 64,
+      "sugarG": 15.9,
+      "carbsG": 16.1,
+      "proteinG": 0.0,
+      "fatG": 0.0,
+      "sodiumMg": 36.2,
+      "potassiumMg": 31.2,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "174179",
+      "description": "Beverages, Fruit flavored drink, less than 3% juice, not fortified with vitamin C",
+      "url": "https://fdc.nal.usda.gov/food-details/174179/nutrients"
+    },
+    "densityGPerML": 1.006,
+    "brandExamples": [
+      "Sunny D (similar)",
+      "Kool-Aid Jammers",
+      "Tampico"
+    ],
+    "confidence": "medium",
+    "notes": "Sugar-sweetened fruit drinks with little or no juice; highest-sugar entry in this category. USDA portion weight implies only 1.006 g/mL, which is likely low for a 16% sugar drink; per-100 mL values may be understated by up to ~5%. Converted from per-100 g using density 1.006 g/mL (USDA portion weights for FDC 174179 imply 1.006 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "mango_nectar",
+    "name": "Mango nectar",
+    "category": "juice",
+    "subcategory": "nectars",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      200,
+      237,
+      330
+    ],
+    "per100mL": {
+      "waterG": 90.8,
+      "energyKcal": 53,
+      "sugarG": 13.0,
+      "carbsG": 13.7,
+      "proteinG": 0.1,
+      "fatG": 0.1,
+      "sodiumMg": 5.2,
+      "potassiumMg": 25.2,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "167785",
+      "description": "Mango nectar, canned",
+      "url": "https://fdc.nal.usda.gov/food-details/167785/nutrients",
+      "crossCheck": "FNDDS 2709345 identical values."
+    },
+    "densityGPerML": 1.048,
+    "brandExamples": [
+      "Jumex",
+      "Goya",
+      "Kern's"
+    ],
+    "confidence": "high",
+    "notes": "Nectars are 25-50% fruit purée with added sugar and water. Converted from per-100 g using density 1.048 g/mL (USDA SR record has no portion; FNDDS \"Mango nectar\" (2709345): 1 fl oz = 31 g).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "peach_nectar",
+    "name": "Peach nectar",
+    "category": "juice",
+    "subcategory": "nectars",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      200,
+      237,
+      330
+    ],
+    "per100mL": {
+      "waterG": 91.5,
+      "energyKcal": 52,
+      "sugarG": 11.7,
+      "carbsG": 12.5,
+      "proteinG": 0.2,
+      "fatG": 0.5,
+      "sodiumMg": 8.4,
+      "potassiumMg": 52.4,
+      "caffeineMg": null
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "168185",
+      "description": "Peach nectar, canned, with added ascorbic acid",
+      "url": "https://fdc.nal.usda.gov/food-details/168185/nutrients"
+    },
+    "densityGPerML": 1.048,
+    "brandExamples": [
+      "Jumex",
+      "Kern's",
+      "Looza"
+    ],
+    "confidence": "high",
+    "notes": "Converted from per-100 g using density 1.048 g/mL (USDA SR record has no portion; FNDDS \"Peach nectar\" (2709346): 1 fl oz = 31 g).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "pear_nectar",
+    "name": "Pear nectar",
+    "category": "juice",
+    "subcategory": "nectars",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      200,
+      237,
+      330
+    ],
+    "per100mL": {
+      "waterG": 88.6,
+      "energyKcal": 63,
+      "sugarG": 16.0,
+      "carbsG": 16.7,
+      "proteinG": 0.1,
+      "fatG": 0.0,
+      "sodiumMg": 4.2,
+      "potassiumMg": 13.7,
+      "caffeineMg": null
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "168186",
+      "description": "Pear nectar, canned, with added ascorbic acid",
+      "url": "https://fdc.nal.usda.gov/food-details/168186/nutrients"
+    },
+    "densityGPerML": 1.055,
+    "brandExamples": [
+      "Jumex",
+      "Looza",
+      "Goya"
+    ],
+    "confidence": "high",
+    "notes": "Converted from per-100 g using density 1.055 g/mL (USDA portion weights for FDC 168186 imply 1.055 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "apricot_nectar",
+    "name": "Apricot nectar",
+    "category": "juice",
+    "subcategory": "nectars",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      200,
+      237,
+      330
+    ],
+    "per100mL": {
+      "waterG": 88.0,
+      "energyKcal": 58,
+      "sugarG": 13.2,
+      "carbsG": 14.0,
+      "proteinG": 0.2,
+      "fatG": 0.5,
+      "sodiumMg": 8.2,
+      "potassiumMg": 68.9,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "171704",
+      "description": "Apricot nectar, canned, with added ascorbic acid",
+      "url": "https://fdc.nal.usda.gov/food-details/171704/nutrients"
+    },
+    "densityGPerML": 1.028,
+    "brandExamples": [
+      "Jumex",
+      "Kern's"
+    ],
+    "confidence": "high",
+    "notes": "Converted from per-100 g using density 1.028 g/mL (USDA portion weights for FDC 171704 imply 1.028 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "milk_whole",
+    "name": "Whole milk (3.25%)",
+    "category": "dairy",
+    "subcategory": "milk",
+    "variants": [
+      "whole"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      237,
+      250,
+      355,
+      473
+    ],
+    "per100mL": {
+      "waterG": 90.8,
+      "energyKcal": 63,
+      "sugarG": 5.0,
+      "carbsG": 4.8,
+      "proteinG": 3.4,
+      "fatG": 3.3,
+      "sodiumMg": 39.2,
+      "potassiumMg": 154.6,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2705385",
+      "description": "Milk, whole",
+      "url": "https://fdc.nal.usda.gov/food-details/2705385/nutrients",
+      "crossCheck": "USDA SR Legacy 171265: 61 kcal, Na 43, K 132 mg/100 g; Canadian Nutrient File code 113 identical to SR."
+    },
+    "densityGPerML": 1.031,
+    "brandExamples": [],
+    "confidence": "high",
+    "notes": "FNDDS 2021-2023 values, which reproduce the USDA Foundation Foods analytical record (FDC 746782, sampled 2018). Lactose-free whole milk (FNDDS 2705392) carries identical values. Converted from per-100 g using density 1.031 g/mL (FNDDS 2024: 1 cup = 244 g, 1 fl oz = 30.5 g).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "milk_2pct",
+    "name": "Reduced-fat milk (2%)",
+    "category": "dairy",
+    "subcategory": "milk",
+    "variants": [
+      "2%",
+      "semi-skimmed (UK ~1.7%)"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      237,
+      250,
+      355,
+      473
+    ],
+    "per100mL": {
+      "waterG": 91.9,
+      "energyKcal": 52,
+      "sugarG": 5.0,
+      "carbsG": 5.1,
+      "proteinG": 3.5,
+      "fatG": 2.0,
+      "sodiumMg": 40.2,
+      "potassiumMg": 163.9,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2705386",
+      "description": "Milk, reduced fat (2%)",
+      "url": "https://fdc.nal.usda.gov/food-details/2705386/nutrients",
+      "crossCheck": "USDA SR Legacy 171267 and Canadian Nutrient File code 61: 50 kcal, Na 47, K 140 mg/100 g."
+    },
+    "densityGPerML": 1.031,
+    "brandExamples": [],
+    "confidence": "high",
+    "notes": "FNDDS values = USDA Foundation record FDC 746778. UK semi-skimmed is ~1.5-1.8% fat, between 1% and 2%. Converted from per-100 g using density 1.031 g/mL (FNDDS 2024: 1 cup = 244 g, 1 fl oz = 30.5 g).",
+    "quickPick": true,
+    "quickPickRank": 5
+  },
+  {
+    "id": "milk_1pct",
+    "name": "Low-fat milk (1%)",
+    "category": "dairy",
+    "subcategory": "milk",
+    "variants": [
+      "1%"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      237,
+      250,
+      355,
+      473
+    ],
+    "per100mL": {
+      "waterG": 92.5,
+      "energyKcal": 44,
+      "sugarG": 5.1,
+      "carbsG": 5.3,
+      "proteinG": 3.5,
+      "fatG": 1.0,
+      "sodiumMg": 40.2,
+      "potassiumMg": 163.9,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2705387",
+      "description": "Milk, low fat (1%)",
+      "url": "https://fdc.nal.usda.gov/food-details/2705387/nutrients",
+      "crossCheck": "USDA SR Legacy 170872 and Canadian Nutrient File code 63: 42 kcal/100 g."
+    },
+    "densityGPerML": 1.031,
+    "brandExamples": [],
+    "confidence": "high",
+    "notes": "FNDDS values = USDA Foundation record FDC 746772. Converted from per-100 g using density 1.031 g/mL (FNDDS 2024: 1 cup = 244 g, 1 fl oz = 30.5 g).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "milk_skim",
+    "name": "Skim milk (fat-free)",
+    "category": "dairy",
+    "subcategory": "milk",
+    "variants": [
+      "skim",
+      "fat-free"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      237,
+      250,
+      355,
+      473
+    ],
+    "per100mL": {
+      "waterG": 93.6,
+      "energyKcal": 35,
+      "sugarG": 5.2,
+      "carbsG": 5.1,
+      "proteinG": 3.5,
+      "fatG": 0.1,
+      "sodiumMg": 42.3,
+      "potassiumMg": 172.2,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2705388",
+      "description": "Milk, fat free (skim)",
+      "url": "https://fdc.nal.usda.gov/food-details/2705388/nutrients",
+      "crossCheck": "USDA SR Legacy 171269 and Canadian Nutrient File code 114: 34 kcal, Na 42, K 156 mg/100 g."
+    },
+    "densityGPerML": 1.031,
+    "brandExamples": [],
+    "confidence": "high",
+    "notes": "FNDDS values = USDA Foundation record FDC 746776. Converted from per-100 g using density 1.031 g/mL (FNDDS 2024: 1 cup = 244 g, 1 fl oz = 30.5 g).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "chocolate_milk",
+    "name": "Chocolate milk (reduced fat)",
+    "category": "dairy",
+    "subcategory": "flavored milk",
+    "variants": [
+      "2%"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      237,
+      250,
+      355,
+      473
+    ],
+    "per100mL": {
+      "waterG": 86.7,
+      "energyKcal": 80,
+      "sugarG": 10.1,
+      "carbsG": 12.8,
+      "proteinG": 3.2,
+      "fatG": 2.0,
+      "sodiumMg": 69.6,
+      "potassiumMg": 178.3,
+      "caffeineMg": 1.1
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "170880",
+      "description": "Milk, chocolate, fluid, commercial, reduced fat, with added vitamin A and vitamin D",
+      "url": "https://fdc.nal.usda.gov/food-details/170880/nutrients",
+      "crossCheck": "Canadian Nutrient File code 70: 77 kcal, sugars 9.55 g/100 g. FNDDS \"Chocolate milk, NFS\" (2705466): 65 kcal/100 g."
+    },
+    "densityGPerML": 1.055,
+    "brandExamples": [
+      "TruMoo",
+      "Nesquik (ready-to-drink)",
+      "Fairlife chocolate (much higher protein, less sugar)"
+    ],
+    "confidence": "high",
+    "notes": "Commercial reduced-fat chocolate milk. Contains ~1 mg caffeine/100 g from cocoa. Converted from per-100 g using density 1.055 g/mL (USDA portion weights for FDC 170880 imply 1.055 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "chocolate_milk_whole",
+    "name": "Chocolate milk (whole)",
+    "category": "dairy",
+    "subcategory": "flavored milk",
+    "variants": [
+      "whole"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      237,
+      250,
+      355,
+      473
+    ],
+    "per100mL": {
+      "waterG": 86.8,
+      "energyKcal": 88,
+      "sugarG": 10.1,
+      "carbsG": 10.9,
+      "proteinG": 3.3,
+      "fatG": 3.6,
+      "sodiumMg": 63.3,
+      "potassiumMg": 176.2,
+      "caffeineMg": 1.1
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "170879",
+      "description": "Milk, chocolate, fluid, commercial, whole, with added vitamin A and vitamin D",
+      "url": "https://fdc.nal.usda.gov/food-details/170879/nutrients",
+      "crossCheck": "FNDDS \"Chocolate milk, whole\" (2705467) identical; Canadian Nutrient File code 69."
+    },
+    "densityGPerML": 1.055,
+    "brandExamples": [],
+    "confidence": "high",
+    "notes": "Commercial whole chocolate milk. Converted from per-100 g using density 1.055 g/mL (USDA portion weights for FDC 170879 imply 1.055 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "chocolate_milk_lowfat",
+    "name": "Chocolate milk (low fat 1%)",
+    "category": "dairy",
+    "subcategory": "flavored milk",
+    "variants": [
+      "1%"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      237,
+      250,
+      355,
+      473
+    ],
+    "per100mL": {
+      "waterG": 89.1,
+      "energyKcal": 68,
+      "sugarG": 10.5,
+      "carbsG": 10.8,
+      "proteinG": 3.7,
+      "fatG": 1.2,
+      "sodiumMg": 68.6,
+      "potassiumMg": 181.5,
+      "caffeineMg": 1.1
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "170881",
+      "description": "Milk, chocolate, lowfat, with added vitamin A and vitamin D",
+      "url": "https://fdc.nal.usda.gov/food-details/170881/nutrients"
+    },
+    "densityGPerML": 1.055,
+    "brandExamples": [
+      "school-lunch chocolate milk"
+    ],
+    "confidence": "high",
+    "notes": "Converted from per-100 g using density 1.055 g/mL (record has no portion; USDA SR whole and reduced-fat chocolate milk: 1 fl oz = 31.2 g).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "strawberry_milk",
+    "name": "Strawberry milk",
+    "category": "dairy",
+    "subcategory": "flavored milk",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      118,
+      237,
+      250,
+      355,
+      473
+    ],
+    "per100mL": {
+      "waterG": 89.5,
+      "energyKcal": 68,
+      "sugarG": 8.9,
+      "carbsG": 8.9,
+      "proteinG": 3.4,
+      "fatG": 2.2,
+      "sodiumMg": 40.9,
+      "potassiumMg": 157.2,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2705495",
+      "description": "Strawberry milk, NFS",
+      "url": "https://fdc.nal.usda.gov/food-details/2705495/nutrients"
+    },
+    "densityGPerML": 1.048,
+    "brandExamples": [
+      "Nesquik Strawberry",
+      "TruMoo Strawberry"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS NFS (not further specified) average for strawberry-flavored milk. Converted from per-100 g using density 1.048 g/mL (USDA portion weights for FDC 2705495 imply 1.048 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "buttermilk",
+    "name": "Buttermilk (low fat, cultured)",
+    "category": "dairy",
+    "subcategory": "cultured",
+    "variants": [
+      "low fat"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      100,
+      200,
+      237,
+      250,
+      473
+    ],
+    "per100mL": {
+      "waterG": 93.3,
+      "energyKcal": 41,
+      "sugarG": 5.5,
+      "carbsG": 5.0,
+      "proteinG": 3.4,
+      "fatG": 1.1,
+      "sodiumMg": 153.2,
+      "potassiumMg": 156.3,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "170874",
+      "description": "Milk, buttermilk, fluid, cultured, lowfat",
+      "url": "https://fdc.nal.usda.gov/food-details/170874/nutrients"
+    },
+    "densityGPerML": 1.035,
+    "brandExamples": [],
+    "confidence": "medium",
+    "notes": "Sodium varies a lot between sources: USDA SR 148 mg, USDA Foundation 2022 (FDC 2259792) 92.5 mg, Canadian Nutrient File (code 124) 190 mg per 100 g; other fields agree closely. SR value used. Converted from per-100 g using density 1.035 g/mL (USDA portion weights for FDC 170874 imply 1.035 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "kefir_plain",
+    "name": "Kefir (plain, low fat)",
+    "category": "dairy",
+    "subcategory": "cultured",
+    "variants": [
+      "plain",
+      "low fat"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      100,
+      200,
+      237,
+      250,
+      473
+    ],
+    "per100mL": {
+      "waterG": 92.5,
+      "energyKcal": 44,
+      "sugarG": 4.8,
+      "carbsG": 4.9,
+      "proteinG": 3.9,
+      "fatG": 1.1,
+      "sodiumMg": 41.2,
+      "potassiumMg": 169.1,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "170904",
+      "description": "Kefir, lowfat, plain, LIFEWAY",
+      "url": "https://fdc.nal.usda.gov/food-details/170904/nutrients"
+    },
+    "densityGPerML": 1.031,
+    "brandExamples": [
+      "Lifeway",
+      "Biotiful (UK)",
+      "Danone"
+    ],
+    "confidence": "medium",
+    "notes": "USDA branded analysis of Lifeway low-fat plain kefir. FNDDS generic \"Kefir\" (2705394) is higher in sugar (6.9 g/100 g) because it mixes in flavored kefir; Canadian Nutrient File plain low-fat kefir (6999) is 37 kcal, 3.0 g sugar/100 g. Converted from per-100 g using density 1.031 g/mL (record has no portion; FNDDS \"Kefir\" (2705394): 1 cup = 244 g).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "kefir_flavored",
+    "name": "Kefir (fruit-flavored, low fat)",
+    "category": "dairy",
+    "subcategory": "cultured",
+    "variants": [
+      "flavored",
+      "low fat"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      100,
+      200,
+      237,
+      250,
+      473
+    ],
+    "per100mL": {
+      "waterG": 87.4,
+      "energyKcal": 64,
+      "sugarG": 9.5,
+      "carbsG": 10.5,
+      "proteinG": 3.5,
+      "fatG": 0.9,
+      "sodiumMg": 38.1,
+      "potassiumMg": 158.8,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (SR Legacy (April 2018))",
+      "fdcId": "171301",
+      "description": "Kefir, lowfat, strawberry, LIFEWAY",
+      "url": "https://fdc.nal.usda.gov/food-details/171301/nutrients"
+    },
+    "densityGPerML": 1.031,
+    "brandExamples": [
+      "Lifeway strawberry"
+    ],
+    "confidence": "medium",
+    "notes": "USDA branded analysis of Lifeway low-fat strawberry kefir. Converted from per-100 g using density 1.031 g/mL (record has no portion; FNDDS \"Kefir\" (2705394): 1 cup = 244 g).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "drinkable_yogurt",
+    "name": "Drinkable yogurt",
+    "category": "dairy",
+    "subcategory": "cultured",
+    "variants": [
+      "sweetened"
+    ],
+    "defaultServingML": 200,
+    "commonServingsML": [
+      100,
+      200,
+      237,
+      250,
+      473
+    ],
+    "per100mL": {
+      "waterG": 84.9,
+      "energyKcal": 77,
+      "sugarG": 10.6,
+      "carbsG": 13.0,
+      "proteinG": 3.8,
+      "fatG": 1.1,
+      "sodiumMg": 54.9,
+      "potassiumMg": 176.1,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2705442",
+      "description": "Yogurt, liquid",
+      "url": "https://fdc.nal.usda.gov/food-details/2705442/nutrients"
+    },
+    "densityGPerML": 1.036,
+    "brandExamples": [
+      "Danone/Dannon drinkable",
+      "Yoplait Go-Gurt drinkable",
+      "Actimel (100 mL)",
+      "lassi (sweet)"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS \"Yogurt, liquid\" (sweetened yogurt drink). Plain/unsweetened drinking yogurts (ayran, plain lassi) are much lower in sugar and salted ayran is high in sodium; not covered. Converted from per-100 g using density 1.036 g/mL (USDA portion weights for FDC 2705442 imply 1.036 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "smoothie_fruit_dairy",
+    "name": "Fruit smoothie (with yogurt/milk)",
+    "category": "smoothie",
+    "subcategory": "fruit smoothie",
+    "variants": [
+      "with dairy"
+    ],
+    "defaultServingML": 473,
+    "commonServingsML": [
+      237,
+      355,
+      450,
+      473,
+      591,
+      710
+    ],
+    "per100mL": {
+      "waterG": 76.7,
+      "energyKcal": 60,
+      "sugarG": 8.1,
+      "carbsG": 10.9,
+      "proteinG": 2.1,
+      "fatG": 1.0,
+      "sodiumMg": 25.6,
+      "potassiumMg": 158.9,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2705514",
+      "description": "Fruit smoothie, with whole fruit and dairy",
+      "url": "https://fdc.nal.usda.gov/food-details/2705514/nutrients"
+    },
+    "densityGPerML": 0.913,
+    "brandExamples": [
+      "Jamba (classic)",
+      "Smoothie King",
+      "homemade"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS recipe-based average for a blended whole-fruit smoothie with dairy. Shop smoothies vary from ~40 to >100 kcal/100 mL depending on sherbet, juice and add-ins. Converted from per-100 g using density 0.913 g/mL (FNDDS portion for blended smoothies: 1 cup = 216 g (aerated), i.e. 0.913 g/mL).",
+    "quickPick": true,
+    "quickPickRank": 11
+  },
+  {
+    "id": "smoothie_fruit_nondairy",
+    "name": "Fruit smoothie (no dairy)",
+    "category": "smoothie",
+    "subcategory": "fruit smoothie",
+    "variants": [
+      "no dairy"
+    ],
+    "defaultServingML": 473,
+    "commonServingsML": [
+      237,
+      355,
+      450,
+      473,
+      591,
+      710
+    ],
+    "per100mL": {
+      "waterG": 78.5,
+      "energyKcal": 49,
+      "sugarG": 8.0,
+      "carbsG": 11.6,
+      "proteinG": 0.6,
+      "fatG": 0.3,
+      "sodiumMg": 1.8,
+      "potassiumMg": 156.1,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2709334",
+      "description": "Fruit smoothie, with whole fruit, no dairy",
+      "url": "https://fdc.nal.usda.gov/food-details/2709334/nutrients"
+    },
+    "densityGPerML": 0.913,
+    "brandExamples": [
+      "homemade (fruit + juice/ice)"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS whole-fruit smoothie made without dairy. Converted from per-100 g using density 0.913 g/mL (FNDDS portion for blended smoothies: 1 cup = 216 g (aerated), i.e. 0.913 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "smoothie_bottled",
+    "name": "Fruit smoothie (bottled)",
+    "category": "smoothie",
+    "subcategory": "fruit smoothie",
+    "variants": [
+      "bottled"
+    ],
+    "defaultServingML": 450,
+    "commonServingsML": [
+      237,
+      355,
+      450,
+      473,
+      591,
+      710
+    ],
+    "per100mL": {
+      "waterG": 91.5,
+      "energyKcal": 52,
+      "sugarG": 10.5,
+      "carbsG": 12.2,
+      "proteinG": 0.5,
+      "fatG": 0.3,
+      "sodiumMg": 2.1,
+      "potassiumMg": 210.6,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2709339",
+      "description": "Fruit smoothie, bottled",
+      "url": "https://fdc.nal.usda.gov/food-details/2709339/nutrients"
+    },
+    "densityGPerML": 1.048,
+    "brandExamples": [
+      "Naked",
+      "Bolthouse Farms",
+      "Innocent (UK)"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS bottled fruit smoothie/juice blend. Converted from per-100 g using density 1.048 g/mL (USDA portion weights for FDC 2709339 imply 1.048 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "smoothie_green",
+    "name": "Green / fruit-and-vegetable smoothie",
+    "category": "smoothie",
+    "subcategory": "green smoothie",
+    "variants": [
+      "no dairy"
+    ],
+    "defaultServingML": 473,
+    "commonServingsML": [
+      237,
+      355,
+      450,
+      473,
+      591,
+      710
+    ],
+    "per100mL": {
+      "waterG": 76.8,
+      "energyKcal": 58,
+      "sugarG": 9.0,
+      "carbsG": 12.6,
+      "proteinG": 1.0,
+      "fatG": 0.3,
+      "sodiumMg": 17.3,
+      "potassiumMg": 273.9,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2710151",
+      "description": "Fruit and vegetable smoothie, no dairy",
+      "url": "https://fdc.nal.usda.gov/food-details/2710151/nutrients"
+    },
+    "densityGPerML": 0.913,
+    "brandExamples": [
+      "Naked Green Machine (bottled, use bottled smoothie)",
+      "homemade"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS fruit-and-vegetable smoothie without dairy; potassium-rich. Converted from per-100 g using density 0.913 g/mL (FNDDS portion for blended smoothies: 1 cup = 216 g (aerated), i.e. 0.913 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "smoothie_protein",
+    "name": "Protein smoothie (fruit + dairy + protein)",
+    "category": "smoothie",
+    "subcategory": "protein smoothie",
+    "variants": [
+      "added protein"
+    ],
+    "defaultServingML": 473,
+    "commonServingsML": [
+      237,
+      355,
+      450,
+      473,
+      591,
+      710
+    ],
+    "per100mL": {
+      "waterG": 73.1,
+      "energyKcal": 72,
+      "sugarG": 6.7,
+      "carbsG": 9.2,
+      "proteinG": 6.7,
+      "fatG": 1.1,
+      "sodiumMg": 36.5,
+      "potassiumMg": 157.9,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2705515",
+      "description": "Fruit smoothie, with whole fruit and dairy, added protein",
+      "url": "https://fdc.nal.usda.gov/food-details/2705515/nutrients"
+    },
+    "densityGPerML": 0.913,
+    "brandExamples": [
+      "Smoothie King \"Gladiator\"-style",
+      "homemade with protein powder"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS fruit-and-dairy smoothie with added protein powder. Converted from per-100 g using density 0.913 g/mL (FNDDS portion for blended smoothies: 1 cup = 216 g (aerated), i.e. 0.913 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "protein_shake_rtd",
+    "name": "Protein shake (ready-to-drink)",
+    "category": "smoothie",
+    "subcategory": "protein shake",
+    "variants": [
+      "high protein",
+      "low sugar"
+    ],
+    "defaultServingML": 325,
+    "commonServingsML": [
+      237,
+      296,
+      325,
+      340,
+      414,
+      500
+    ],
+    "per100mL": {
+      "waterG": 92.8,
+      "energyKcal": 64,
+      "sugarG": 0.6,
+      "carbsG": 0.9,
+      "proteinG": 6.9,
+      "fatG": 3.5,
+      "sodiumMg": 75.5,
+      "potassiumMg": 187.6,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2710726",
+      "description": "Nutritional drink or shake, high protein, ready-to-drink, NFS",
+      "url": "https://fdc.nal.usda.gov/food-details/2710726/nutrients"
+    },
+    "densityGPerML": 1.048,
+    "brandExamples": [
+      "Premier Protein",
+      "Fairlife Core Power",
+      "Muscle Milk",
+      "Orgain"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS \"Nutritional drink or shake, high protein, ready-to-drink, NFS\". Brands vary: ~6-10 g protein/100 mL. Muscle Milk (FNDDS 2710720) is 52 kcal, 5.9 g protein/100 g.  Converted from per-100 g using density 1.048 g/mL (FNDDS portion weights for the identical-profile record 2710724 (11 fl oz can = 341 g); the NFS record's own portions (32 g per fl oz, 1.082 g/mL) look inflated and were not used).",
+    "quickPick": true,
+    "quickPickRank": 12
+  },
+  {
+    "id": "meal_replacement_shake",
+    "name": "Nutrition / meal-replacement shake",
+    "category": "smoothie",
+    "subcategory": "meal replacement",
+    "variants": [
+      "regular"
+    ],
+    "defaultServingML": 237,
+    "commonServingsML": [
+      237,
+      296,
+      325,
+      340,
+      414,
+      500
+    ],
+    "per100mL": {
+      "waterG": 79.9,
+      "energyKcal": 110,
+      "sugarG": 10.2,
+      "carbsG": 17.7,
+      "proteinG": 4.0,
+      "fatG": 2.7,
+      "sodiumMg": 88.0,
+      "potassiumMg": 163.5,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2710725",
+      "description": "Nutritional drink or shake, ready-to-drink, NFS",
+      "url": "https://fdc.nal.usda.gov/food-details/2710725/nutrients"
+    },
+    "densityGPerML": 1.048,
+    "brandExamples": [
+      "Ensure",
+      "Boost",
+      "Carnation Breakfast Essentials"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS NFS shake = Ensure profile (105 kcal/100 g, 16.9 g carbohydrate). \"Plus\" versions (Ensure Plus 2710718, Boost Plus 2710715) are ~140 kcal/100 g. Converted from per-100 g using density 1.048 g/mL (USDA portion weights for FDC 2710725 imply 1.048 g/mL).",
+    "quickPick": false,
+    "quickPickRank": null
+  },
+  {
+    "id": "milkshake",
+    "name": "Milkshake (vanilla/strawberry)",
+    "category": "smoothie",
+    "subcategory": "milkshake",
+    "variants": [
+      "fast food"
+    ],
+    "defaultServingML": 473,
+    "commonServingsML": [
+      237,
+      355,
+      450,
+      473,
+      591,
+      710
+    ],
+    "per100mL": {
+      "waterG": 66.0,
+      "energyKcal": 140,
+      "sugarG": 12.9,
+      "carbsG": 18.6,
+      "proteinG": 3.2,
+      "fatG": 6.2,
+      "sodiumMg": 76.7,
+      "potassiumMg": 157.2,
+      "caffeineMg": 0.0
+    },
+    "hydrationFactor": null,
+    "source": {
+      "name": "USDA FoodData Central (FNDDS 2021-2023 (published 2024-10-31))",
+      "fdcId": "2705509",
+      "description": "Milk shake, fast food, flavors other than chocolate",
+      "url": "https://fdc.nal.usda.gov/food-details/2705509/nutrients"
+    },
+    "densityGPerML": 0.947,
+    "brandExamples": [
+      "McDonald's",
+      "Shake Shack",
+      "Chick-fil-A"
+    ],
+    "confidence": "medium",
+    "notes": "FNDDS fast-food milkshake, flavors other than chocolate. Chocolate (FNDDS 2705508): 150 kcal, 13.4 g sugar/100 g. Low water content (~70%). Converted from per-100 g using density 0.947 g/mL (FNDDS portion: 1 cup = 224 g (aerated)).",
+    "quickPick": false,
+    "quickPickRank": null
+  }
+]

@@ -1,0 +1,487 @@
+[
+  {
+    "id": "coffee_latte",
+    "set": {
+      "per100mL.waterG": 93.29,
+      "notes": "FNDDS 'Coffee, Latte' (unsweetened, cow's milk; FNDDS default milk is reduced-fat). Per-100 g converted with density 1.03 g/mL. Re-pulled from USDA FDC directly (Nov 2026): water 90.57, 43 kcal, sugars 4.06, carbs 4.35, protein 2.81, fat 1.61, Na 35, K 152 mg and caffeine 36 mg per 100 g; the record itself reports caffeine, so 37.1 mg/100 mL is now record-sourced rather than borrowed from sister records. Caffeine per drink depends on shots: Starbucks grande latte (2 shots) = 150 mg/473 mL (~32 mg/100 mL); a 240 mL cafe latte with a double shot is ~50-60 mg/100 mL. Norway's Matvaretabellen 'caffe latte, single, whole milk' lists 59 kcal, 3.1 g protein, 3.2 g fat per 100 g (whole milk version)."
+    },
+    "source": {
+      "name": "USDA FoodData Central, FDC 2710386 'Coffee, Latte', read directly from the FDC portal endpoint (Nov 2026)",
+      "url": "https://fdc.nal.usda.gov/food-details/2710386/nutrients",
+      "endpoint": "https://fdc.nal.usda.gov/portal-data/external/2710386"
+    },
+    "reason": "Direct USDA re-pull: water 90.57 g/100 g x 1.03 = 93.29 (mirror-derived 93.32). All other fields, including caffeine 36 mg/100 g, match the record; note updated because caffeine is now confirmed from the record itself."
+  },
+  {
+    "id": "tea_bubble_milk",
+    "set": {
+      "per100mL.waterG": 89.69,
+      "per100mL.carbsG": 10.76,
+      "per100mL.sugarG": 6.5,
+      "per100mL.caffeineMg": 32,
+      "caffeineRangePer100mL": [
+        8,
+        49
+      ],
+      "source": {
+        "name": "USDA FoodData Central FNDDS 2021-2023 'Tea, bubble' (FDC 2710508) for water, energy, carbs, protein, fat, Na, K; sugar = representative shop value from three lab analyses (Min et al. 2017; CHOICE AU; Hong Kong CFS 2019); caffeine = Hong Kong CFS/Consumer Council 2013 measured Taiwanese-style milk tea",
+        "fdcId": "2710508",
+        "url": "https://fdc.nal.usda.gov/food-details/2710508/nutrients",
+        "sugarSources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5217910/",
+          "https://www.choice.com.au/food-and-drink/drinks/tea-and-coffee/articles/bubble-tea",
+          "https://www.cfs.gov.hk/english/programme/programme_rafs/files/Sugar_and_energy_in_tea_based_beverages.pdf"
+        ],
+        "caffeineSource": "https://www.cfs.gov.hk/english/programme/programme_rafs/programme_rafs_fci_01_04.html"
+      },
+      "notes": "FNDDS 'Tea, bubble' re-pulled directly from USDA (per 100 g: water 86.24, 55 kcal, carbs 10.35, sugars 3.5, protein 0.39, fat 1.39, Na 9, K 17, caffeine 8 mg); converted with density 1.04. The FNDDS sugar (3.5 g/100 g) is far below measured shop drinks, so sugarG is a representative shop value instead: Min et al. 2017 (bomb calorimetry + HPLC, Los Angeles shop, 16 oz) measured 37.7 g sugars in 473 mL of milk tea liquid = 8.0 g/100 mL (plus 6.5 g in 60 g pearls); CHOICE (21 Australian bubble teas) averaged 6.3 g/100 g; Hong Kong CFS (2018 samples, regular sugar level) averaged 5.0 g/100 g (range 1.6-7.3) for pearl milk tea. Representative 6.5 g/100 mL; plausible range ~1.7-8 g/100 mL (less-sugar orders lower, brown-sugar drinks higher). Hong Kong CFS measured energy 78 kcal/100 g (58-94) including pearls, above the FNDDS 55 kcal/100 g, so energy is probably conservative. Caffeine: USDA FNDDS lists 8 mg/100 g (recipe-based); Hong Kong CFS/Consumer Council 2013 measured 10 Taiwanese-style milk teas at 250-490 mg/L (mean 320 mg/L), so 32 mg/100 mL default with range 8-49. Fruit teas without a tea base, and taro/milk slushes, can be far lower. The pearls are eaten, not drunk; the hydration agent may want to discount them.",
+      "confidence": "medium"
+    },
+    "source": {
+      "name": "Min JE, Green DB, Kim L. Calories and sugars in boba milk tea. Food Sci Nutr 2017;5(1):38-45 (PMC5217910)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5217910/"
+    },
+    "reason": "Direct USDA re-pull corrected water (89.65->89.69) and carbs (10.71->10.76) and supplied caffeine (8 mg/100 g). Per task 3, USDA bubble-tea sugar replaced with a representative shop value (6.5 g/100 mL; range ~1.7-8) from three lab analyses; caffeine set to the measured Taiwanese-style milk-tea mean (32 mg/100 mL) because the FNDDS value is a recipe estimate well below measured drinks."
+  },
+  {
+    "id": "other_kombucha",
+    "set": {
+      "per100mL.caffeineMg": 2.9,
+      "caffeineRangePer100mL": [
+        1.5,
+        11.3
+      ],
+      "notes": "FNDDS 'Tea, kombucha' re-pulled directly from USDA (per 100 g: water 94.91, 16 kcal, carbs 3.98, sugars 3.99, protein 0.1, Na 2, K 4, caffeine 11 mg); converted with density 1.01; all macro values confirmed. Cross-check GT's Synergy labels: 50-60 kcal and 12-16 g sugar per 16 oz (~2.5-3.4 g sugar/100 mL). Caffeine: the FNDDS 11 mg/100 g is a recipe estimate from brewed tea and ignores fermentation losses and dilution; HPLC of nine US commercial kombuchas (Yang et al., Nutrients 2022) found 15-113 ug/mL, median 29 ug/mL (2.9 mg/100 mL); the 113 ug/mL product had added green-coffee-bean caffeine. Default 2.9 mg/100 mL, range 1.5-11.3 (the upper end also covers the FNDDS figure). Commercial 'non-alcoholic' kombucha must stay <0.5% ABV in the US, but the same study measured up to 1.29% ethanol in one product; raw/'hard' kombuchas are 3-7% ABV (log those as alcohol)."
+    },
+    "source": {
+      "name": "Yang J, et al. Microbial and Chemical Profiles of Commercial Kombucha Products. Nutrients 2022;14(3):670 (PMC8838605)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8838605/"
+    },
+    "reason": "Caffeine was null. USDA re-pull shows FNDDS lists 11 mg/100 g (recipe-based); measured commercial products (HPLC, n=9) are much lower, so the literature median is used with a range that spans both. Macros confirmed unchanged."
+  },
+  {
+    "id": "tea_iced_sweet",
+    "set": {
+      "per100mL.waterG": 94.79,
+      "per100mL.caffeineMg": 18.5,
+      "notes": "FNDDS 'Tea, iced, brewed, black, pre-sweetened with sugar', re-pulled directly from USDA (per 100 g: water 92.03, 32 kcal, carbs 7.94, sugars 7.68, Na 3, K 34, caffeine 18 mg); converted with density 1.03. Caffeine is now taken from the record itself (18 mg/100 g = 18.5 mg/100 mL) instead of being estimated. Restaurant iced tea is often brewed weaker or diluted by ice (USDA Wendy's unsweetened iced tea: 8 mg/100 g). Southern US sweet tea can be sweeter than this record."
+    },
+    "source": {
+      "name": "USDA FoodData Central, FDC 2710515 'Tea, iced, brewed, black, pre-sweetened with sugar', read directly from the FDC portal endpoint (Nov 2026)",
+      "url": "https://fdc.nal.usda.gov/food-details/2710515/nutrients",
+      "endpoint": "https://fdc.nal.usda.gov/portal-data/external/2710515"
+    },
+    "reason": "Direct USDA re-pull: record reports caffeine 18 mg/100 g (x1.03 = 18.5; entry had an estimated 18) and water 92.03 g/100 g (x1.03 = 94.79 vs 94.76). Other fields match."
+  },
+  {
+    "id": "alc_margarita",
+    "set": {
+      "per100mL.waterG": 77.33,
+      "per100mL.sugarG": 16.54,
+      "per100mL.carbsG": 16.54
+    },
+    "source": {
+      "name": "USDA FoodData Central, FDC 2710638 'Margarita', read directly from the FDC portal endpoint (Nov 2026)",
+      "url": "https://fdc.nal.usda.gov/food-details/2710638/nutrients",
+      "endpoint": "https://fdc.nal.usda.gov/portal-data/external/2710638"
+    },
+    "reason": "Direct USDA re-pull: water 75.08 and carbs = sugars 16.06 g/100 g; x1.03 gives 77.33 and 16.54 (mirror-derived 77.35 and 16.58). Energy, alcohol, Na, K and ABV confirmed."
+  },
+  {
+    "id": "alc_wine_sparkling",
+    "set": {
+      "per100mL.waterG": 87.49
+    },
+    "source": {
+      "name": "USDA FoodData Central, FDC 2710687 'Wine, sparkling', read directly from the FDC portal endpoint (Nov 2026)",
+      "url": "https://fdc.nal.usda.gov/food-details/2710687/nutrients",
+      "endpoint": "https://fdc.nal.usda.gov/portal-data/external/2710687"
+    },
+    "reason": "Direct USDA re-pull: water 87.93 g/100 g x 0.995 = 87.49 (entry 87.46). All other fields (75 kcal, 9.5 g alcohol, sugars 1.0, carbs 2.31, K 74, Na 5 per 100 g) confirmed."
+  },
+  {
+    "id": "plant_soy_unsweetened",
+    "set": {
+      "per100mL.energyKcal": 39.1,
+      "per100mL.fatG": 2.18,
+      "per100mL.sodiumMg": 35.0
+    },
+    "source": {
+      "name": "USDA FoodData Central, FDC 1999630 'Soy milk, unsweetened, plain, shelf stable', read directly from the FDC portal endpoint (Nov 2026)",
+      "url": "https://fdc.nal.usda.gov/food-details/1999630/nutrients",
+      "endpoint": "https://fdc.nal.usda.gov/portal-data/external/1999630"
+    },
+    "reason": "Direct USDA re-pull: Foundation record gives 38 kcal (Atwater general and specific), fat 2.12 g and Na 34 mg per 100 g; x1.03 = 39.1 kcal, 2.18 g, 35.0 mg. The mirror values (39.7 kcal, 2.19 g, 35.3 mg) appear to be recomputed or rounded differently. Water, protein, carbs, sugar (0.56 total sugars) and K confirmed."
+  },
+  {
+    "id": "plant_oat_unsweetened",
+    "set": {
+      "per100mL.energyKcal": 49.4,
+      "notes": "USDA Foundation 'Oat milk, unsweetened, plain, refrigerated', re-pulled directly from USDA (per 100 g: water 90.6, 48 kcal, protein 0.8, fat 2.75, carbs 5.1, total sugars 2.32 (glucose 0.77 + maltose 1.55), Na 42, K 148). The record now declares total sugars (2.32 g), identical to the summed sugars used before. 'Unsweetened' oat milk still contains sugars formed when oat starch is enzymatically broken down. Density 1.03 g/mL."
+    },
+    "source": {
+      "name": "USDA FoodData Central, FDC 2257046 'Oat milk, unsweetened, plain, refrigerated', read directly from the FDC portal endpoint (Nov 2026)",
+      "url": "https://fdc.nal.usda.gov/food-details/2257046/nutrients",
+      "endpoint": "https://fdc.nal.usda.gov/portal-data/external/2257046"
+    },
+    "reason": "Direct USDA re-pull: energy 48 kcal/100 g x 1.03 = 49.4 (mirror-derived 49.7). Other fields match; note updated because the record now states total sugars directly."
+  },
+  {
+    "id": "water_mineral_sparkling",
+    "set": {
+      "per100mL.sugarG": 0.0,
+      "per100mL.caffeineMg": 0.0
+    },
+    "source": {
+      "name": "Perrier Canada nutrition panel (0 g carbohydrate; ingredients natural mineral water and carbon dioxide)",
+      "url": "https://www.perrier.com/ca/en-ca/node/1051"
+    },
+    "reason": "USDA SR record leaves sugars and caffeine blank. Perrier's own panel shows 0 g carbohydrate, and the only ingredients are mineral water and CO2, so sugar and caffeine are genuinely 0."
+  },
+  {
+    "id": "orange_soda",
+    "set": {
+      "per100mL.caffeineMg": 0.0,
+      "caffeineRangePer100mL": [
+        0,
+        5.4
+      ],
+      "notes": "USDA SR does not report total sugars for this record (only carbohydrate 12.3 g/100 g). sugarG stays null: US orange sodas list modified food starch (Fanta: 74 g carbs vs 73 g sugars per 20 fl oz; Sunkist: modified corn starch), so sugar is not exactly equal to carbohydrate. US Fanta Orange label: 12.3 g sugar/100 mL (see brand entry). Caffeine: USDA leaves it blank. Fanta Orange and Crush are caffeine-free (Fanta ingredient list: carbonated water, HFCS, citric acid, natural flavors, sodium benzoate, modified food starch, glycerol ester of rosin, colors), so the default is 0; but Sunkist Orange contains caffeine (19 mg per 12 fl oz = 5.4 mg/100 mL on current labels; older labels 41 mg), hence the range 0-5.4. Log Sunkist with a custom caffeine value. Converted from per-100 g using density 1.048 g/mL (USDA portion weights for FDC 174854 imply 1.048 g/mL)."
+    },
+    "source": {
+      "name": "The Coca-Cola Company, Fanta US product page (ingredients); Sunkist label as shown by US retailers",
+      "url": "https://www.coca-cola.com/us/en/brands/fanta/products"
+    },
+    "reason": "Caffeine was null. Leading caffeine-free brands (Fanta, Crush) support 0; Sunkist's 19 mg/12 fl oz is captured by the range. sugarG left null because orange-soda ingredient lists include modified starch (a non-sugar carbohydrate)."
+  },
+  {
+    "id": "grape_soda",
+    "set": {
+      "per100mL.sugarG": 11.7,
+      "per100mL.caffeineMg": 0.0,
+      "notes": "USDA SR record reports carbohydrate (11.2 g/100 g) but not total sugars or caffeine. sugarG set equal to carbsG: the ingredient list of the reference product (Fanta Grape: carbonated water, HFCS, natural flavors, citric acid, tartaric acid, preservatives, Red 40, Blue 1) contains no non-sugar carbohydrate; its label shows 74 g carbs vs 73 g sugars per 20 fl oz, a rounding-level gap. Caffeine 0: Coca-Cola describes Fanta Grape as caffeine-free and no caffeine appears in the ingredients. US Fanta Grape label: 73 g sugar per 20 fl oz (12.3 g/100 mL). Converted from per-100 g using density 1.048 g/mL (USDA portion weights for FDC 173203 imply 1.048 g/mL)."
+    },
+    "source": {
+      "name": "The Coca-Cola Company, Fanta US product page (Fanta Grape ingredients and nutrition)",
+      "url": "https://www.coca-cola.com/us/en/brands/fanta/products"
+    },
+    "reason": "sugarG and caffeine were null. Grape soda ingredients show no non-sugar carbohydrate, so sugar = carbs per the task rule (noted); the reference product is explicitly caffeine-free."
+  },
+  {
+    "id": "pepsi_zero_sugar",
+    "set": {
+      "per100mL.caffeineMg": 10.7,
+      "per100mL.sodiumMg": 11.3,
+      "confidence": "medium",
+      "source": {
+        "name": "Pepsi Zero Sugar 12 fl oz can Nutrition Facts and caffeine statement as shown by US retailer (Food Lion); reformulation history per Wikipedia",
+        "fdcId": null,
+        "url": "https://foodlion.com/groceries/product/pepsi-zero-sugar-cola-soda-12-pk-12-oz-cans/147262",
+        "crossCheck": "pepsicoproductfacts.com lists 38 mg caffeine per 12 fl oz for the Pepsi Zero Sugar Wild Cherry & Cream variant (gtin 00012000240577); Caffeine Informer also gives 38 mg/12 fl oz.",
+        "waterFrom": {
+          "name": "USDA FoodData Central (SR Legacy/FNDDS analog)",
+          "fdcId": "175099",
+          "url": "https://fdc.nal.usda.gov/food-details/175099/nutrients"
+        }
+      },
+      "notes": "Current US formula (reformulated around January 2023; earlier cans had 69 mg caffeine per 12 fl oz). Current 12 fl oz can label: 0 kcal, 0 g sugar, 40 mg sodium, 38 mg caffeine -> 10.7 mg caffeine and 11.3 mg sodium per 100 mL (354.88 mL). Ingredients: carbonated water, caramel color, phosphoric acid, aspartame, natural flavor, potassium benzoate, acesulfame potassium, caffeine, citric acid, calcium disodium EDTA. Potassium is not declared on the panel (null; the potassium preservatives contribute only trace amounts). PepsiCo's own product-facts site does not display sodium, so sodium is from the retailer copy of the label. Older stock or non-US Pepsi Max formulas may differ. waterG = USDA analog FDC 175099 water% x 1.0 g/mL (labels do not state water)."
+    },
+    "source": {
+      "name": "Food Lion listing of the Pepsi Zero Sugar 12 fl oz can label",
+      "url": "https://foodlion.com/groceries/product/pepsi-zero-sugar-cola-soda-12-pk-12-oz-cans/147262"
+    },
+    "reason": "Caffeine and sodium were null. Current US label: 38 mg caffeine and 40 mg sodium per 12 fl oz; 38 mg matches PepsiCo product facts for a sister variant and Caffeine Informer, and the 69 mg figure predates the 2023 reformulation."
+  },
+  {
+    "id": "peach_nectar",
+    "set": {
+      "per100mL.caffeineMg": 0.0
+    },
+    "source": {
+      "name": "Jumex Peach Nectar ingredients as listed by US retailer (Hy-Vee): water, peach puree, sugar, citric acid, natural flavor, xanthan gum, sucralose, beta-carotene",
+      "url": "https://hy-vee.com/aisles-online/p/27563/Jumex-Peach-Nectar-from-Concentrate"
+    },
+    "reason": "Caffeine was null (USDA SR leaves it blank). Peach nectar is fruit puree, water and sweetener with no caffeine-containing ingredient; fruit contains no caffeine."
+  },
+  {
+    "id": "pear_nectar",
+    "set": {
+      "per100mL.caffeineMg": 0.0
+    },
+    "source": {
+      "name": "USDA FDC 168186 description ('Pear nectar, canned, with added ascorbic acid'); nectar ingredient pattern as for Jumex nectars",
+      "url": "https://fdc.nal.usda.gov/food-details/168186/nutrients"
+    },
+    "reason": "Caffeine was null. Pear nectar is pear puree, water, sugar and ascorbic acid; none contain caffeine."
+  },
+  {
+    "id": "tea_matcha",
+    "set": {
+      "per100mL.waterG": 99.2,
+      "per100mL.energyKcal": 2.0,
+      "per100mL.carbsG": 0.33,
+      "per100mL.proteinG": 0.24,
+      "per100mL.fatG": 0.04,
+      "per100mL.sodiumMg": 0.05,
+      "per100mL.potassiumMg": 22.3,
+      "source": {
+        "name": "Japan Standard Tables of Food Composition 2020 (8th ed., 2023 supplement), food 16035 'matcha' (powder) per 100 g: water 5.0 g, 237 kcal, protein 29.6 g, fat 5.3 g, carbohydrate 39.5 g (fibre 38.5 g), Na 6 mg, K 2700 mg; caffeine 3.2 g/100 g as previously cited; derived per 100 mL",
+        "fdcId": null,
+        "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=16_16035_7"
+      },
+      "notes": "Derived: 2 g matcha powder whisked into 240 mL water (~242 g of drink). Macros scale the MEXT powder values by 2/242: ~2 kcal, 0.24 g protein, 0.04 g fat, 0.33 g carbohydrate (almost all fibre; available carbohydrate is only 1.6 g/100 g powder, so sugar ~0), 0.05 mg Na and 22 mg K per 100 mL, plus whatever minerals the user's water carries. Caffeine: 32 mg/g (~64 mg per 2 g) = 26.7 mg/100 mL; the caffeine figure comes from the MEXT table notes via secondary summaries and was not displayed on the database page. Published per-gram values span ~19-44 mg/g and doses span 1-4 g, and traditional usucha uses ~2 g in only ~70 mL (~90 mg/100 mL), hence the wide range. Matcha lattes: build as matcha + milk modifier."
+    },
+    "source": {
+      "name": "MEXT Food Composition Database, matcha 16035",
+      "url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=16_16035_7"
+    },
+    "reason": "Seven nulls filled by scaling the official Japanese table's matcha-powder composition to the entry's existing 2 g / 240 mL recipe."
+  },
+  {
+    "id": "tea_chai_latte",
+    "set": {
+      "per100mL.alcoholG": 0
+    },
+    "source": {
+      "name": "Starbucks Chai Tea Latte is a brewed-tea concentrate plus milk (non-fermented); all other non-alcoholic Part B entries use alcoholG 0",
+      "url": "https://www.starbucks.com/menu/product/409/hot"
+    },
+    "reason": "alcoholG was null for a non-alcoholic tea-and-milk drink; set to 0 for consistency. Sodium, carbs, potassium and water stay null (only non-authoritative aggregator figures were found; see log)."
+  },
+  {
+    "id": "energy_celsius",
+    "set": {
+      "per100mL.carbsG": 0.0
+    },
+    "source": {
+      "name": "Celsius Sparkling Orange 12 fl oz label as shown by US retailer (Food Lion): 10 kcal, 0 g fat, 5 mg sodium, 0 g total carbohydrate, 200 mg caffeine",
+      "url": "https://foodlion.com/groceries/beverages/energy-drinks/celsius-live-fit-sparkling-orange-energy-drink-12-oz-can.html"
+    },
+    "reason": "carbsG was null; label declares 0 g total carbohydrate (sweetened with sucralose; no erythritol in the ingredient list). Potassium is not declared on the panel and stays null."
+  },
+  {
+    "id": "energy_5hour",
+    "set": {
+      "per100mL.energyKcal": 7.0,
+      "per100mL.sodiumMg": 26.3,
+      "per100mL.potassiumMg": 22.8,
+      "notes": "1.93 fl oz (57 mL) shot. Regular ~200 mg caffeine (351 mg/100 mL); Extra Strength 230 mg (404 mg/100 mL). A 2012 Consumer Reports test measured 215 mg (regular) and 242 mg (Extra Strength). Regular Strength Berry Supplement Facts (as shown by US retailers): 4 kcal, 15 mg sodium, 13 mg potassium per bottle -> 7.0 kcal, 26.3 mg Na, 22.8 mg K per 100 mL. Sugar-free (sucralose). Carbohydrate, protein and water are not declared (null). Volume is tiny, so it contributes almost nothing to hydration but a lot to caffeine."
+    },
+    "source": {
+      "name": "5-hour Energy Regular Strength Berry Supplement Facts as shown by US retailers (Brookshire's: Na 15 mg, K 13 [mg]; Instacart: 4 kcal, Na 15 mg)",
+      "url": "https://www.brookshires.com/product/5hour-energy-energy-shot-regular-strength-berry-id-00719410500016"
+    },
+    "reason": "Energy, sodium and potassium were null. Retailer copies of the Supplement Facts agree on 4 kcal and 15 mg sodium; potassium 13 mg (Brookshire's shows '13g', clearly a unit typo; AllStarHealth's reproduction reads 13 mg). The manufacturer site rate-limited automated access."
+  },
+  {
+    "id": "plant_oat_original",
+    "set": {
+      "per100mL.proteinG": 1.25,
+      "per100mL.potassiumMg": 162.5
+    },
+    "source": {
+      "name": "Oatly US, Oatmilk Original 32 oz product page (per 1 cup / 240 mL: 120 kcal, 5 g fat, 100 mg Na, 390 mg K, 16 g carbs, 7 g sugars, 3 g protein, 350 mg Ca)",
+      "url": "https://www.oatly.com/en-us/products/oatmilk/oatmilk-32-oz"
+    },
+    "reason": "Protein and potassium were null; the manufacturer page lists 3 g protein and 390 mg potassium per 240 mL. Other existing fields re-confirmed."
+  },
+  {
+    "id": "plant_pea",
+    "set": {
+      "per100mL.sugarG": 2.5,
+      "per100mL.carbsG": 2.5,
+      "per100mL.potassiumMg": 156.3
+    },
+    "source": {
+      "name": "Ripple Foods, Ripple Original 8 fl oz product page (100 kcal, 4.5 g fat, 160 mg Na, 375 mg K, 6 g carbs, 6 g sugars, 8 g protein, 440 mg Ca)",
+      "url": "https://dev.ripplefoods.com/on-the-go/original/"
+    },
+    "reason": "Sugar, carbs and potassium were null; the manufacturer panel lists 6 g carbohydrate, 6 g sugars and 375 mg potassium per 240 mL. Note another Ripple page states 5 g sugar per cup and says refrigerated vs shelf-stable formats differ slightly."
+  },
+  {
+    "id": "other_vegetable_juice",
+    "set": {
+      "per100mL.proteinG": 0.83,
+      "per100mL.potassiumMg": 195.8,
+      "name": "V8 Original 100% Vegetable Juice",
+      "brandExamples": [
+        "V8 Original"
+      ],
+      "notes": "Brand entry (Campbell's V8 Original) kept alongside Part A's generic 'vegetable_juice' (USDA SR 170063). Label per 8 fl oz (240 mL): 45 kcal, 9 g carbs, 2 g fibre, 7 g sugars (no added sugar), 2 g protein, 640 mg sodium, 470 mg potassium. The current label's sodium (267 mg/100 mL) is well above the USDA generic record (~174 mg/100 mL), which is why a brand entry is worth keeping. Low Sodium V8 is ~140 mg Na per 8 oz. Water not declared (null)."
+    },
+    "source": {
+      "name": "Campbell's, V8 Original 100% Vegetable Juice product page",
+      "url": "https://www.campbells.com/v8/vegetable-juice/v8-original"
+    },
+    "reason": "Protein and potassium were null; label lists 2 g protein and 470 mg potassium per 240 mL. Renamed to a brand entry to resolve the overlap with Part A 'vegetable_juice' (see overlap section)."
+  },
+  {
+    "id": "water_sparkling_plain",
+    "set": {
+      "per100mL.sodiumMg": 0.0,
+      "notes": "FNDDS 'Water, carbonated, plain' (FDC 2710539) lumps club soda and unflavored seltzer together and carries the club-soda sodium (21 mg/100 g). Plain seltzer is just carbonated water: Polar Seltzer Original lists carbonated water as its only ingredient and 0 mg sodium, so sodium is set to 0 (the label's '0 mg' means under 5 mg per serving, i.e. below ~1.4 mg/100 mL). Use the club_soda entry for club soda (sodium salts added) and the mineral-water entries for naturally sparkling mineral waters. Other fields from FNDDS. Density 1.000 g/mL (USDA SR club soda: 12 fl oz can = 355 g).",
+      "source": {
+        "name": "USDA FoodData Central FNDDS 'Water, carbonated, plain' (FDC 2710539) for all fields except sodium; sodium from Polar Seltzer Original label",
+        "fdcId": "2710539",
+        "description": "Water, carbonated, plain",
+        "url": "https://fdc.nal.usda.gov/food-details/2710539/nutrients",
+        "sodiumFrom": {
+          "name": "Polar Seltzer Original label as shown by US retailers (HEB): 0 mg sodium; ingredients: carbonated water",
+          "url": "https://www.heb.com/product-detail/polar-seltzer-water-original/2801533"
+        }
+      }
+    },
+    "source": {
+      "name": "Polar Seltzer Original label (HEB listing)",
+      "url": "https://www.heb.com/product-detail/polar-seltzer-water-original/2801533"
+    },
+    "reason": "FNDDS seltzer sodium is club-soda sodium (21 mg/100 g). A plain seltzer label shows 0 mg sodium with carbonated water as the only ingredient."
+  },
+  {
+    "id": "alc_beer_strong",
+    "set": {
+      "per100mL.energyKcal": 71.6,
+      "per100mL.carbsG": 4.23,
+      "per100mL.proteinG": 0.85,
+      "per100mL.alcoholG": 7.1,
+      "abvPercent": 9.0,
+      "source": {
+        "name": "Sierra Nevada Big Little Thing (imperial IPA) published stats per 12 fl oz (product page, read via search snippet): 9.0% ABV (a brewery tagline says 9.5%), 254 kcal, 15 g carbohydrate, 3 g protein; USDA SR 'beer, higher alcohol' (FDC 171906) kept for water, sugar, sodium and potassium",
+        "fdcId": "171906",
+        "url": "https://dev.sierranevada.com/beer/big-little-thing",
+        "usdaUrl": "https://fdc.nal.usda.gov/food-details/171906/nutrients"
+      },
+      "notes": "Kcal, carbohydrate, protein and alcohol now follow brewery data for a representative double IPA (Sierra Nevada Big Little Thing: 9.0% ABV, 254 kcal, 15 g carbs, 3 g protein per 12 fl oz -> 71.6 kcal, 4.2 g carbs, 0.85 g protein, 7.1 g ethanol per 100 mL; 25 g ethanol per can = 1.8 US standard drinks). Energy check: 7.1 x 7 + 4.2 x 4 + 0.85 x 4 = 70 kcal, consistent with the label. USDA SR 'beer, higher alcohol' gave only 58 kcal and 0.27 g carbs per 100 g. UK CoFID cannot settle this: its beer carbohydrate counts sugars only (e.g. 'Lager, extra strong' 60 kcal, 2.4 g carbohydrate, 7.1 g alcohol per 100 g), so it understates beer energy the same way. Water, sugar (0), sodium and potassium remain from the USDA record as generic strong-beer values. Strong beers span ~8-12% ABV; imperial stouts and barley wines usually carry more residual carbohydrate (and kcal) than DIPAs, so offer a custom ABV."
+    },
+    "source": {
+      "name": "Sierra Nevada, Big Little Thing product page (stats shown in search snippet; page blocks automated fetch)",
+      "url": "https://dev.sierranevada.com/beer/big-little-thing"
+    },
+    "reason": "USDA 'higher alcohol' beer kcal/carbs are implausibly low (0.27 g carbs). Replaced with brewery data for a representative 9% double IPA; CoFID was checked but uses a sugars-only carbohydrate convention for beers, so it cannot be used to correct this."
+  },
+  {
+    "id": "cranberry_juice_100",
+    "set": {
+      "per100mL.waterG": 96.7,
+      "per100mL.energyKcal": 25,
+      "per100mL.sugarG": 3.8,
+      "per100mL.carbsG": 7.6,
+      "per100mL.proteinG": 0.0,
+      "per100mL.fatG": 0.0,
+      "per100mL.sodiumMg": 6.3,
+      "per100mL.potassiumMg": 76.1,
+      "densityGPerML": 1.048,
+      "confidence": "medium",
+      "source": {
+        "name": "Ocean Spray Unsweetened Pure Cranberry Juice (100% juice) label as shown by US retailer (Hannaford), per 8 fl oz: 60 kcal, 15 mg sodium, 180 mg potassium, 18 g carbohydrate, 9 g total sugars, 0 g added sugars",
+        "fdcId": "2709324",
+        "url": "https://hannaford.com/groceries/product/ocean-spray-unsweetened-pure-cranberry-juice-32-oz-btl/288550",
+        "waterFrom": {
+          "name": "USDA FNDDS 'Cranberry juice, 100%, not a blend' (FDC 2709324): water 92.3 g/100 g x 1.048 g/mL (FNDDS 248 g/cup)",
+          "fdcId": "2709324",
+          "url": "https://fdc.nal.usda.gov/food-details/2709324/nutrients"
+        },
+        "crossCheck": "FNDDS 2709324 per 100 g: 32 kcal, carbs 7.26, sugars 3.41, Na 6, K 71 (agrees with the label). SR Legacy 168117 (12.1 g sugars/100 g) disagrees with both and was dropped."
+      },
+      "notes": "Pure unsweetened cranberry juice (ingredients: water, cranberry juice concentrate). The SR Legacy record (FDC 168117: 46 kcal, 12.1 g sugars per 100 g) conflicts with both the Ocean Spray 100% juice label (9 g sugars and 18 g carbohydrate per 8 fl oz = 3.8 g and 7.6 g per 100 mL) and FNDDS 'Cranberry juice, 100%, not a blend' (3.41 g sugars, 7.26 g carbs per 100 g), so the label is now the source. Much of the carbohydrate is organic acids, so carbs are about twice sugars and energy is low. Do not confuse with Ocean Spray '100% Juice Cranberry' blends (sweetened with other fruit juices, ~23 g sugar per 8 oz). Label values per 8 fl oz scaled with 236.59 mL; waterG from FNDDS water% x its 1.048 g/mL portion density (labels do not state water)."
+    },
+    "source": {
+      "name": "Ocean Spray Unsweetened Pure Cranberry Juice label (Hannaford listing)",
+      "url": "https://hannaford.com/groceries/product/ocean-spray-unsweetened-pure-cranberry-juice-32-oz-btl/288550"
+    },
+    "reason": "Resolves the SR (12.1 g) vs FNDDS (3.4 g) sugar conflict: the Ocean Spray 100% cranberry juice label (3.8 g sugar/100 mL) agrees with FNDDS, so the entry is re-based on the label with FNDDS water."
+  },
+  {
+    "id": "buttermilk",
+    "set": {
+      "notes": "Sodium is brand-dependent because most US cultured buttermilk has added salt. Resolution of the source conflict: current US low-fat buttermilk labels give 260-380 mg sodium per 1 cup (240 mL) = 108-158 mg/100 mL (Darigold 260, Lucerne 290, Meadow Gold 290, TG Lee 340, Kemps 380, Cass-Clay 380). The SR value used here (148 mg/100 g = 153 mg/100 mL) sits inside that range and is kept. USDA Foundation 2022 (FDC 2259792: 92 mg/100 g = 95 mg/100 mL) is below every label checked, so it probably reflects lightly salted samples; CNF code 124 (190 mg/100 g) is above the label range. Other fields agree closely across sources. Caution: the SR record reports sugars (5.36 g) slightly above carbohydrate by difference (4.79 g), an internal quirk of that record. Converted from per-100 g using density 1.035 g/mL (USDA portion weights for FDC 170874 imply 1.035 g/mL)."
+    },
+    "source": {
+      "name": "Darigold 1% Low Fat Buttermilk and Kemps Cultured 1% Lowfat Buttermilk labels (manufacturer pages), plus Lucerne, Meadow Gold, TG Lee, Cass-Clay labels",
+      "url": "https://www.darigold.com/?p=1105"
+    },
+    "reason": "Buttermilk sodium conflict (SR 148 vs Foundation 92 vs CNF 190 mg/100 g) checked against six current US labels (108-158 mg/100 mL). SR value is inside the label range, so the value is kept and the note documents the resolution."
+  },
+  {
+    "id": "tea_white",
+    "set": {
+      "per100mL.caffeineMg": 20,
+      "source": {
+        "name": "Proxy: USDA brewed green tea (FDC 171917) for non-caffeine nutrients; caffeine derived from USDA green tea x white/green leaf-caffeine ratio (Hilal & Engelhardt 2007); range from Chin et al. 2008",
+        "fdcId": "171917",
+        "url": "https://fdc.nal.usda.gov/food-details/171917/nutrients",
+        "caffeineSource": "https://link.springer.com/doi/10.1007/s00003-007-0250-3"
+      },
+      "notes": "No USDA or CoFID record for white tea. Non-caffeine nutrients are negligible for all plain teas, so brewed green tea values stand in. Caffeine is no longer simply copied from green tea: Hilal & Engelhardt (J Verbr Lebensm 2007; ~30 paired authentic white and green teas from the same areas) measured white-tea leaf caffeine at 4.85 g/100 g (3.35-5.74) against 2.90 g/100 g (1.67-3.90) for the paired green teas, a ratio of ~1.7. Applying that ratio to USDA brewed green tea (12 mg/100 mL) gives ~20 mg/100 mL. This assumes similar extraction; white tea is often brewed cooler, which extracts less, so treat it as an estimate (low confidence). Chin et al. 2008 found 14-61 mg per 6-8 oz serving across white, green and black teas with no trend by tea type, hence the shared range of 6-36 mg/100 mL. The popular claim that white tea is lowest in caffeine is not supported."
+    },
+    "source": {
+      "name": "Hilal Y, Engelhardt U. Characterisation of white tea - comparison to green and black tea. J Verbr Lebensm 2007;2:414-421",
+      "url": "https://link.springer.com/doi/10.1007/s00003-007-0250-3"
+    },
+    "reason": "White tea borrowed green tea's caffeine unchanged. White-tea-specific leaf analyses show ~1.7x the caffeine of paired green teas, so the default is derived from that ratio (method stated, low confidence kept)."
+  },
+  {
+    "id": "tea_rooibos",
+    "set": {
+      "per100mL.energyKcal": 0,
+      "per100mL.carbsG": 0.0,
+      "per100mL.sodiumMg": 3.8,
+      "source": {
+        "name": "South African Rooibos Council typical values per 100 mL infusion (SANAS-accredited lab analyses): 0 kJ, 0 g protein, 0 g carbohydrate, 0 g sugar, 0 g fat, 3.8 mg sodium; naturally caffeine-free. Water and potassium remain from USDA herbal tea (FDC 173232) as a proxy",
+        "fdcId": "173232",
+        "url": "https://sarooibos.co.za/frequently-asked-questions/",
+        "proxyUrl": "https://fdc.nal.usda.gov/food-details/173232/nutrients"
+      },
+      "notes": "Rooibos (Aspalathus linearis) is naturally caffeine-free. Energy, carbohydrate, sugar, fat, protein and sodium now come from the South African Rooibos Council's lab-analysed values for rooibos infusion (sodium 3.8 mg/100 mL, notably higher than most teas, consistent with Olivier et al. 2012, S Afr J Sci, who found rooibos high in sodium). Potassium (9 mg) and water (99.7 g) are still the USDA generic herbal-tea proxy because no rooibos-specific potassium figure was found."
+    },
+    "source": {
+      "name": "South African Rooibos Council FAQ nutrition table",
+      "url": "https://sarooibos.co.za/frequently-asked-questions/"
+    },
+    "reason": "Rooibos borrowed generic herbal-tea values. Rooibos-specific lab values from the national industry body replace energy, carbs and sodium (1 -> 3.8 mg); potassium stays a flagged proxy."
+  },
+  {
+    "id": "coffee_flat_white",
+    "set": {
+      "source": {
+        "name": "Matvaretabellen (Norwegian Food Composition Table) food 13.040 'Caffe latte, single, with whole milk' for all nutrients (per 100 g: water 89.0, 59 kcal, protein 3.1, fat 3.2, carbs 4.6, sugars 4, Na 35, K 152) x 1.03 g/mL; Starbucks published caffeine (grande flat white 195 mg)",
+        "fdcId": null,
+        "url": "https://www.matvaretabellen.no/en/caffe-latte-single-with-whole-milk/",
+        "crossCheck": "Starbucks grande (473 mL) Flat White, whole milk, per US nutrition listings: 220 kcal, 11 g fat, 18 g carbs, 17 g sugar, 12 g protein, 150 mg sodium (= 46.5 kcal, 2.3 g fat, 3.8 g carbs, 3.6 g sugar, 2.5 g protein, 31.7 mg Na per 100 mL)."
+      },
+      "notes": "No USDA record. A flat white is espresso (often ristretto) with steamed whole milk and thin microfoam. All nutrients are from one record, Norway's whole-milk caffe latte (Matvaretabellen 13.040; verified Nov 2026: 59 kcal, 3.1 g protein, 3.2 g fat, 4.6 g carbs, 4 g sugars, 35 mg Na, 152 mg K per 100 g), converted with density 1.03; the sodium and potassium happen to equal the FNDDS latte values but are sourced from the Norwegian record. This is a latte proxy: Starbucks' grande flat white (more espresso per mL, whole milk) works out to ~46.5 kcal, 3.6 g sugar, 2.5 g protein and 32 mg Na per 100 mL, about 20-25% lower than this record, so the per-100 mL values are an upper-side estimate for chain flat whites. Caffeine default = Starbucks grande flat white 195 mg/473 mL (41 mg/100 mL); a classic 160-180 mL Australian/UK flat white with a double shot (~130-150 mg) is ~75-85 mg/100 mL, hence the wide range."
+    },
+    "source": {
+      "name": "Matvaretabellen food 13.040 (re-verified)",
+      "url": "https://www.matvaretabellen.no/en/caffe-latte-single-with-whole-milk/"
+    },
+    "reason": "Flat white values were re-verified against Matvaretabellen: all match, including Na/K (which looked borrowed from FNDDS but are in the Norwegian record). The entry stays a documented latte proxy; source now names every field's origin and the Starbucks product figures are added as a cross-check showing the proxy's bias."
+  },
+  {
+    "id": "sports_ors_who",
+    "set": {
+      "source": {
+        "name": "WHO/UNICEF reduced-osmolarity ORS composition: WHO 'Oral rehydration salts: production of the new ORS' (WHO/FCH/CAH/06.1, 2006); original announcement WHO Drug Information 16(2), 2002",
+        "fdcId": null,
+        "url": "https://www.who.int/publications/i/item/WHO-FCH-CAH-06.1"
+      }
+    },
+    "source": {
+      "name": "World Health Organization, WHO/FCH/CAH/06.1",
+      "url": "https://www.who.int/publications/i/item/WHO-FCH-CAH-06.1"
+    },
+    "reason": "Spot-check: the cited URL (rehydrate.org/ors/newformula-studies.html) now redirects to a parked domain. Values (Na 75 mmol/L, K 20 mmol/L, glucose 13.5 g/L, 245 mOsm/L) are correct; source replaced with the WHO publication."
+  },
+  {
+    "id": "sports_gatorade",
+    "set": {
+      "per100mL.carbsG": 6.09,
+      "notes": "Label per 20 fl oz (591 mL; PepsiCo product-facts sheet, updated 30 Jun 2023): 140 kcal, 36 g carbohydrate, 34 g sugar, 270 mg sodium, 80 mg potassium, 0 mg caffeine (per 100 mL: 23.7 kcal, 6.1 g carbs, 5.8 g sugar, 45.7 mg Na, 13.5 mg K). Water from USDA SR Gatorade G (FDC 173660: 93.4 g/100 g x 1.03 g/mL). Classic ~6% carbohydrate isotonic formula. Gatorade Zero/G2: see G2 entry."
+    },
+    "source": {
+      "name": "PepsiCo Gatorade Lemon-Lime 20 fl oz product-facts sheet (cited PDF)",
+      "url": "https://argo.webstaurantstore.com/documents/nutrition/gatorade_thirst_quencher_lemon_lime_sports_drink_nutrition.pdf"
+    },
+    "reason": "Spot-check: carbsG (6.62) came from the old USDA SR record while every other field uses the cited label, whose total carbohydrate is 36 g/591 mL = 6.09. Aligned to the label."
+  }
+]

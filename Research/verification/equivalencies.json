@@ -1,0 +1,1651 @@
+{
+  "version": "2026-11-14",
+  "ladder": [
+    {
+      "id": "sip",
+      "name": "A habitual sip",
+      "liters": 0.02,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "That's about {n} sips, one at a time.",
+      "sfSymbol": "drop",
+      "sfSymbolMinIOS": "14.0",
+      "source": "https://www.springermedizin.de/gender-age-vessel-size-cup-vs-straw-sipping-and-sequence-effects/8524174",
+      "refs": [
+        65
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "Cup sips 20-25 mL; natural drinking about 16 mL.",
+      "rangeLiters": [
+        0.016,
+        0.025
+      ]
+    },
+    {
+      "id": "espresso",
+      "name": "A single espresso",
+      "liters": 0.025,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} espresso shots of water. No jitters.",
+      "sfSymbol": "cup.and.saucer.fill",
+      "sfSymbolMinIOS": "15.0",
+      "source": "https://www.nespressoguide.com/files/File/istituzionale_inei_hq_en.pdf",
+      "refs": [
+        39
+      ],
+      "confidence": "high",
+      "status": "new",
+      "note": "Italian Espresso National Institute spec: 25 mL +/- 2.5 in the cup.",
+      "rangeLiters": [
+        0.0225,
+        0.0275
+      ]
+    },
+    {
+      "id": "shot_glass",
+      "name": "A shot glass (1.5 fl oz)",
+      "liters": 0.0444,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} shot glasses, all of them water.",
+      "sfSymbol": "wineglass",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://webarchive.library.unt.edu/web/20201218103258/http://rethinkingdrinking.niaaa.nih.gov/",
+      "refs": [
+        40,
+        43
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "NIAAA standard spirits pour 1.5 fl oz."
+    },
+    {
+      "id": "bathroom_cup",
+      "name": "A 3 oz bathroom cup",
+      "liters": 0.0887,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} little bathroom cups.",
+      "sfSymbol": "sink.fill",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://www.toolboxsupply.com/products/dixie-43900-everyday-disposable-bath-cup-3-oz-assorted-design-200-pack",
+      "refs": [
+        41,
+        43
+      ],
+      "confidence": "medium",
+      "status": "new",
+      "note": "Dixie-type 3 oz bath cup; nominal size."
+    },
+    {
+      "id": "wine_pour",
+      "name": "A standard glass of wine (5 fl oz)",
+      "liters": 0.148,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} glasses of wine, zero hangover.",
+      "sfSymbol": "wineglass.fill",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://webarchive.library.unt.edu/web/20201218103258/http://rethinkingdrinking.niaaa.nih.gov/",
+      "refs": [
+        40,
+        43
+      ],
+      "confidence": "high",
+      "status": "new",
+      "note": "NIAAA standard drink of wine = 5 fl oz."
+    },
+    {
+      "id": "us_cup",
+      "name": "A US cup (8 fl oz)",
+      "liters": 0.2366,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} measuring cups of water.",
+      "sfSymbol": "mug.fill",
+      "sfSymbolMinIOS": "16.1",
+      "source": "https://www.nist.gov/pml/owm/metric-si/unit-conversion",
+      "refs": [
+        43
+      ],
+      "confidence": "high",
+      "status": "framing-corrected",
+      "note": "US customary cup; nutrition labels use 240 mL."
+    },
+    {
+      "id": "can_330",
+      "name": "A 330 mL can",
+      "liters": 0.33,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} cans' worth, with zero sugar.",
+      "sfSymbol": "takeoutbag.and.cup.and.straw.fill",
+      "sfSymbolMinIOS": "15.0",
+      "source": "label volume",
+      "refs": [],
+      "confidence": "high",
+      "status": "verified",
+      "note": "EU/UK label size. No can glyph exists in SF Symbols."
+    },
+    {
+      "id": "soda_can",
+      "name": "A 12 oz soda can",
+      "liters": 0.355,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} soda cans, minus the fizz.",
+      "sfSymbol": "takeoutbag.and.cup.and.straw.fill",
+      "sfSymbolMinIOS": "15.0",
+      "source": "https://www.nist.gov/pml/owm/metric-si/unit-conversion",
+      "refs": [
+        43
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "US label size."
+    },
+    {
+      "id": "starbucks_grande",
+      "name": "A Starbucks Grande",
+      "liters": 0.473,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} Grandes, and no line.",
+      "sfSymbol": "cup.and.saucer",
+      "sfSymbolMinIOS": "15.0",
+      "source": "https://www.starbucks.com/menu/product/2121255/iced",
+      "refs": [
+        15,
+        64
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "Grande 16 fl oz on starbucks.com."
+    },
+    {
+      "id": "pint",
+      "name": "A US pint glass",
+      "liters": 0.473,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} pints. Bartender's pour, zero ABV.",
+      "sfSymbol": "mug.fill",
+      "sfSymbolMinIOS": "16.1",
+      "source": "https://www.nist.gov/pml/owm/metric-si/unit-conversion",
+      "refs": [
+        43
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "US pint 473 mL; a UK pint is 568 mL, so localize."
+    },
+    {
+      "id": "water_bottle",
+      "name": "A standard 500 mL bottle",
+      "liters": 0.5,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} standard 500 mL bottles.",
+      "sfSymbol": "waterbottle",
+      "sfSymbolMinIOS": "17.0",
+      "source": "label volume",
+      "refs": [],
+      "confidence": "high",
+      "status": "framing-corrected",
+      "note": "Label size (16.9 fl oz in the US)."
+    },
+    {
+      "id": "venti_iced",
+      "name": "A Starbucks Venti iced cup",
+      "liters": 0.71,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} Venti iced cups (24 oz), filled with just water.",
+      "sfSymbol": "takeoutbag.and.cup.and.straw.fill",
+      "sfSymbolMinIOS": "15.0",
+      "source": "https://www.starbucks.com/menu/product/2121255/iced",
+      "refs": [
+        15
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "Venti cold 24 fl oz on starbucks.com."
+    },
+    {
+      "id": "wine_bottle",
+      "name": "A wine bottle",
+      "liters": 0.75,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} wine bottles of the good stuff: H2O.",
+      "sfSymbol": "wineglass",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://www.ttb.gov/regulated-commodities/beverage-alcohol/wine/labeling-wine/wine-labeling-net-contents",
+      "refs": [
+        62
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "TTB standard of fill 750 mL."
+    },
+    {
+      "id": "nalgene_32",
+      "name": "A 32 oz Nalgene",
+      "liters": 0.946,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} Nalgenes, the trail classic.",
+      "sfSymbol": "waterbottle.fill",
+      "sfSymbolMinIOS": "17.0",
+      "source": "https://nalgene.com/product/32oz-wide-mouth-bottle/",
+      "refs": [
+        22,
+        43
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "Nominal 32 oz; retailers often say 1 L."
+    },
+    {
+      "id": "stanley_40",
+      "name": "A 40 oz Stanley Quencher",
+      "liters": 1.183,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} Stanley cups. Viral and hydrated.",
+      "sfSymbol": "takeoutbag.and.cup.and.straw.fill",
+      "sfSymbolMinIOS": "15.0",
+      "source": "https://www.stanley1913.com/blogs/my-stanley/stanley-cup-sizes-explained",
+      "refs": [
+        20,
+        43
+      ],
+      "confidence": "high",
+      "status": "symbol-corrected",
+      "note": "40 oz nominal."
+    },
+    {
+      "id": "two_liter",
+      "name": "A 2-liter bottle",
+      "liters": 2.0,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} party-size bottles.",
+      "sfSymbol": "waterbottle",
+      "sfSymbolMinIOS": "17.0",
+      "source": "label volume",
+      "refs": [],
+      "confidence": "high",
+      "status": "verified",
+      "note": "Label size."
+    },
+    {
+      "id": "ai_women",
+      "name": "A day of a woman's total water intake target",
+      "liters": 2.7,
+      "unit": "L/day",
+      "kind": "practical",
+      "framing": "{n} days of a woman's total daily water target (food and drinks combined).",
+      "sfSymbol": "calendar",
+      "sfSymbolMinIOS": "13.0",
+      "source": "https://www.nationalacademies.org/news/report-sets-dietary-intake-levels-for-water-salt-and-potassium-to-maintain-health-and-reduce-chronic-disease-risk",
+      "refs": [
+        48
+      ],
+      "confidence": "high",
+      "status": "framing-corrected",
+      "note": "NASEM Adequate Intake, women 19-30; about 80% comes from drinks."
+    },
+    {
+      "id": "ai_men",
+      "name": "A day of a man's total water intake target",
+      "liters": 3.7,
+      "unit": "L/day",
+      "kind": "practical",
+      "framing": "{n} days of a man's total daily water target (food and drinks combined).",
+      "sfSymbol": "calendar",
+      "sfSymbolMinIOS": "13.0",
+      "source": "https://www.nationalacademies.org/news/report-sets-dietary-intake-levels-for-water-salt-and-potassium-to-maintain-health-and-reduce-chronic-disease-risk",
+      "refs": [
+        48
+      ],
+      "confidence": "high",
+      "status": "framing-corrected",
+      "note": "NASEM Adequate Intake, men 19-30."
+    },
+    {
+      "id": "gallon",
+      "name": "A gallon jug",
+      "liters": 3.785,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} gallon jugs. Gym-bro approved.",
+      "sfSymbol": "drop.fill",
+      "sfSymbolMinIOS": "14.0",
+      "source": "https://www.nist.gov/pml/owm/metric-si/unit-conversion",
+      "refs": [
+        43
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "US gallon = 231 cubic inches."
+    },
+    {
+      "id": "blood",
+      "name": "All the blood in your body",
+      "liters": 5.0,
+      "unit": "L",
+      "kind": "fun",
+      "framing": "{n} times the blood in your body.",
+      "sfSymbol": "heart.fill",
+      "sfSymbolMinIOS": "13.0",
+      "source": "https://www.ncbi.nlm.nih.gov/books/NBK526077",
+      "refs": [
+        46
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "About 5 L in a 70 kg adult; varies with body size.",
+      "rangeLiters": [
+        4.5,
+        5.5
+      ]
+    },
+    {
+      "id": "toilet_flush",
+      "name": "A toilet flush (US federal max)",
+      "liters": 6.06,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} toilet flushes' worth, but you drank yours.",
+      "sfSymbol": "toilet.fill",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://www.epa.gov/sites/production/files/2017-01/documents/ws-products-support-statement-fv-toilets.pdf",
+      "refs": [
+        45
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "1.6 gal per flush federal maximum; WaterSense 1.28."
+    },
+    {
+      "id": "elephant_trunk",
+      "name": "An elephant's trunkful",
+      "liters": 7.57,
+      "unit": "L",
+      "kind": "fun",
+      "framing": "{n} elephant trunkfuls.",
+      "sfSymbol": "pawprint.fill",
+      "sfSymbolMinIOS": "15.0",
+      "source": "https://ielc.libguides.com/sdzg/factsheets/asianelephant/diet",
+      "refs": [
+        35
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "San Diego Zoo: a large elephant's trunk holds about 2 gal."
+    },
+    {
+      "id": "dishwasher",
+      "name": "An efficient dishwasher load",
+      "liters": 12.1,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} loads in an ENERGY STAR dishwasher.",
+      "sfSymbol": "dishwasher.fill",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://appliance-standards.org/product/dishwashers",
+      "refs": [
+        37
+      ],
+      "confidence": "high",
+      "status": "new",
+      "note": "ENERGY STAR v7 maximum, 3.2 gal per cycle (federal limit 5.0)."
+    },
+    {
+      "id": "cooler_jug",
+      "name": "An office water-cooler jug",
+      "liters": 18.93,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} office water-cooler jugs.",
+      "sfSymbol": "waterbottle.fill",
+      "sfSymbolMinIOS": "17.0",
+      "source": "https://www.homehardware.ca/en/pet-polyethylene-terephthalate-water-bottle-5-gal-189-l/p/3160091",
+      "refs": [
+        42,
+        43
+      ],
+      "confidence": "high",
+      "status": "new",
+      "note": "Standard 5 US gal (18.9 L) cooler bottle."
+    },
+    {
+      "id": "shower_5min",
+      "name": "A 5-minute shower",
+      "liters": 37.9,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} five-minute showers, poured down your throat instead.",
+      "sfSymbol": "shower.fill",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://www.epa.gov/sites/production/files/2018-07/documents/ws-products-specification-showerheads-v1-1.pdf",
+      "refs": [
+        44
+      ],
+      "confidence": "high",
+      "status": "new",
+      "note": "WaterSense showerhead 2.0 gpm x 5 min."
+    },
+    {
+      "id": "body_water",
+      "name": "The water in your body",
+      "liters": 42,
+      "unit": "L",
+      "kind": "fun",
+      "framing": "You've drunk your own body's water about {n} times over.",
+      "sfSymbol": "figure.stand",
+      "sfSymbolMinIOS": "14.0",
+      "source": "https://www.usgs.gov/water-science-school/science/water-you-water-and-human-body",
+      "refs": [
+        47
+      ],
+      "confidence": "medium",
+      "status": "framing-corrected",
+      "note": "About 60% of a 70 kg adult; women and older adults lower.",
+      "rangeLiters": [
+        35,
+        45
+      ]
+    },
+    {
+      "id": "keg",
+      "name": "A half-barrel beer keg",
+      "liters": 58.7,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} kegs. Party of one, very hydrated.",
+      "sfSymbol": "cylinder.fill",
+      "sfSymbolMinIOS": "14.0",
+      "source": "https://www.kegworks.com/blog/guide-to-beer-keg-sizes",
+      "refs": [
+        49
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "15.5 gal."
+    },
+    {
+      "id": "shower_10min",
+      "name": "A 10-minute shower",
+      "liters": 75.7,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} ten-minute showers.",
+      "sfSymbol": "shower.handheld.fill",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://www.epa.gov/sites/production/files/2018-07/documents/ws-products-specification-showerheads-v1-1.pdf",
+      "refs": [
+        44
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "WaterSense 2.0 gpm x 10 min."
+    },
+    {
+      "id": "uk_bath",
+      "name": "A typical UK bath",
+      "liters": 80,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} ordinary (not brim-full) baths.",
+      "sfSymbol": "bathtub",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://www.saga.co.uk/magazine/homes/bath-vs-shower-which-is-better-for-you-and-your-wallet",
+      "refs": [
+        12
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "About 80 L per bath, attributed to Waterwise / Environment Agency via secondary sources."
+    },
+    {
+      "id": "oil_barrel",
+      "name": "An oil barrel",
+      "liters": 159.0,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} oil barrels, much cleaner.",
+      "sfSymbol": "cylinder.split.1x2.fill",
+      "sfSymbolMinIOS": "14.0",
+      "source": "https://webarchive.library.unt.edu/web/20120916015359/http://www.eia.gov/cfapps/ipdbproject/docs/unitswithpetro.cfm",
+      "refs": [
+        50
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "42 US gal."
+    },
+    {
+      "id": "elephant_day",
+      "name": "An elephant's daily drink",
+      "liters": 175,
+      "unit": "L/day",
+      "kind": "fun",
+      "framing": "Enough to keep an elephant going for {n} days.",
+      "sfSymbol": "pawprint.fill",
+      "sfSymbolMinIOS": "15.0",
+      "source": "https://ielc.libguides.com/sdzg/factsheets/african_elephant/diet",
+      "refs": [
+        61
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "Savanna elephant 150-200 L/day (mid-point).",
+      "rangeLiters": [
+        150,
+        200
+      ]
+    },
+    {
+      "id": "water_heater",
+      "name": "A 50-gallon water heater tank",
+      "liters": 189.3,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} water heater tanks, served cold.",
+      "sfSymbol": "heater.vertical.fill",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://www.energy.gov/energysaver/sizing-new-water-heater",
+      "refs": [
+        51
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "Common family tank size."
+    },
+    {
+      "id": "bathtub",
+      "name": "A full bathtub",
+      "liters": 200,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "About {n} bathtubs. Rubber duck not included.",
+      "sfSymbol": "bathtub.fill",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://www.usgs.gov/observatories/yvo/news/how-much-water-erupts-old-faithful-geyser",
+      "refs": [
+        9,
+        10,
+        11
+      ],
+      "confidence": "medium",
+      "status": "source-corrected",
+      "note": "USGS 2026: 27.9 m3 eruption = about 140 household tubs (implies ~200 L). USGS Water Science School: 36 gal (136 L); EPA: up to 70 gal (265 L).",
+      "rangeLiters": [
+        136,
+        265
+      ]
+    },
+    {
+      "id": "camel",
+      "name": "A thirsty camel's chug",
+      "liters": 200,
+      "unit": "L",
+      "kind": "fun",
+      "framing": "{n} camel-sized chugs. Took you longer than 3 minutes.",
+      "sfSymbol": "sun.max.fill",
+      "sfSymbolMinIOS": "13.0",
+      "source": "https://www.wtamu.edu/~cbaird/sq/2013/09/18/how-much-water-can-a-camel-store-in-its-hump/",
+      "refs": [
+        32
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "A camel can drink about 200 L in 3 minutes."
+    },
+    {
+      "id": "drum",
+      "name": "A 55-gallon drum",
+      "liters": 208.2,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} rain barrels.",
+      "sfSymbol": "cloud.rain.fill",
+      "sfSymbolMinIOS": "13.0",
+      "source": "https://www.repackify.com/blog/55-gallon-drum-dimensions",
+      "refs": [
+        52
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "55 US gal."
+    },
+    {
+      "id": "us_home_day",
+      "name": "A day of an American's at-home water use",
+      "liters": 310.0,
+      "unit": "L/day",
+      "kind": "practical",
+      "framing": "{n} days of an average American's water use at home.",
+      "sfSymbol": "house.fill",
+      "sfSymbolMinIOS": "13.0",
+      "source": "https://www.epa.gov/watersense/statistics-and-facts",
+      "refs": [
+        38
+      ],
+      "confidence": "high",
+      "status": "new",
+      "note": "EPA WaterSense, citing USGS 2015: 82 gal per person per day at home."
+    },
+    {
+      "id": "elephant_loss",
+      "name": "An elephant's water loss on a hot day",
+      "liters": 427,
+      "unit": "L/day",
+      "kind": "fun",
+      "framing": "What a zoo elephant loses (breath, skin, urine and all) on {n} hot days.",
+      "sfSymbol": "thermometer.sun.fill",
+      "sfSymbolMinIOS": "14.0",
+      "source": "https://phys.org/news/2020-12-elephants-highest-volume-daily-loss.html",
+      "refs": [
+        33
+      ],
+      "confidence": "medium",
+      "status": "framing-corrected",
+      "note": "Pontzer et al. 2020: ~427 L/day on hot days, ~325 on cool days."
+    },
+    {
+      "id": "year_drinking",
+      "name": "A year of recommended drinking",
+      "liters": 949.0,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} years of the US recommended intake from drinks.",
+      "sfSymbol": "calendar.circle",
+      "sfSymbolMinIOS": "13.0",
+      "source": "https://www.nationalacademies.org/news/report-sets-dietary-intake-levels-for-water-salt-and-potassium-to-maintain-health-and-reduce-chronic-disease-risk",
+      "refs": [
+        48
+      ],
+      "confidence": "medium",
+      "status": "framing-corrected",
+      "note": "2.6 L/day (mid-point of the 2.2 and 3.0 L/day beverage portions of the AIs) x 365."
+    },
+    {
+      "id": "hot_tub",
+      "name": "A hot tub",
+      "liters": 1264.0,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "About {n} hot tubs. Bubbles optional.",
+      "sfSymbol": "water.waves",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://www.govinfo.gov/content/pkg/FR-2022-11-17/html/2022-24290.htm",
+      "refs": [
+        13,
+        14
+      ],
+      "confidence": "medium",
+      "status": "value-corrected",
+      "note": "DOE's representative hard-sided spa is 334 gal; makers list 2-seat ~170-250 gal and 6-7 seat ~420-525 gal.",
+      "rangeLiters": [
+        640,
+        1990
+      ]
+    },
+    {
+      "id": "fire_engine",
+      "name": "A fire engine's water tank",
+      "liters": 2839.0,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "About {n} fire engine tanks, used for good.",
+      "sfSymbol": "flame.fill",
+      "sfSymbolMinIOS": "13.0",
+      "source": "https://fireapparatusmagazine.com/?p=127215",
+      "refs": [
+        53
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "NFPA 1901 pumper minimum 300 gal; 500-1,000 typical; 750 used.",
+      "rangeLiters": [
+        1136,
+        3785
+      ]
+    },
+    {
+      "id": "cement_truck",
+      "name": "A cement-mixer load",
+      "liters": 7646.0,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} cement-mixer loads, but liquid.",
+      "sfSymbol": "truck.box.fill",
+      "sfSymbolMinIOS": "17.0",
+      "sfSymbolLegacy": "box.truck.fill",
+      "sfSymbolLegacyMinIOS": "16.0",
+      "source": "https://www.chaneyenterprises.com/the-evolution-of-concrete-mixer-trucks-from-2-yards-to-10",
+      "refs": [
+        54
+      ],
+      "confidence": "medium",
+      "status": "symbol-corrected",
+      "note": "Rated load 8-10 cubic yards; 10 used.",
+      "rangeLiters": [
+        6116,
+        7646
+      ]
+    },
+    {
+      "id": "old_faithful",
+      "name": "An Old Faithful eruption",
+      "liters": 27900,
+      "unit": "L",
+      "kind": "fun",
+      "framing": "{n} Old Faithful eruptions, one sip at a time.",
+      "sfSymbol": "humidity.fill",
+      "sfSymbolMinIOS": "15.0",
+      "source": "https://www.usgs.gov/observatories/yvo/news/how-much-water-erupts-old-faithful-geyser",
+      "refs": [
+        9
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "USGS 2026: 27.9 +/- 9.4 m3 over 45 eruptions (12.2-44.3).",
+      "rangeLiters": [
+        12200,
+        44300
+      ]
+    },
+    {
+      "id": "tanker_truck",
+      "name": "A gasoline tanker truck",
+      "liters": 32176.0,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} tanker trucks of the only fuel you need.",
+      "sfSymbol": "fuelpump.fill",
+      "sfSymbolMinIOS": "15.0",
+      "source": "https://www.fireengineering.com/industrial-firefighting/gasoline-tanker-emergencies-part-1/",
+      "refs": [
+        55
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "Typical load 8,000-8,500 gal."
+    },
+    {
+      "id": "backyard_pool",
+      "name": "A backyard in-ground pool",
+      "liters": 72491.0,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n} backyard pools. Cannonball!",
+      "sfSymbol": "figure.pool.swim",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://homeguide.com/articles/swimming-pool-size-chart",
+      "refs": [
+        56
+      ],
+      "confidence": "medium",
+      "status": "value-corrected",
+      "note": "16 x 32 ft at 5 ft average depth = 2,560 cubic feet."
+    },
+    {
+      "id": "lifetime",
+      "name": "A lifetime of drinking",
+      "liters": 75920.0,
+      "unit": "L",
+      "kind": "fun",
+      "framing": "{n}% of a whole lifetime of drinking.",
+      "sfSymbol": "hourglass",
+      "sfSymbolMinIOS": "13.0",
+      "source": "https://www.nationalacademies.org/news/report-sets-dietary-intake-levels-for-water-salt-and-potassium-to-maintain-health-and-reduce-chronic-disease-risk",
+      "refs": [
+        48
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "2.6 L/day x 365 x 80 years."
+    },
+    {
+      "id": "blue_whale",
+      "name": "A blue whale's single gulp",
+      "liters": 80000,
+      "unit": "L",
+      "kind": "fun",
+      "framing": "{n}% of one blue-whale gulp.",
+      "sfSymbol": "fish.fill",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://cob.silverchair.com/jeb/article-pdf/214/4/698/1440891/698.pdf",
+      "refs": [
+        36
+      ],
+      "confidence": "medium",
+      "status": "source-corrected",
+      "note": "Goldbogen et al. 2011 (corrected figure): 80 m3 per lunge. No whale glyph exists."
+    },
+    {
+      "id": "water_tower_small",
+      "name": "A small-town water tower",
+      "liters": 189271.0,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n}% of a small-town water tower.",
+      "sfSymbol": "building.2.fill",
+      "sfSymbolMinIOS": "14.0",
+      "source": "https://legacy.wbdg.org/FFC/DOD/UFGS/UFGS%2033%2016%2015.pdf",
+      "refs": [
+        57
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "50,000 gal, the low end of elevated steel tank sizes."
+    },
+    {
+      "id": "water_tower_large",
+      "name": "A big-city water tower",
+      "liters": 1892706.0,
+      "unit": "L",
+      "kind": "practical",
+      "framing": "{n}% of a big-city water tower.",
+      "sfSymbol": "building.2.fill",
+      "sfSymbolMinIOS": "14.0",
+      "source": "https://legacy.wbdg.org/FFC/DOD/UFGS/UFGS%2033%2016%2015.pdf",
+      "refs": [
+        57
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "500,000 gal."
+    },
+    {
+      "id": "olympic_pool",
+      "name": "An Olympic swimming pool",
+      "liters": 2500000,
+      "unit": "L",
+      "kind": "fun",
+      "framing": "{n}% of an Olympic pool.",
+      "sfSymbol": "figure.pool.swim",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://en.wikipedia.org/wiki/Olympic-size_swimming_pool",
+      "refs": [
+        58
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "50 x 25 x 2 m minimum."
+    },
+    {
+      "id": "niagara",
+      "name": "Niagara Falls, per second",
+      "liters": 2831685.0,
+      "unit": "L/s",
+      "kind": "flow",
+      "framing": "Niagara Falls would pour that in {t}.",
+      "sfSymbol": "water.waves.and.arrow.trianglehead.down",
+      "sfSymbolMinIOS": "18.0",
+      "sfSymbolLegacy": "water.waves.and.arrow.down",
+      "sfSymbolLegacyMinIOS": "16.0",
+      "source": "https://www.niagaraparks.com/visit-niagara-parks/plan-your-visit/niagara-falls-geology-facts-figures/",
+      "refs": [
+        59
+      ],
+      "confidence": "high",
+      "status": "symbol-corrected",
+      "note": "100,000 cfs daytime tourist-season treaty flow."
+    },
+    {
+      "id": "mississippi",
+      "name": "The Mississippi at New Orleans, per second",
+      "liters": 16990108.0,
+      "unit": "L/s",
+      "kind": "flow",
+      "framing": "The Mississippi moves that past New Orleans in {t}.",
+      "sfSymbol": "water.waves",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://nps.gov/miss/riverfacts.htm",
+      "refs": [
+        34
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "Average 600,000 cfs (NPS)."
+    },
+    {
+      "id": "bellagio",
+      "name": "Lake Bellagio (the fountain lake)",
+      "liters": 83279000.0,
+      "unit": "L",
+      "kind": "fun",
+      "framing": "{n}% of the Bellagio fountain lake.",
+      "sfSymbol": "sparkles",
+      "sfSymbolMinIOS": "13.0",
+      "source": "https://m.lasvegassun.com/news/2012/apr/30/bellagio-fountains-help-whet-appetite-learning-dur/",
+      "refs": [
+        60
+      ],
+      "confidence": "medium",
+      "status": "verified",
+      "note": "22 million gal."
+    },
+    {
+      "id": "amazon",
+      "name": "The Amazon, per second",
+      "liters": 209000000,
+      "unit": "L/s",
+      "kind": "flow",
+      "framing": "The Amazon empties that into the sea in {t}.",
+      "sfSymbol": "water.waves",
+      "sfSymbolMinIOS": "16.0",
+      "source": "https://nps.gov/miss/riverfacts.htm",
+      "refs": [
+        34
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "note": "209,000 m3/s (NPS)."
+    }
+  ],
+  "bottles": [
+    {
+      "brand": "Stanley",
+      "model": "Quencher H2.0 14 oz",
+      "nominalOz": 14,
+      "ml": 414,
+      "source": "https://www.stanley1913.com/blogs/my-stanley/stanley-cup-sizes-explained",
+      "ref": 20,
+      "confidence": "high"
+    },
+    {
+      "brand": "Stanley",
+      "model": "Quencher H2.0 20 oz",
+      "nominalOz": 20,
+      "ml": 591,
+      "source": "https://www.stanley1913.com/blogs/my-stanley/stanley-cup-sizes-explained",
+      "ref": 20,
+      "confidence": "high"
+    },
+    {
+      "brand": "Stanley",
+      "model": "Quencher H2.0 30 oz",
+      "nominalOz": 30,
+      "ml": 887,
+      "source": "https://www.stanley1913.com/blogs/my-stanley/stanley-cup-sizes-explained",
+      "ref": 20,
+      "confidence": "high"
+    },
+    {
+      "brand": "Stanley",
+      "model": "Quencher H2.0 40 oz",
+      "nominalOz": 40,
+      "ml": 1183,
+      "source": "https://www.stanley1913.com/blogs/my-stanley/stanley-cup-sizes-explained",
+      "ref": 20,
+      "confidence": "high"
+    },
+    {
+      "brand": "Stanley",
+      "model": "Quencher H2.0 64 oz",
+      "nominalOz": 64,
+      "ml": 1893,
+      "source": "https://www.stanley1913.com/blogs/my-stanley/stanley-cup-sizes-explained",
+      "ref": 20,
+      "confidence": "high"
+    },
+    {
+      "brand": "Hydro Flask",
+      "model": "Standard Mouth 21 oz",
+      "nominalOz": 21,
+      "ml": 621,
+      "source": "https://www.hydroflask.com/shop/bottles-drinkware/bottles",
+      "ref": 21,
+      "confidence": "high"
+    },
+    {
+      "brand": "Hydro Flask",
+      "model": "Standard Mouth 24 oz",
+      "nominalOz": 24,
+      "ml": 710,
+      "source": "https://www.hydroflask.com/shop/bottles-drinkware/bottles",
+      "ref": 21,
+      "confidence": "high"
+    },
+    {
+      "brand": "Hydro Flask",
+      "model": "Wide Mouth 20 oz",
+      "nominalOz": 20,
+      "ml": 591,
+      "source": "https://www.hydroflask.com/shop/bottles-drinkware/bottles",
+      "ref": 21,
+      "confidence": "high"
+    },
+    {
+      "brand": "Hydro Flask",
+      "model": "Wide Mouth 32 oz",
+      "nominalOz": 32,
+      "ml": 946,
+      "source": "https://www.hydroflask.com/shop/bottles-drinkware/bottles",
+      "ref": 21,
+      "confidence": "high"
+    },
+    {
+      "brand": "Hydro Flask",
+      "model": "Wide Mouth 40 oz",
+      "nominalOz": 40,
+      "ml": 1183,
+      "source": "https://www.hydroflask.com/shop/bottles-drinkware/bottles",
+      "ref": 21,
+      "confidence": "high"
+    },
+    {
+      "brand": "Hydro Flask",
+      "model": "Wide Mouth 64 oz",
+      "nominalOz": 64,
+      "ml": 1893,
+      "source": "https://www.hydroflask.com/shop/bottles-drinkware/bottles",
+      "ref": 21,
+      "confidence": "high"
+    },
+    {
+      "brand": "Nalgene",
+      "model": "Wide Mouth 32 oz",
+      "nominalOz": 32,
+      "ml": 946,
+      "source": "https://nalgene.com/product/32oz-wide-mouth-bottle/",
+      "ref": 22,
+      "confidence": "high",
+      "note": "Often marketed as 1 L; nominal 32 oz = 946 mL."
+    },
+    {
+      "brand": "Nalgene",
+      "model": "Wide Mouth 16 oz",
+      "nominalOz": 16,
+      "ml": 473,
+      "source": "https://nalgene.com/product/32oz-wide-mouth-bottle/",
+      "ref": 22,
+      "confidence": "high"
+    },
+    {
+      "brand": "Owala",
+      "model": "FreeSip 24 oz",
+      "nominalOz": 24,
+      "ml": 710,
+      "source": "https://owalalife.com/products/freesip",
+      "ref": 23,
+      "confidence": "high"
+    },
+    {
+      "brand": "Owala",
+      "model": "FreeSip 32 oz",
+      "nominalOz": 32,
+      "ml": 946,
+      "source": "https://owalalife.com/products/freesip",
+      "ref": 23,
+      "confidence": "high"
+    },
+    {
+      "brand": "Owala",
+      "model": "FreeSip 40 oz",
+      "nominalOz": 40,
+      "ml": 1183,
+      "source": "https://owalalife.com/products/freesip",
+      "ref": 23,
+      "confidence": "high"
+    },
+    {
+      "brand": "YETI",
+      "model": "Rambler bottle 18 oz",
+      "nominalOz": 18,
+      "ml": 532,
+      "source": "https://www.yeti.com/drinkware/bottles",
+      "ref": 24,
+      "confidence": "high"
+    },
+    {
+      "brand": "YETI",
+      "model": "Rambler bottle 26 oz",
+      "nominalOz": 26,
+      "ml": 769,
+      "source": "https://www.yeti.com/drinkware/bottles",
+      "ref": 24,
+      "confidence": "high"
+    },
+    {
+      "brand": "YETI",
+      "model": "Rambler bottle 36 oz",
+      "nominalOz": 36,
+      "ml": 1065,
+      "source": "https://www.yeti.com/drinkware/bottles",
+      "ref": 24,
+      "confidence": "high"
+    },
+    {
+      "brand": "YETI",
+      "model": "Rambler bottle 46 oz",
+      "nominalOz": 46,
+      "ml": 1360,
+      "source": "https://www.yeti.com/drinkware/bottles",
+      "ref": 24,
+      "confidence": "high"
+    },
+    {
+      "brand": "YETI",
+      "model": "Rambler bottle 64 oz",
+      "nominalOz": 64,
+      "ml": 1893,
+      "source": "https://www.yeti.com/drinkware/bottles",
+      "ref": 24,
+      "confidence": "high"
+    },
+    {
+      "brand": "YETI",
+      "model": "Rambler tumbler 20 oz",
+      "nominalOz": 20,
+      "ml": 591,
+      "source": "https://www.yeti.com/drinkware/bottles",
+      "ref": 24,
+      "confidence": "high"
+    },
+    {
+      "brand": "YETI",
+      "model": "Rambler tumbler 30 oz",
+      "nominalOz": 30,
+      "ml": 887,
+      "source": "https://www.yeti.com/drinkware/bottles",
+      "ref": 24,
+      "confidence": "high"
+    },
+    {
+      "brand": "CamelBak",
+      "model": "Chute Mag 20 oz",
+      "nominalOz": 20,
+      "ml": 591,
+      "source": "https://www.camelbak.com/product/chute-mag-25oz-bottle-with-tritan%E2%84%A2-renew/CB-2470.html",
+      "ref": 25,
+      "confidence": "high",
+      "note": "CamelBak's metric label: 0.6 L."
+    },
+    {
+      "brand": "CamelBak",
+      "model": "Eddy+ 20 oz",
+      "nominalOz": 20,
+      "ml": 591,
+      "source": "https://www.camelbak.com/product/chute-mag-25oz-bottle-with-tritan%E2%84%A2-renew/CB-2470.html",
+      "ref": 25,
+      "confidence": "medium",
+      "note": "Sizes from CamelBak and retailer listings; metric label 0.6 L."
+    },
+    {
+      "brand": "CamelBak",
+      "model": "Chute Mag 25 oz",
+      "nominalOz": 25,
+      "ml": 739,
+      "source": "https://www.camelbak.com/product/chute-mag-25oz-bottle-with-tritan%E2%84%A2-renew/CB-2470.html",
+      "ref": 25,
+      "confidence": "high",
+      "note": "CamelBak's metric label: 0.75 L."
+    },
+    {
+      "brand": "CamelBak",
+      "model": "Eddy+ 25 oz",
+      "nominalOz": 25,
+      "ml": 739,
+      "source": "https://www.camelbak.com/product/chute-mag-25oz-bottle-with-tritan%E2%84%A2-renew/CB-2470.html",
+      "ref": 25,
+      "confidence": "medium",
+      "note": "Sizes from CamelBak and retailer listings; metric label 0.75 L."
+    },
+    {
+      "brand": "CamelBak",
+      "model": "Chute Mag 32 oz",
+      "nominalOz": 32,
+      "ml": 946,
+      "source": "https://www.camelbak.com/product/chute-mag-25oz-bottle-with-tritan%E2%84%A2-renew/CB-2470.html",
+      "ref": 25,
+      "confidence": "high",
+      "note": "CamelBak's metric label: 1 L."
+    },
+    {
+      "brand": "CamelBak",
+      "model": "Eddy+ 32 oz",
+      "nominalOz": 32,
+      "ml": 946,
+      "source": "https://www.camelbak.com/product/chute-mag-25oz-bottle-with-tritan%E2%84%A2-renew/CB-2470.html",
+      "ref": 25,
+      "confidence": "medium",
+      "note": "Sizes from CamelBak and retailer listings; metric label 1 L."
+    },
+    {
+      "brand": "Contigo",
+      "model": "West Loop 2.0 travel mug 16 oz",
+      "nominalOz": 16,
+      "ml": 473,
+      "source": "https://www.gocontigo.com/water-bottles-2/",
+      "ref": 26,
+      "confidence": "high"
+    },
+    {
+      "brand": "Contigo",
+      "model": "Jackson Chill 2.0 20 oz",
+      "nominalOz": 20,
+      "ml": 591,
+      "source": "https://www.gocontigo.com/water-bottles-2/",
+      "ref": 26,
+      "confidence": "high"
+    },
+    {
+      "brand": "Contigo",
+      "model": "Ashland 2.0 24 oz",
+      "nominalOz": 24,
+      "ml": 710,
+      "source": "https://www.gocontigo.com/water-bottles-2/",
+      "ref": 26,
+      "confidence": "high"
+    },
+    {
+      "brand": "Contigo",
+      "model": "Cortland 2.0 24 oz",
+      "nominalOz": 24,
+      "ml": 710,
+      "source": "https://www.gocontigo.com/water-bottles-2/",
+      "ref": 26,
+      "confidence": "high"
+    },
+    {
+      "brand": "Contigo",
+      "model": "Cortland Chill 2.0 32 oz",
+      "nominalOz": 32,
+      "ml": 946,
+      "source": "https://www.gocontigo.com/water-bottles-2/",
+      "ref": 26,
+      "confidence": "high"
+    },
+    {
+      "brand": "S'well",
+      "model": "Original 9 oz",
+      "nominalOz": 9,
+      "ml": 260,
+      "source": "https://www.swell.com/products/moonstone-bottle",
+      "ref": 27,
+      "confidence": "medium",
+      "note": "Retailers label it 260 mL; exact 9 oz = 266 mL."
+    },
+    {
+      "brand": "S'well",
+      "model": "Original 17 oz",
+      "nominalOz": 17,
+      "ml": 500,
+      "source": "https://www.swell.com/products/moonstone-bottle",
+      "ref": 27,
+      "confidence": "medium",
+      "note": "Labelled 500 mL."
+    },
+    {
+      "brand": "S'well",
+      "model": "Original 25 oz",
+      "nominalOz": 25,
+      "ml": 750,
+      "source": "https://www.swell.com/products/moonstone-bottle",
+      "ref": 27,
+      "confidence": "medium",
+      "note": "Labelled 750 mL."
+    },
+    {
+      "brand": "LARQ",
+      "model": "Bottle PureVis 17 oz",
+      "nominalOz": 17,
+      "ml": 500,
+      "source": "https://support.livelarq.com/hc/en-us/articles/36962689064219-Specifications",
+      "ref": 28,
+      "confidence": "high",
+      "note": "LARQ spec: 500 mL. Filtered version holds 430 mL."
+    },
+    {
+      "brand": "LARQ",
+      "model": "Bottle PureVis 25 oz",
+      "nominalOz": 25,
+      "ml": 740,
+      "source": "https://support.livelarq.com/hc/en-us/articles/36962689064219-Specifications",
+      "ref": 28,
+      "confidence": "high",
+      "note": "LARQ spec: 740 mL. Filtered version holds 670 mL."
+    },
+    {
+      "brand": "Simple Modern",
+      "model": "Summit 22 oz",
+      "nominalOz": 22,
+      "ml": 651,
+      "source": "https://www.simplemodern.com/collections/summit",
+      "ref": 29,
+      "confidence": "medium",
+      "note": "Size from simplemodern.com product listings; line changes often."
+    },
+    {
+      "brand": "Simple Modern",
+      "model": "Summit 32 oz",
+      "nominalOz": 32,
+      "ml": 946,
+      "source": "https://www.simplemodern.com/collections/summit",
+      "ref": 29,
+      "confidence": "medium",
+      "note": "Size from simplemodern.com product listings; line changes often."
+    },
+    {
+      "brand": "Simple Modern",
+      "model": "Summit 40 oz",
+      "nominalOz": 40,
+      "ml": 1183,
+      "source": "https://www.simplemodern.com/collections/summit",
+      "ref": 29,
+      "confidence": "medium",
+      "note": "Size from simplemodern.com product listings; line changes often."
+    },
+    {
+      "brand": "Simple Modern",
+      "model": "Summit 64 oz",
+      "nominalOz": 64,
+      "ml": 1893,
+      "source": "https://www.simplemodern.com/collections/summit",
+      "ref": 29,
+      "confidence": "medium",
+      "note": "Size from simplemodern.com product listings; line changes often."
+    },
+    {
+      "brand": "Simple Modern",
+      "model": "Summit 2 30 oz",
+      "nominalOz": 30,
+      "ml": 887,
+      "source": "https://www.simplemodern.com/collections/summit",
+      "ref": 29,
+      "confidence": "high"
+    },
+    {
+      "brand": "Simple Modern",
+      "model": "Summit Kids 14 oz",
+      "nominalOz": 14,
+      "ml": 414,
+      "source": "https://www.simplemodern.com/collections/summit",
+      "ref": 29,
+      "confidence": "high"
+    },
+    {
+      "brand": "Simple Modern",
+      "model": "Summit Kids 18 oz",
+      "nominalOz": 18,
+      "ml": 532,
+      "source": "https://www.simplemodern.com/collections/summit",
+      "ref": 29,
+      "confidence": "high"
+    },
+    {
+      "brand": "Ello",
+      "model": "Cooper 22 oz",
+      "nominalOz": 22,
+      "ml": 651,
+      "source": "https://www.walmart.com/ip/Ello-Cooper-32oz-Stainless-Steel-Water-Bottle/3689898080",
+      "ref": 30,
+      "confidence": "medium",
+      "note": "Retailer listings; no manufacturer page reachable."
+    },
+    {
+      "brand": "Ello",
+      "model": "Cooper 32 oz",
+      "nominalOz": 32,
+      "ml": 946,
+      "source": "https://www.walmart.com/ip/Ello-Cooper-32oz-Stainless-Steel-Water-Bottle/3689898080",
+      "ref": 30,
+      "confidence": "medium",
+      "note": "Retailer listings; no manufacturer page reachable."
+    },
+    {
+      "brand": "Brita",
+      "model": "Filtering bottle 20 oz (stainless)",
+      "nominalOz": 20,
+      "ml": 591,
+      "source": "https://www.staples.com/brita-plastic-filtered-water-bottle-36-oz-night-sky-36465/product_24640935",
+      "ref": 31,
+      "confidence": "medium",
+      "note": "Retailer listings; filter reduces usable volume."
+    },
+    {
+      "brand": "Brita",
+      "model": "Filtering bottle 26 oz (plastic)",
+      "nominalOz": 26,
+      "ml": 769,
+      "source": "https://www.staples.com/brita-plastic-filtered-water-bottle-36-oz-night-sky-36465/product_24640935",
+      "ref": 31,
+      "confidence": "medium",
+      "note": "Retailer listings; filter reduces usable volume."
+    },
+    {
+      "brand": "Brita",
+      "model": "Filtering bottle 36 oz (plastic)",
+      "nominalOz": 36,
+      "ml": 1065,
+      "source": "https://www.staples.com/brita-plastic-filtered-water-bottle-36-oz-night-sky-36465/product_24640935",
+      "ref": 31,
+      "confidence": "medium",
+      "note": "Retailer listings; filter reduces usable volume."
+    }
+  ],
+  "chainCups": [
+    {
+      "chain": "Starbucks",
+      "size": "Short (hot)",
+      "oz": 8,
+      "ml": 237,
+      "source": "https://www.starbucks.com/menu/product/480/hot",
+      "confidence": "high"
+    },
+    {
+      "chain": "Starbucks",
+      "size": "Tall",
+      "oz": 12,
+      "ml": 355,
+      "source": "https://www.starbucks.com/menu/product/2121255/iced",
+      "confidence": "high"
+    },
+    {
+      "chain": "Starbucks",
+      "size": "Grande",
+      "oz": 16,
+      "ml": 473,
+      "source": "https://www.starbucks.com/menu/product/2121255/iced",
+      "confidence": "high"
+    },
+    {
+      "chain": "Starbucks",
+      "size": "Venti (hot)",
+      "oz": 20,
+      "ml": 591,
+      "source": "https://www.starbucks.com/menu/product/480/hot",
+      "confidence": "high"
+    },
+    {
+      "chain": "Starbucks",
+      "size": "Venti (iced)",
+      "oz": 24,
+      "ml": 710,
+      "source": "https://www.starbucks.com/menu/product/2121255/iced",
+      "confidence": "high",
+      "iced": true
+    },
+    {
+      "chain": "Starbucks",
+      "size": "Trenta (iced)",
+      "oz": 30,
+      "ml": 887,
+      "source": "https://www.starbucks.com/menu/product/2121255/iced",
+      "confidence": "high",
+      "iced": true
+    },
+    {
+      "chain": "McDonald's US",
+      "size": "Large",
+      "oz": 30,
+      "ml": 887,
+      "source": "https://www.mcdonalds.com/us/es-us/product/coca-cola-large-no-ice.html",
+      "confidence": "high",
+      "iced": true
+    },
+    {
+      "chain": "McDonald's US",
+      "size": "Medium",
+      "oz": 21,
+      "ml": 621,
+      "source": "https://www.thedailymeal.com/1134964/the-ultimate-guide-to-mcdonalds-soft-drinks",
+      "confidence": "medium",
+      "iced": true
+    },
+    {
+      "chain": "McDonald's US",
+      "size": "Small",
+      "oz": 16,
+      "ml": 473,
+      "source": "https://www.thedailymeal.com/1134964/the-ultimate-guide-to-mcdonalds-soft-drinks",
+      "confidence": "medium",
+      "iced": true
+    }
+  ],
+  "constants": {
+    "fountain": {
+      "defaultRateMlPerSec": 8,
+      "plausibleRangeMlPerSec": [
+        6,
+        12
+      ],
+      "clampMlPerSec": [
+        4,
+        15
+      ],
+      "streamCaptureFraction": 0.33,
+      "streamCaptureFractionSource": "Public-health studies assume 32-35% of a fountain stream is drunk when drinking directly (Kenney 2015; IJERPH 2020), based on Coetzee & Bennett 1978.",
+      "typicalStreamMlPerSec": 25.7,
+      "typicalStreamSource": "Measured school fountains: 9 fl oz in 10.34 s on average (Kenney et al. 2016).",
+      "derivation": "0.33 x 25.7 mL/s = 8.5 mL/s, rounded down to 8 to stay conservative.",
+      "calibration": {
+        "method": "stream-capture",
+        "steps": "Hold a bottle under the fountain stream for a guided 5 s countdown (or time how long it takes to fill to a known mark), enter the volume collected; rate = 0.33 x collected_mL / seconds, clamped to 4-15 mL/s.",
+        "noMeasureFallback": {
+          "weakStream": 6,
+          "normalStream": 8,
+          "strongStream": 11
+        }
+      },
+      "gulpAlternativeMl": 15,
+      "roundToMl": 5,
+      "deprecated": {
+        "cupCalibrationFactor": 0.75,
+        "reason": "No source; cup drinking measures swallowing, while fountain intake is limited by how much of the stream reaches the mouth."
+      },
+      "refs": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "bottleFiller": {
+      "refrigeratedMlPerSec": 69,
+      "nonRefrigeratedMlPerSec": 95
+    },
+    "ice": {
+      "defaultLiquidFraction": 0.75,
+      "options": {
+        "noIce": 1.0,
+        "lightIce": 0.85,
+        "regularIce": 0.75,
+        "extraIce": 0.6
+      },
+      "ifIceMeltAndDrunk": 1.0,
+      "confidence": "low",
+      "basis": "Coca-Cola foodservice crew poster: fill cup with 1/3 ice; a restaurant cost model assumes 30% ice; a 2016 lawsuit alleged a 24 oz Starbucks Venti iced held about 14 oz of liquid (58%), an allegation not a finding; McDonald's bases fountain-drink nutrition on standard fill plus ice.",
+      "refs": [
+        17,
+        18,
+        19,
+        63
+      ]
+    },
+    "sipMl": 20,
+    "units": {
+      "usFlOzMl": 29.5735295625,
+      "usGallonL": 3.785411784
+    }
+  },
+  "references": {
+    "1": "file:///System/Library/CoreServices/CoreGlyphs.bundle/Contents/Resources/name_availability.plist",
+    "2": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4539814",
+    "3": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4920716/",
+    "4": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6981468/",
+    "5": "https://www.sciencedirect.com/science/article/abs/pii/0003687078901552",
+    "6": "https://link.springer.com/article/10.1007/s00405-024-08884-7",
+    "7": "https://cdn.restaurantsupply.com/pdf/B/2/3/B-2360-03.pdf",
+    "8": "https://www.access-board.gov/ada/chapter/ch06/",
+    "9": "https://www.usgs.gov/observatories/yvo/news/how-much-water-erupts-old-faithful-geyser",
+    "10": "https://water.usgs.gov/edu/activity-percapita.html",
+    "11": "https://webarchive.library.unt.edu/eot2008/20080916161824/http:/www.epa.gov/watersense/water/simple.htm",
+    "12": "https://www.saga.co.uk/magazine/homes/bath-vs-shower-which-is-better-for-you-and-your-wallet",
+    "13": "https://www.govinfo.gov/content/pkg/FR-2022-11-17/html/2022-24290.htm",
+    "14": "https://galaxyhomerecreation.com/wp-content/uploads/2023/08/J-LX.pdf",
+    "15": "https://www.starbucks.com/menu/product/2121255/iced",
+    "16": "https://www.mcdonalds.com/us/es-us/product/coca-cola-large-no-ice.html",
+    "17": "https://www.cokesolutions.com/content/dam/cokesolutions/us/documents/foodservice-quality/foodservice-quality-ValvesfGoldCrewPosterFSR.pdf",
+    "18": "https://restaurantcalcs.com/calculators/fountain-cost/",
+    "19": "https://www.abajournal.com/news/article/customer_lawsuit_says_her_starbucks_cup_runneth_over_with_ice_cubes",
+    "20": "https://www.stanley1913.com/blogs/my-stanley/stanley-cup-sizes-explained",
+    "21": "https://www.hydroflask.com/shop/bottles-drinkware/bottles",
+    "22": "https://nalgene.com/product/32oz-wide-mouth-bottle/",
+    "23": "https://owalalife.com/products/freesip",
+    "24": "https://www.yeti.com/drinkware/bottles",
+    "25": "https://www.camelbak.com/product/chute-mag-25oz-bottle-with-tritan%E2%84%A2-renew/CB-2470.html",
+    "26": "https://www.gocontigo.com/water-bottles-2/",
+    "27": "https://www.swell.com/products/moonstone-bottle",
+    "28": "https://support.livelarq.com/hc/en-us/articles/36962689064219-Specifications",
+    "29": "https://www.simplemodern.com/collections/summit",
+    "30": "https://www.walmart.com/ip/Ello-Cooper-32oz-Stainless-Steel-Water-Bottle/3689898080",
+    "31": "https://www.staples.com/brita-plastic-filtered-water-bottle-36-oz-night-sky-36465/product_24640935",
+    "32": "https://www.wtamu.edu/~cbaird/sq/2013/09/18/how-much-water-can-a-camel-store-in-its-hump/",
+    "33": "https://phys.org/news/2020-12-elephants-highest-volume-daily-loss.html",
+    "34": "https://nps.gov/miss/riverfacts.htm",
+    "35": "https://ielc.libguides.com/sdzg/factsheets/asianelephant/diet",
+    "36": "https://cob.silverchair.com/jeb/article-pdf/214/4/698/1440891/698.pdf",
+    "37": "https://appliance-standards.org/product/dishwashers",
+    "38": "https://www.epa.gov/watersense/statistics-and-facts",
+    "39": "https://www.nespressoguide.com/files/File/istituzionale_inei_hq_en.pdf",
+    "40": "https://webarchive.library.unt.edu/web/20201218103258/http://rethinkingdrinking.niaaa.nih.gov/",
+    "41": "https://www.toolboxsupply.com/products/dixie-43900-everyday-disposable-bath-cup-3-oz-assorted-design-200-pack",
+    "42": "https://www.homehardware.ca/en/pet-polyethylene-terephthalate-water-bottle-5-gal-189-l/p/3160091",
+    "43": "https://www.nist.gov/pml/owm/metric-si/unit-conversion",
+    "44": "https://www.epa.gov/sites/production/files/2018-07/documents/ws-products-specification-showerheads-v1-1.pdf",
+    "45": "https://www.epa.gov/sites/production/files/2017-01/documents/ws-products-support-statement-fv-toilets.pdf",
+    "46": "https://www.ncbi.nlm.nih.gov/books/NBK526077",
+    "47": "https://www.usgs.gov/water-science-school/science/water-you-water-and-human-body",
+    "48": "https://www.nationalacademies.org/news/report-sets-dietary-intake-levels-for-water-salt-and-potassium-to-maintain-health-and-reduce-chronic-disease-risk",
+    "49": "https://www.kegworks.com/blog/guide-to-beer-keg-sizes",
+    "50": "https://webarchive.library.unt.edu/web/20120916015359/http://www.eia.gov/cfapps/ipdbproject/docs/unitswithpetro.cfm",
+    "51": "https://www.energy.gov/energysaver/sizing-new-water-heater",
+    "52": "https://www.repackify.com/blog/55-gallon-drum-dimensions",
+    "53": "https://fireapparatusmagazine.com/?p=127215",
+    "54": "https://www.chaneyenterprises.com/the-evolution-of-concrete-mixer-trucks-from-2-yards-to-10",
+    "55": "https://www.fireengineering.com/industrial-firefighting/gasoline-tanker-emergencies-part-1/",
+    "56": "https://homeguide.com/articles/swimming-pool-size-chart",
+    "57": "https://legacy.wbdg.org/FFC/DOD/UFGS/UFGS%2033%2016%2015.pdf",
+    "58": "https://en.wikipedia.org/wiki/Olympic-size_swimming_pool",
+    "59": "https://www.niagaraparks.com/visit-niagara-parks/plan-your-visit/niagara-falls-geology-facts-figures/",
+    "60": "https://m.lasvegassun.com/news/2012/apr/30/bellagio-fountains-help-whet-appetite-learning-dur/",
+    "61": "https://ielc.libguides.com/sdzg/factsheets/african_elephant/diet",
+    "62": "https://www.ttb.gov/regulated-commodities/beverage-alcohol/wine/labeling-wine/wine-labeling-net-contents",
+    "63": "https://www.mcdonalds.com/us/en-us/product/coca-cola-large.html",
+    "64": "https://www.starbucks.com/menu/product/480/hot",
+    "65": "https://www.springermedizin.de/gender-age-vessel-size-cup-vs-straw-sipping-and-sequence-effects/8524174"
+  }
+}
