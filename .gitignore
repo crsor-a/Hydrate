@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Xcode per-user state
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Build output
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# Local signing config (copy Config/Local.xcconfig.template → Config/Local.xcconfig)
+Config/Local.xcconfig
+
+# Python
+__pycache__/
+*.pyc
